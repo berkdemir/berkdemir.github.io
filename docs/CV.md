@@ -6,7 +6,7 @@ permalink: /CV
 ---
 # CV
 
-<img style="float: left;" src="images/CV/BDEM_LinkedIn.jpg" width="150">
+<img style="float: left; margin-bottom: 10px" src="images/CV/BDEM_LinkedIn.jpg" width="150">
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
@@ -90,8 +90,10 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
-<img style="float: left; margin: 10px; max-width: 50%" src="images/CV/Untitled.png">
-<img style="float: right; margin: 10px; max-width: 50%" src="images/CV/Untitled%201.png">
+<div style="width: 100%;">
+  <img style="float: left; margin: 10px; max-width: 50%" src="images/CV/Untitled.png">
+  <img style="float: right; margin: 10px; max-width: 50%" src="images/CV/Untitled%201.png">
+</div>
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
