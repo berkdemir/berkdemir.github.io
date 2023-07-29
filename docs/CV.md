@@ -6,14 +6,7 @@ permalink: /CV
 ---
 # CV
 
-![BDEM_LinkedIn.jpg](images/CV/BDEM_LinkedIn.jpg){: width="150" }
-deneme bir iki
-deneme iki uc
-
-<img style="float: right;" src="images/CV/BDEM_LinkedIn.jpg" width="150">
-Continue markdown text...
-deneme bes alti
-
+<img style="float: left;" src="images/CV/BDEM_LinkedIn.jpg" width="150">
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
@@ -61,30 +54,22 @@ Most of the technical publications, as well as various technical articles and sh
 
 # Skills
 
-### Software
+## Software
 
 | Plaxis 2D & 3D, *high level.* | Python, *high level* |
 | Lusas, *high level* | Strusoft FemDesign, *high level* |
 | Autodesk Robot, *intermediate level* | Rocscience Settle, Slide, RS2, *high level* |
-| Ensoft LPile, Group, Shaft, *high level* | Geologismiki, *high level* |
 | Optum G2, *high level* | Grasshopper, *intermediate level* |
 
 **Various Python tools built in Streamlit** for daily design works: 
 
-- Reinforced Concrete Beam Design
-- Tunnel Analytical Lining Forces
-- Tunnel Deformation Assessment
-- M-N Interaction Curve
-- Hoek Brown Analysis
-- Convergence Confinement Method
-- Drawdown due to Tunnel
-- Steel Strut Capacity Check
-- Tunnel Relaxation Factor
-- Tunnel Face Stability Calculation
-- 3D Settlement Analysis
-- Longitudinal Pipe Capacity
-- Steel Fibre Crack Width
-- Volume Loss Fit for Measurements
+| Reinforced Concrete Beam Design | Tunnel Analytical Lining Forces |
+| Tunnel Deformation Assessment | | M|N Interaction Curve |
+| Hoek Brown Analysis | Convergence Confinement Method |
+| Drawdown due to Tunnel | Steel Strut Capacity Check |
+| Tunnel Relaxation Factor | Tunnel Face Stability Calculation |
+| 3D Settlement Analysis | Longitudinal Pipe Capacity |
+| Steel Fibre Crack Width | Volume Loss Fit for Measurements |
 
 **Language Skills:** Turkish: Mother Tongue \| English: Fluent \| Danish: Intermediate, improving.
 
@@ -94,18 +79,18 @@ Most of the technical publications, as well as various technical articles and sh
 
 ## Nordhavnstunnel (2022 to 2023)
 
-**JV:** MT Højgaard & Besix \| *****Client:***** Vejdirektoratet, Denmark \| ***Amount of Hours:*** >800 hrs   ******
+**JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
-******Typical Responsibilities:****** 
+**Typical Responsibilities:**
 
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
-![Untitled](images/CV/Untitled.png)
+![Untitled](images/CV/Untitled.png){: width="150" }
 
-![Untitled](images/CV/Untitled%201.png)
+![Untitled](images/CV/Untitled%201.png){: width="150" }
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
