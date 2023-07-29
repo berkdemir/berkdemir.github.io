@@ -2,22 +2,23 @@
 layout: default
 title: CV
 nav_order: 01
+permalink: /CV
 ---
 # CV
 
-![BDEM_LinkedIn.jpg](images\CV/BDEM_LinkedIn.jpg | width = 100)
+![BDEM_LinkedIn.jpg](images\CV/BDEM_LinkedIn.jpg){: width="250" }
 
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
 
-********M:******** +45 60 25 49 01
+**M:** +45 60 25 49 01
 
-******E:****** bdberkdemir@gmail.com
+**E:** bdberkdemir@gmail.com
 
-****W:**** [bdem.notion.site](../BDEM%20aa5060e8965746e4a069dfa721db58a1.md) / [Linkedin](https://www.linkedin.com/in/bdberkdemir/)
+**W:** [berkdemir.github.io](https://berkdemir.github.io) / [Linkedin](https://www.linkedin.com/in/bdberkdemir/)
 
-******A:****** Copenhagen, Denmark
+**A:** Copenhagen, Denmark
 
 ---
 
