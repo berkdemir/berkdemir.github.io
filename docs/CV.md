@@ -1,11 +1,11 @@
 ---
 layout: default
 title: CV
-nav_order: 00
+nav_order: 01
 ---
 # CV
 
-![BDEM_LinkedIn.jpg](images\CV/BDEM_LinkedIn.jpg)
+![BDEM_LinkedIn.jpg](images\CV/BDEM_LinkedIn.jpg | width = 100)
 
 **Berk Demir** 
 
