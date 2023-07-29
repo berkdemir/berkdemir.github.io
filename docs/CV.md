@@ -6,7 +6,7 @@ permalink: /CV
 ---
 # CV
 
-![BDEM_LinkedIn.jpg](images\CV/BDEM_LinkedIn.jpg){: width="250" }
+![BDEM_LinkedIn.jpg](images/CV/BDEM_LinkedIn.jpg){: width="250" }
 
 **Berk Demir** 
 
@@ -52,7 +52,7 @@ Most of the technical publications, as well as various technical articles and sh
 - Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022. [Link](Recommendations%20for%20Pseudo-Static%20Deformation%20for%20%2073d92be08e334a17993cb704f1367a05.md)
 - ******************************Master Thesis:****************************** Performance of Short Anchors Inside the Failure Wedge (2019)
     
-    [Berk Demir - Performance of Short Anchors Inside the Failure Wedge](images\CV/Demir_-_Performance_of_Short_Anchors_Inside_the_Failure_Wedge.pdf)
+    [Berk Demir - Performance of Short Anchors Inside the Failure Wedge](images/CV/Demir_-_Performance_of_Short_Anchors_Inside_the_Failure_Wedge.pdf)
     
 - Comparison of Simplified Piled Raft Calculation Methods with Plaxis 3D and Details of Hardening Soil Model
 (2019) [in Turkish]: [Link](https://www.researchgate.net/publication/332188093_Basitlestirilmis_Kazikli_Temel_Hesaplama_Yontemlerinin_Plaxis_3D_ile_Karsilastirilmasi_Hardening_Soil_Modelinin_Detaylarinin_Incelenmesi)
@@ -114,9 +114,9 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
-![Untitled](images\CV/Untitled.png)
+![Untitled](images/CV/Untitled.png)
 
-![Untitled](images\CV/Untitled%201.png)
+![Untitled](images/CV/Untitled%201.png)
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
@@ -130,7 +130,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical design of shafts.
 
-![Untitled](images\CV/Untitled%202.png)
+![Untitled](images/CV/Untitled%202.png)
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
@@ -143,7 +143,7 @@ Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert
 - Design lead for all temporary works, including design basis and discussions regarding the safety of the area.
 - All finite element analyses of the section including detailed temperature studies of structural elements.
 
-![Untitled](images\CV/Untitled%203.png)
+![Untitled](images/CV/Untitled%203.png)
 
 *Design activities have been paused due to risks in the area.*
 
@@ -153,7 +153,7 @@ Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert
 
 As a part of the innovation study initiative of Metroselskabet, GFRP reinforcement’s feasibility for TBM tunnel segments have been investigated including detailed CO2 comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths and load scenarios using Lusas.
 
-![Untitled](images\CV/Untitled%204.png)
+![Untitled](images/CV/Untitled%204.png)
 
 ## Istanbul Metro / Cekmekoy-Sultanbeyli Line (2019-2021)
 
@@ -166,11 +166,11 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 - TBM design: EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Moreover, construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered for construction.
 - NATM design: Design of temporary and permanent lining of NATM tunnels were also in scope of the tunnel design of this metro line. Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QAd the structural teams for design deliverables regarding the permanent lining design.
 
-![Untitled](images\CV/Untitled%205.png)
+![Untitled](images/CV/Untitled%205.png)
 
-![Untitled](images\CV/Untitled%206.png)
+![Untitled](images/CV/Untitled%206.png)
 
-![Untitled](images\CV/Untitled%207.png)
+![Untitled](images/CV/Untitled%207.png)
 
 ---
 
@@ -183,7 +183,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 
 - ************************************Dar es Salaam - Morogoro Railway | 2018 | Tanzania Railways:************************************ Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
 
-![Untitled](images\CV/Untitled%208.png)
+![Untitled](images/CV/Untitled%208.png)
 
 - ******************************************Cargo Building Foundation for Istanbul New Airport | 2018 | Turkish Airlines******************************************
 - **********Excavation Design in Galataport, Istanbul | 2017 | Salipazari Port Management**********
@@ -199,7 +199,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and
 deep clay.
 
-![Untitled](images\CV/Untitled%209.png)
+![Untitled](images/CV/Untitled%209.png)
 
 - ********************************************************************************************************Dalaman Airport International Arrivals | 2016 | YDA:******************************************************************************************************** Jet grout improvement for very soft clay and liquefiable sands.
 - **Turkmenistan Gas to Gasoline (GTG) | 2015-2016 | Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
