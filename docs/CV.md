@@ -10,6 +10,8 @@ permalink: /CV
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
+**E**: bdberkdemir@gmail.com \| **A**: Copenhagen, Denmark
+
 
 ---
 
@@ -64,7 +66,7 @@ Most of the technical publications, as well as various technical articles and sh
 **Various Python tools built in Streamlit** for daily design works: 
 
 | Reinforced Concrete Beam Design | Tunnel Analytical Lining Forces |
-| Tunnel Deformation Assessment | | M|N Interaction Curve |
+| Tunnel Deformation Assessment | | M&N Interaction Curve |
 | Hoek Brown Analysis | Convergence Confinement Method |
 | Drawdown due to Tunnel | Steel Strut Capacity Check |
 | Tunnel Relaxation Factor | Tunnel Face Stability Calculation |
@@ -88,17 +90,16 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
-![Untitled](images/CV/Untitled.png){: width="150" }
-
-![Untitled](images/CV/Untitled%201.png){: width="150" }
+<img style="float: left; margin: 10px; max-width: 50%" src="images/CV/Untitled.png">
+<img style="float: right; margin: 10px; max-width: 50%" src="images/CV/Untitled%201.png">
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
-*******Client:******* HOFOR \| *******Amount of Hours:******* >1300 hrs
+**Client:** HOFOR \| **Amount of Hours:** >1300 hrs
 
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
 
-***Typical Responsibilities:***
+**Typical Responsibilities:**
 
 - All tunnel design works: DN3400 / OD4000 pipe jacking design (which includes TBM related studies, pipe and alignment studies)
 - Settlement analyses due to tunnelling and excavations
@@ -108,7 +109,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
-**JV:** Acciona & Implenia \| *******Client:******* Bane Nor, Norway \| *****Amount of Hours:***** 800 hrs
+**JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| *****Amount of Hours:***** 800 hrs
 
 Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert section using diaphragm walls and prestressed struts in a quick clay slope. 
 
@@ -123,7 +124,7 @@ Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert
 
 ## GFRP Reinforcement in TBM Tunnel Segments (2023)
 
-*******Client:******* Metroselskabet, Copenhagen \| *****Amount of Hours:***** 200 hrs
+**Client:** Metroselskabet, Copenhagen \| *****Amount of Hours:***** 200 hrs
 
 As a part of the innovation study initiative of Metroselskabet, GFRP reinforcement’s feasibility for TBM tunnel segments have been investigated including detailed CO2 comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths and load scenarios using Lusas.
 
@@ -131,7 +132,7 @@ As a part of the innovation study initiative of Metroselskabet, GFRP reinforceme
 
 ## Istanbul Metro / Cekmekoy-Sultanbeyli Line (2019-2021)
 
-**JV:** Dogus & Yapi Merkezi & Ozaltin \| *******Client:******* Istanbul Municipality \| *******Amount of Hours:******* >2500 hrs
+**JV:** Dogus & Yapi Merkezi & Ozaltin \| **Client:** Istanbul Municipality \| **Amount of Hours:** >2500 hrs
 
 Detailed design of TBM and NATM tunnels issued to 3rd party and client review, as well as the construction details, including detailed 2D and 3D NATM/TBM models and [seismic assessments](Recommendations%20for%20Pseudo-Static%20Deformation%20for%20%2073d92be08e334a17993cb704f1367a05.md).  
 
@@ -159,23 +160,23 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 
 ![Untitled](images/CV/Untitled%208.png)
 
-- *******Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines*******
+- **Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines**
 - **Excavation Design in Galataport, Istanbul \| 2017 \| Salipazari Port Management**
 - ***Grand Canyon Sofia \| 2017 \| Garanti Koza:*** Remediation measures for problematic diaphragm wall panels.
 - ****Canakkale Children’s Science Museum \| 2017 \| Kale Bodur:**** Design of liquefaction remediation measures for highly liquefiable soils near Aegean Sea.
-- *******Hopa-Borcka Highway Cutting \| 2017 \| YDA*******
+- **Hopa-Borcka Highway Cutting \| 2017 \| YDA**
 - **Polatli-Afyon High Speed Train \| 2015-2017 \| YDA:** Design of 88 km stretch with 57 embankments including time dependent Settle 3D models, design of stone columns to decrease consolidation time and jet grout support design and foundation design of over 40 structures including viaducts, underpasses and overpasses.
-- *******Atakoy Sea Pearl \| 2015-2017 \| Kuzu Group:******* Design of retaining systems near Marmara Sea.
-- *******Dam Landslide (1.5 km x 0.6 km) Stabilization \| 2017 \| Kalehan Energy*******
+- **Atakoy Sea Pearl \| 2015-2017 \| Kuzu Group:** Design of retaining systems near Marmara Sea.
+- **Dam Landslide (1.5 km x 0.6 km) Stabilization \| 2017 \| Kalehan Energy**
 - **Ulus Cultural and Convention Center \| 2016-2017 \| YDA:** Deep excavation up to 22m in changing ground conditions from andesite to very soft clay with high ground water table.
-- *******Cukurova Regional Airport \| 2016 \| General Directorate of State Airports:******* Ground improvement of various buildings.
+- **Cukurova Regional Airport \| 2016 \| General Directorate of State Airports:** Ground improvement of various buildings.
 - **Mavisehir Optimum Mall \| 2016 \| Renaissance Construction:** Designing the deep excavation with
 diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and
 deep clay.
 
 ![Untitled](images/CV/Untitled%209.png)
 
-- *******Dalaman Airport International Arrivals \| 2016 \| YDA:******* Jet grout improvement for very soft clay and liquefiable sands.
+- **Dalaman Airport International Arrivals \| 2016 \| YDA:** Jet grout improvement for very soft clay and liquefiable sands.
 - **Turkmenistan Gas to Gasoline (GTG) \| 2015-2016 \| Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
 - **Melen Dam Road Landslide Stabilization \| 2015 \| Ece Tur:** Stabilization of 3 million m³ landslide that occurred in the dam service road with heel fill economically.
 - **Buski East Waste Water Treatment Facility \| 2015 \| Kuzu Group:** Ground improvement with jet grouts to prevent liquefaction and excessive settlements.
