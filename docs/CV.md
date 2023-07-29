@@ -6,7 +6,7 @@ permalink: /CV
 ---
 # CV
 
-![BDEM_LinkedIn.jpg](images/CV/BDEM_LinkedIn.jpg){: width="250" }
+![BDEM_LinkedIn.jpg](images/CV/BDEM_LinkedIn.jpg){: width="150" }
 
 **Berk Demir** 
 
@@ -30,11 +30,11 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 # Professional Experiences
 
-- ********************Niras A/S | Senior Tunnel Engineer |******************** 2021 - Cont. | Copenhagen, Denmark
-- **********************************************************************************************************************************************************Tekfen Engineering Co. Inc. | Senior Geotechnical and Tunnel Engineer |********************************************************************************************************************************************************** 2018 - 2021 | Istanbul, Turkey
-- ************************************************Destech Consultancy | Geotechnical Design Engineer |************************************************ 2017-2018 | Izmir, Turkey & Tanzania
-- ****************************************Kilci Engineering | Geotechnical Design Engineer |**************************************** 2015-2017 | Ankara, Turkey
-- ************************************************Sonar Drilling | Technical Office Engineer |************************************************ 2014-2015 | Ankara Turkey
+* **Niras A/S \| Senior Tunnel Engineer \|** 2021 - Cont. \| Copenhagen, Denmark
+* **Tekfen Engineering Co. Inc. | Senior Geotechnical and Tunnel Engineer |** 2018 - 2021 | Istanbul, Turkey
+* **Destech Consultancy | Geotechnical Design Engineer |** 2017-2018 | Izmir, Turkey & Tanzania
+* ***Kilci Engineering | Geotechnical Design Engineer |** 2015-2017 | Ankara, Turkey
+* **Sonar Drilling | Technical Office Engineer |** 2014-2015 | Ankara Turkey
 
 ---
 
