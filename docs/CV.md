@@ -7,18 +7,12 @@ permalink: /CV
 # CV
 
 ![BDEM_LinkedIn.jpg](images/CV/BDEM_LinkedIn.jpg){: width="150" }
+<img style="float: right;" src="images/CV/BDEM_LinkedIn.jpg">
+Continue markdown text...
 
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
-
-**M:** +45 60 25 49 01
-
-**E:** bdberkdemir@gmail.com
-
-**W:** [berkdemir.github.io](https://berkdemir.github.io) / [Linkedin](https://www.linkedin.com/in/bdberkdemir/)
-
-**A:** Copenhagen, Denmark
 
 ---
 
@@ -31,10 +25,10 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 # Professional Experiences
 
 * **Niras A/S \| Senior Tunnel Engineer \|** 2021 - Cont. \| Copenhagen, Denmark
-* **Tekfen Engineering Co. Inc. | Senior Geotechnical and Tunnel Engineer |** 2018 - 2021 | Istanbul, Turkey
-* **Destech Consultancy | Geotechnical Design Engineer |** 2017-2018 | Izmir, Turkey & Tanzania
-* ***Kilci Engineering | Geotechnical Design Engineer |** 2015-2017 | Ankara, Turkey
-* **Sonar Drilling | Technical Office Engineer |** 2014-2015 | Ankara Turkey
+* **Tekfen Engineering Co. Inc. \| Senior Geotechnical and Tunnel Engineer |** 2018 - 2021 \| Istanbul, Turkey
+* **Destech Consultancy \| Geotechnical Design Engineer |** 2017-2018 \| Izmir, Turkey & Tanzania
+* ***Kilci Engineering \| Geotechnical Design Engineer |** 2015-2017 \| Ankara, Turkey
+* **Sonar Drilling \| Technical Office Engineer |** 2014-2015 \| Ankara Turkey
 
 ---
 
@@ -97,7 +91,7 @@ Most of the technical publications, as well as various technical articles and sh
 - Steel Fibre Crack Width
 - Volume Loss Fit for Measurements
 
-**Language Skills:** Turkish: Mother Tongue | English: Fluent | Danish: Intermediate, improving.
+**Language Skills:** Turkish: Mother Tongue \| English: Fluent \| Danish: Intermediate, improving.
 
 ---
 
@@ -105,7 +99,7 @@ Most of the technical publications, as well as various technical articles and sh
 
 ## Nordhavnstunnel (2022 to 2023)
 
-********JV:******** MT Højgaard & Besix | **************Client:************** Vejdirektoratet, Denmark | **************************************Amount of Hours:************************************** >800 hrs   ****************************************************************************
+********JV:******** MT Højgaard & Besix \| **************Client:************** Vejdirektoratet, Denmark \| **************************************Amount of Hours:************************************** >800 hrs   ****************************************************************************
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
@@ -120,7 +114,7 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
-****************Client:**************** HOFOR | **********************************Amount of Hours:********************************** >1300 hrs
+****************Client:**************** HOFOR \| **********************************Amount of Hours:********************************** >1300 hrs
 
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
 
@@ -134,7 +128,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
-********JV:******** Acciona & Implenia | ****************Client:**************** Bane Nor, Norway | ****************************************Amount of Hours:**************************************** 800 hrs
+********JV:******** Acciona & Implenia \| ****************Client:**************** Bane Nor, Norway \| ****************************************Amount of Hours:**************************************** 800 hrs
 
 Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert section using diaphragm walls and prestressed struts in a quick clay slope. 
 
@@ -149,7 +143,7 @@ Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert
 
 ## GFRP Reinforcement in TBM Tunnel Segments (2023)
 
-****************Client:**************** Metroselskabet, Copenhagen | ****************************************Amount of Hours:**************************************** 200 hrs
+****************Client:**************** Metroselskabet, Copenhagen \| ****************************************Amount of Hours:**************************************** 200 hrs
 
 As a part of the innovation study initiative of Metroselskabet, GFRP reinforcement’s feasibility for TBM tunnel segments have been investigated including detailed CO2 comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths and load scenarios using Lusas.
 
@@ -157,7 +151,7 @@ As a part of the innovation study initiative of Metroselskabet, GFRP reinforceme
 
 ## Istanbul Metro / Cekmekoy-Sultanbeyli Line (2019-2021)
 
-********JV:******** Dogus & Yapi Merkezi & Ozaltin | ****************Client:**************** Istanbul Municipality | **********************************Amount of Hours:********************************** >2500 hrs
+********JV:******** Dogus & Yapi Merkezi & Ozaltin \| ****************Client:**************** Istanbul Municipality \| **********************************Amount of Hours:********************************** >2500 hrs
 
 Detailed design of TBM and NATM tunnels issued to 3rd party and client review, as well as the construction details, including detailed 2D and 3D NATM/TBM models and [seismic assessments](Recommendations%20for%20Pseudo-Static%20Deformation%20for%20%2073d92be08e334a17993cb704f1367a05.md).  
 
@@ -176,34 +170,34 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 
 # Other Projects
 
-- **Klimatilpasning af det centrale Lyngby | 2021-2022 | Lyngby-Taarbæk Forsyning A/S:** Design of 9 pipe jacking tunnel drives (DN1200) and 12 shafts in central Lyngby for climate adaptation project.
-- **Canakkale 1915 Bridge | 2018-2019 | General Directorate of Highways, Turkey:** Peer review of Canakkale 1915 Bridge design including anchor block foundations, deep foundations in liquefiable areas and technical specifications.
-- **Bodrum Highway Tunnels | 2018-2019 | General Directorate of Highways, Turkey:** Design of 2-lane NATM highway tunnels in Bodrum / Turkey through mountainous areas.
-- **Akyazi-Dokurcun Road | 2018 | General Directorate of Highways, Turkey:** Balanced cantilever viaduct foundation and 40 m excavation in weathered rock.
+- **Klimatilpasning af det centrale Lyngby \| 2021-2022 \| Lyngby-Taarbæk Forsyning A/S:** Design of 9 pipe jacking tunnel drives (DN1200) and 12 shafts in central Lyngby for climate adaptation project.
+- **Canakkale 1915 Bridge \| 2018-2019 \| General Directorate of Highways, Turkey:** Peer review of Canakkale 1915 Bridge design including anchor block foundations, deep foundations in liquefiable areas and technical specifications.
+- **Bodrum Highway Tunnels \| 2018-2019 \| General Directorate of Highways, Turkey:** Design of 2-lane NATM highway tunnels in Bodrum / Turkey through mountainous areas.
+- **Akyazi-Dokurcun Road \| 2018 \| General Directorate of Highways, Turkey:** Balanced cantilever viaduct foundation and 40 m excavation in weathered rock.
 
-- ************************************Dar es Salaam - Morogoro Railway | 2018 | Tanzania Railways:************************************ Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
+- ************************************Dar es Salaam - Morogoro Railway \| 2018 \| Tanzania Railways:************************************ Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
 
 ![Untitled](images/CV/Untitled%208.png)
 
-- ******************************************Cargo Building Foundation for Istanbul New Airport | 2018 | Turkish Airlines******************************************
-- **********Excavation Design in Galataport, Istanbul | 2017 | Salipazari Port Management**********
-- ********************************************************Grand Canyon Sofia | 2017 | Garanti Koza:******************************************************** Remediation measures for problematic diaphragm wall panels.
-- ********************************************************************************************************************Canakkale Children’s Science Museum | 2017 | Kale Bodur:******************************************************************************************************************** Design of liquefaction remediation measures for highly liquefiable soils near Aegean Sea.
-- ************************************************************Hopa-Borcka Highway Cutting | 2017 | YDA************************************************************
-- ****************************************************Polatli-Afyon High Speed Train | 2015-2017 | YDA:**************************************************** Design of 88 km stretch with 57 embankments including time dependent Settle 3D models, design of stone columns to decrease consolidation time and jet grout support design and foundation design of over 40 structures including viaducts, underpasses and overpasses.
-- ******************************************Atakoy Sea Pearl | 2015-2017 | Kuzu Group:****************************************** Design of retaining systems near Marmara Sea.
-- ************************************************************Dam Landslide (1.5 km x 0.6 km) Stabilization | 2017 | Kalehan Energy************************************************************
-- **********Ulus Cultural and Convention Center | 2016-2017 | YDA:********** Deep excavation up to 22m in changing ground conditions from andesite to very soft clay with high ground water table.
-- ****************************************************************************************************************************************************Cukurova Regional Airport | 2016 | General Directorate of State Airports:**************************************************************************************************************************************************** Ground improvement of various buildings.
-- **********************************************************************Mavisehir Optimum Mall | 2016 | Renaissance Construction:********************************************************************** Designing the deep excavation with
+- ******************************************Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines******************************************
+- **********Excavation Design in Galataport, Istanbul \| 2017 \| Salipazari Port Management**********
+- ********************************************************Grand Canyon Sofia \| 2017 \| Garanti Koza:******************************************************** Remediation measures for problematic diaphragm wall panels.
+- ********************************************************************************************************************Canakkale Children’s Science Museum \| 2017 \| Kale Bodur:******************************************************************************************************************** Design of liquefaction remediation measures for highly liquefiable soils near Aegean Sea.
+- ************************************************************Hopa-Borcka Highway Cutting \| 2017 \| YDA************************************************************
+- ****************************************************Polatli-Afyon High Speed Train \| 2015-2017 \| YDA:**************************************************** Design of 88 km stretch with 57 embankments including time dependent Settle 3D models, design of stone columns to decrease consolidation time and jet grout support design and foundation design of over 40 structures including viaducts, underpasses and overpasses.
+- ******************************************Atakoy Sea Pearl \| 2015-2017 \| Kuzu Group:****************************************** Design of retaining systems near Marmara Sea.
+- ************************************************************Dam Landslide (1.5 km x 0.6 km) Stabilization \| 2017 \| Kalehan Energy************************************************************
+- **********Ulus Cultural and Convention Center \| 2016-2017 \| YDA:********** Deep excavation up to 22m in changing ground conditions from andesite to very soft clay with high ground water table.
+- ****************************************************************************************************************************************************Cukurova Regional Airport \| 2016 \| General Directorate of State Airports:**************************************************************************************************************************************************** Ground improvement of various buildings.
+- **********************************************************************Mavisehir Optimum Mall \| 2016 \| Renaissance Construction:********************************************************************** Designing the deep excavation with
 diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and
 deep clay.
 
 ![Untitled](images/CV/Untitled%209.png)
 
-- ********************************************************************************************************Dalaman Airport International Arrivals | 2016 | YDA:******************************************************************************************************** Jet grout improvement for very soft clay and liquefiable sands.
-- **Turkmenistan Gas to Gasoline (GTG) | 2015-2016 | Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
-- **Melen Dam Road Landslide Stabilization | 2015 | Ece Tur:** Stabilization of 3 million m³ landslide that occurred in the dam service road with heel fill economically.
-- **Buski East Waste Water Treatment Facility | 2015 | Kuzu Group:** Ground improvement with jet grouts to prevent liquefaction and excessive settlements.
+- ********************************************************************************************************Dalaman Airport International Arrivals \| 2016 \| YDA:******************************************************************************************************** Jet grout improvement for very soft clay and liquefiable sands.
+- **Turkmenistan Gas to Gasoline (GTG) \| 2015-2016 \| Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
+- **Melen Dam Road Landslide Stabilization \| 2015 \| Ece Tur:** Stabilization of 3 million m³ landslide that occurred in the dam service road with heel fill economically.
+- **Buski East Waste Water Treatment Facility \| 2015 \| Kuzu Group:** Ground improvement with jet grouts to prevent liquefaction and excessive settlements.
 - ******************************************************************Various other designs****************************************************************** including deep excavations and foundations.
 - ************************************************Technical Office support b/w 2014 and 2015 to various projects:************************************************ Ozdilek Mall, Riyadh Metro Line 3, Balkupu 60000 tons silo foundation piles and various deep excavation projects including inclinometer readings, anchor tests and technical support.
