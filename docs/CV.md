@@ -4,7 +4,7 @@ title: CV
 nav_order: 01
 permalink: /CV
 ---
-# CV-rev0137
+# CV-rev0139
 
 <img style="float: left; margin: 10px" src="images/CV/BDEM_LinkedIn.jpg" width="150">
 **Berk Demir** 
@@ -94,8 +94,12 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
 <div style="width: 100%;">
-  <img style="margin: 10px; max-width: 50%" src="images/CV/Untitled.png">
-  <img style="margin: 10px; max-width: 50%" src="images/CV/Untitled%201.png">
+  <div style="float: left; margin: 10px;">
+    <img style="max-width: 50%" src="images/CV/Untitled.png">
+  </div>
+  <div style="float: left; margin: 10px;">
+    <img style="max-width: 50%" src="images/CV/Untitled%201.png">
+  </div>
 </div>
 
 ## Valby Cloudburst Tunnel (2021-2023)
@@ -114,11 +118,11 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
-**JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| *****Amount of Hours:***** 800 hrs
+**JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| **Amount of Hours:** 800 hrs
 
 Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert section using diaphragm walls and prestressed struts in a quick clay slope. 
 
-******Typical Responsibilities:******
+**Typical Responsibilities:**
 
 - Design lead for all temporary works, including design basis and discussions regarding the safety of the area.
 - All finite element analyses of the section including detailed temperature studies of structural elements.
