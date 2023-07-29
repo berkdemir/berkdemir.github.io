@@ -4,7 +4,7 @@ title: CV
 nav_order: 01
 permalink: /CV
 ---
-# CV-rev0147
+# CV-rev0139
 
 <img style="float: left; margin: 10px" src="images/CV/BDEM_LinkedIn.jpg" width="150">
 **Berk Demir** 
@@ -103,18 +103,7 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 </div>
 
 ## Valby Cloudburst Tunnel (2021-2023)
-
-<div style="width: 100%;">
-  <img style="margin: 10px; max-width: 50%; display: inline-block;" src="images/CV/Untitled.png">
-  <img style="margin: 10px; max-width: 50%; display: inline-block;" src="images/CV/Untitled%201.png">
-</div>
-
-
-## dd
-<div style="width: 100%;">
-  <img style="margin: 10px; max-width: 50%; float: left;" src="images/CV/Untitled.png">
-  <img style="margin: 10px; max-width: 50%; float: left;" src="images/CV/Untitled%201.png">
-</div>
+![Image 1](images/CV/Untitled.png) ![Image 2](images/CV/Untitled%201.png)
 
 
 **Client:** HOFOR \| **Amount of Hours:** >1300 hrs
