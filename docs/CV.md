@@ -6,14 +6,12 @@ permalink: /CV
 ---
 # CV-rev0206
 
-<img style="float: left; margin: 10px" src="images/CV/BDEM_LinkedIn.jpg" width="150">
+![](images/CV/BDEM_LinkedIn.jpg){: width="150" .float-left .aio-ui .aio-window}
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
 
 **E**: bdberkdemir@gmail.com \| **A**: Copenhagen, Denmark
-
-
 
 
 ---
