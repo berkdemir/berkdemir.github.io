@@ -18,8 +18,6 @@ permalink: /CV
 
 # Brief Summary
 
-[this is a lightbox](images/CV/Untitled%202.png)
-
 I started my career as a **geotechnical engineer** and worked on many aspects of geotechnics such as deep excavations, deep foundations, liquefaction remediation and so on. Later, I continued my work on the Istanbul metro as **lead tunnel designer** for both TBM and NATM tunnels. After moving to Denmark, I continued to work on various underground projects with an increasing focus on **structural design**.
 
 ---
