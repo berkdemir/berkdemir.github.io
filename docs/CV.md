@@ -82,18 +82,16 @@ Most of the technical publications, as well as various technical articles and sh
 
 # Recent Key Projects
 
-## 2Nordhavnstunnel (2022 to 2023)
+## Nordhavnstunnel (2022 to 2023)
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
 
-<figure style="width:30%" class="float-right aio-ui aio-window">
+<figure style="width:40%" class="float-right aio-ui aio-window">
 	<img src="images/CV/Untitled.png">
-	<figcaption>NoiseFX of the watercolor style.</figcaption>
 </figure>
 
-<figure style="width:30%; clear:both" class="float-right aio-ui aio-window">
+<figure style="width:40%" class="float-right aio-ui aio-window">
 	<img src="images/CV/Untitled%201.png">
-	<figcaption>NoiseFX of the watercolor style.</figcaption>
 </figure>
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
@@ -102,12 +100,6 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
-
-<p align="center">
-  <img src="images/CV/Untitled.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="images/CV/Untitled%201.png" width="45%">
-</p>
 
 ## Valby Cloudburst Tunnel (2021-2023)
 
@@ -121,7 +113,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical design of shafts.
 
-![Untitled](images/CV/Untitled%202.png#right){: width="50%"}
+![Untitled](images/CV/Untitled%202.png#right){: width="40%" .float-right}
 
 ## 4Kransen Culvert Deep Excavation (2021-2022)
 
