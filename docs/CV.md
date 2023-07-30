@@ -121,7 +121,7 @@ Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert
 
 ## GFRP Reinforcement in TBM Tunnel Segments (2023)
 
-**Client:** Metroselskabet, Copenhagen \| *****Amount of Hours:***** 200 hrs
+**Client:** Metroselskabet, Copenhagen \| **Amount of Hours:** 200 hrs
 
 ![Untitled](images/CV/Untitled%204.png){: width="40%" .float-right .aio-ui .aio-window}
 
@@ -150,30 +150,23 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 - **Canakkale 1915 Bridge \| 2018-2019 \| General Directorate of Highways, Turkey:** Peer review of Canakkale 1915 Bridge design including anchor block foundations, deep foundations in liquefiable areas and technical specifications.
 - **Bodrum Highway Tunnels \| 2018-2019 \| General Directorate of Highways, Turkey:** Design of 2-lane NATM highway tunnels in Bodrum / Turkey through mountainous areas.
 - **Akyazi-Dokurcun Road \| 2018 \| General Directorate of Highways, Turkey:** Balanced cantilever viaduct foundation and 40 m excavation in weathered rock.
-
+![Untitled](images/CV/Untitled%208.png) {: width="40%" .float-right .aio-ui .aio-window}
 - ***Dar es Salaam - Morogoro Railway \| 2018 \| Tanzania Railways:*** Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
-
-![Untitled](images/CV/Untitled%208.png)
-
 - **Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines**
 - **Excavation Design in Galataport, Istanbul \| 2017 \| Salipazari Port Management**
 - ***Grand Canyon Sofia \| 2017 \| Garanti Koza:*** Remediation measures for problematic diaphragm wall panels.
-- ****Canakkale Children’s Science Museum \| 2017 \| Kale Bodur:**** Design of liquefaction remediation measures for highly liquefiable soils near Aegean Sea.
+- **Canakkale Children’s Science Museum \| 2017 \| Kale Bodur:** Design of liquefaction remediation measures for highly liquefiable soils near Aegean Sea.
 - **Hopa-Borcka Highway Cutting \| 2017 \| YDA**
 - **Polatli-Afyon High Speed Train \| 2015-2017 \| YDA:** Design of 88 km stretch with 57 embankments including time dependent Settle 3D models, design of stone columns to decrease consolidation time and jet grout support design and foundation design of over 40 structures including viaducts, underpasses and overpasses.
 - **Atakoy Sea Pearl \| 2015-2017 \| Kuzu Group:** Design of retaining systems near Marmara Sea.
 - **Dam Landslide (1.5 km x 0.6 km) Stabilization \| 2017 \| Kalehan Energy**
 - **Ulus Cultural and Convention Center \| 2016-2017 \| YDA:** Deep excavation up to 22m in changing ground conditions from andesite to very soft clay with high ground water table.
 - **Cukurova Regional Airport \| 2016 \| General Directorate of State Airports:** Ground improvement of various buildings.
-- **Mavisehir Optimum Mall \| 2016 \| Renaissance Construction:** Designing the deep excavation with
-diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and
-deep clay.
-
-![Untitled](images/CV/Untitled%209.png)
-
+- **Mavisehir Optimum Mall \| 2016 \| Renaissance Construction:** Designing the deep excavation with diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and deep clay.
+![Untitled](images/CV/Untitled%209.png){: width="40%" .float-right .aio-ui .aio-window}
 - **Dalaman Airport International Arrivals \| 2016 \| YDA:** Jet grout improvement for very soft clay and liquefiable sands.
 - **Turkmenistan Gas to Gasoline (GTG) \| 2015-2016 \| Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
 - **Melen Dam Road Landslide Stabilization \| 2015 \| Ece Tur:** Stabilization of 3 million m³ landslide that occurred in the dam service road with heel fill economically.
 - **Buski East Waste Water Treatment Facility \| 2015 \| Kuzu Group:** Ground improvement with jet grouts to prevent liquefaction and excessive settlements.
-- ****Various other designs**** including deep excavations and foundations.
-- ****Technical Office support b/w 2014 and 2015 to various projects:**** Ozdilek Mall, Riyadh Metro Line 3, Balkupu 60000 tons silo foundation piles and various deep excavation projects including inclinometer readings, anchor tests and technical support.
+- **Various other designs** including deep excavations and foundations.
+- **Technical Office support b/w 2014 and 2015 to various projects:** Ozdilek Mall, Riyadh Metro Line 3, Balkupu 60000 tons silo foundation piles and various deep excavation projects including inclinometer readings, anchor tests and technical support.
