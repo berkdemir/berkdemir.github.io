@@ -91,9 +91,7 @@ Most of the technical publications, as well as various technical articles and sh
 	<figcaption>NoiseFX of the watercolor style.</figcaption>
 </figure>
 
-Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
-
-<figure style="width:30%" class="float-right aio-ui aio-window">
+<figure style="width:30%; clear:both" class="float-right aio-ui aio-window">
 	<img src="images/CV/Untitled%201.png">
 	<figcaption>NoiseFX of the watercolor style.</figcaption>
 </figure>
