@@ -4,7 +4,7 @@ title: CV
 nav_order: 01
 permalink: /CV
 ---
-# CV-rev0206
+# CV
 
 ![](images/CV/BDEM_LinkedIn.jpg){: width="150" .float-left .aio-ui .aio-window}
 **Berk Demir** 
@@ -52,6 +52,7 @@ Most of the technical publications, as well as various technical articles and sh
 - P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers), B. Demir, A. S. Peker, S. K. Tomaç,
 4th Bridges and Viaducts Symposium, 2019 [In Turkish]: [Link1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) & [Link2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
 - Comparison of Construction Methods of Jet Grout Columns with Respect to Field and Laboratory Tests, B. Demir,M. S. Nalçakan, 16. National Conference on Soil Mechanics and Geotechnical Engineering, Erzurum, Turkey, 2016. [In Turkish]
+  
 ---
 # Skills
 
@@ -143,6 +144,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 
 - TBM design: EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Moreover, construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered for construction.
 - NATM design: Design of temporary and permanent lining of NATM tunnels were also in scope of the tunnel design of this metro line. Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QAd the structural teams for design deliverables regarding the permanent lining design.
+  
 ---
 # Other Projects
 
@@ -150,7 +152,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 - **Canakkale 1915 Bridge \| 2018-2019 \| General Directorate of Highways, Turkey:** Peer review of Canakkale 1915 Bridge design including anchor block foundations, deep foundations in liquefiable areas and technical specifications.
 - **Bodrum Highway Tunnels \| 2018-2019 \| General Directorate of Highways, Turkey:** Design of 2-lane NATM highway tunnels in Bodrum / Turkey through mountainous areas.
 - **Akyazi-Dokurcun Road \| 2018 \| General Directorate of Highways, Turkey:** Balanced cantilever viaduct foundation and 40 m excavation in weathered rock.
-![Untitled](images/CV/Untitled%208.png) {: width="40%" .float-right .aio-ui .aio-window}
+![Untitled](images/CV/Untitled%208.png){: width="40%" .float-right .aio-ui .aio-window}
 - ***Dar es Salaam - Morogoro Railway \| 2018 \| Tanzania Railways:*** Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
 - **Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines**
 - **Excavation Design in Galataport, Istanbul \| 2017 \| Salipazari Port Management**
