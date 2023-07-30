@@ -105,6 +105,8 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 
 **Client:** HOFOR \| **Amount of Hours:** >1300 hrs
 
+![Untitled](images/CV/Untitled%202.png){: width="40%" .float-right .aio-ui .aio-window}
+
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
 
 **Typical Responsibilities:**
@@ -113,56 +115,44 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical design of shafts.
 
-![Untitled](images/CV/Untitled%202.png#right){: width="40%" .float-right}
-
-## 4Kransen Culvert Deep Excavation (2021-2022)
+## Kransen Culvert Deep Excavation (2021-2022)
 
 **JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| **Amount of Hours:** 800 hrs
 
-<figure style="width:30%" class="float-right aio-ui aio-window">
-	<img src="images/CV/Untitled%201.png" alt="NoiseFX tool window">
-	<figcaption>NoiseFX of the watercolor style.</figcaption>
-</figure>
+![Untitled](images/CV/Untitled%203.png){: width="40%" .float-right .aio-ui .aio-window}
 
 Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert section using diaphragm walls and prestressed struts in a quick clay slope. 
-
-<figure class="float-left">
-	<img src="images/CV/Untitled%201.png" alt="View NoiseFX"  style="max-width: 10%">
-</figure>
 
 **Typical Responsibilities:**
 
 - Design lead for all temporary works, including design basis and discussions regarding the safety of the area.
 - All finite element analyses of the section including detailed temperature studies of structural elements.
-
-![Untitled](images/CV/Untitled%203.png)
-
 *Design activities have been paused due to risks in the area.*
 
 ## GFRP Reinforcement in TBM Tunnel Segments (2023)
 
 **Client:** Metroselskabet, Copenhagen \| *****Amount of Hours:***** 200 hrs
 
-As a part of the innovation study initiative of Metroselskabet, GFRP reinforcement’s feasibility for TBM tunnel segments have been investigated including detailed CO2 comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths and load scenarios using Lusas.
+![Untitled](images/CV/Untitled%204.png){: width="40%" .float-right .aio-ui .aio-window}
 
-![Untitled](images/CV/Untitled%204.png)
+As a part of the innovation study initiative of Metroselskabet, GFRP reinforcement’s feasibility for TBM tunnel segments have been investigated including detailed CO2 comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths and load scenarios using Lusas.
 
 ## Istanbul Metro / Cekmekoy-Sultanbeyli Line (2019-2021)
 
 **JV:** Dogus & Yapi Merkezi & Ozaltin \| **Client:** Istanbul Municipality \| **Amount of Hours:** >2500 hrs
 
-Detailed design of TBM and NATM tunnels issued to 3rd party and client review, as well as the construction details, including detailed 2D and 3D NATM/TBM models and [seismic assessments](Recommendations%20for%20Pseudo-Static%20Deformation%20for%20%2073d92be08e334a17993cb704f1367a05.md).  
+![Untitled](images/CV/Untitled%205.png){: width="40%" .float-right .aio-ui .aio-window}
+
+![Untitled](images/CV/Untitled%206.png){: width="40%" .float-right .aio-ui .aio-window}
+
+![Untitled](images/CV/Untitled%207.png){: width="40%" .float-right .aio-ui .aio-window}
+
+Detailed design of TBM and NATM tunnels issued to 3rd party and client review, as well as the construction details, including detailed 2D and 3D NATM/TBM models and seismic assessment.
 
 ******Typical Responsibilities:******
 
 - TBM design: EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Moreover, construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered for construction.
 - NATM design: Design of temporary and permanent lining of NATM tunnels were also in scope of the tunnel design of this metro line. Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QAd the structural teams for design deliverables regarding the permanent lining design.
-
-![Untitled](images/CV/Untitled%205.png)
-
-![Untitled](images/CV/Untitled%206.png)
-
-![Untitled](images/CV/Untitled%207.png)
 
 ---
 
