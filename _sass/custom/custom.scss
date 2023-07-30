@@ -58,6 +58,7 @@
     @include mq(md) {
         float: right !important;
         margin-left: 1rem;
+        clear: both;
     }
 }
 
@@ -67,6 +68,7 @@
     @include mq(md) {
         float: left !important;
         margin-right: 1rem;
+        clear: both;
     }
 }
 
