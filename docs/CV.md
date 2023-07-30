@@ -89,10 +89,10 @@ Most of the technical publications, as well as various technical articles and sh
 <figure style="width:40%" class="float-right aio-ui aio-window">
 	<img src="images/CV/Untitled.png">
 </figure>
+![Untitled](images/CV/Untitled.png){: width="40%" .float-right .aio-ui .aio-window}
 
-<figure style="width:40%" class="float-right aio-ui aio-window">
-	<img src="images/CV/Untitled%201.png">
-</figure>
+![Untitled](images/CV/Untitled%201.png){: width="40%" .float-right .aio-ui .aio-window figcaption="Deneme"}
+
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
@@ -149,7 +149,7 @@ As a part of the innovation study initiative of Metroselskabet, GFRP reinforceme
 
 Detailed design of TBM and NATM tunnels issued to 3rd party and client review, as well as the construction details, including detailed 2D and 3D NATM/TBM models and seismic assessment.
 
-******Typical Responsibilities:******
+**Typical Responsibilities:**
 
 - TBM design: EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Moreover, construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered for construction.
 - NATM design: Design of temporary and permanent lining of NATM tunnels were also in scope of the tunnel design of this metro line. Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QAd the structural teams for design deliverables regarding the permanent lining design.
