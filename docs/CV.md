@@ -88,9 +88,10 @@ Most of the technical publications, as well as various technical articles and sh
 ## Nordhavnstunnel (2022 to 2023)
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
-<div style="float: right;>
-  <img style="display: block; margin: 10px;" src="images/CV/Untitled.png" width="35%">
-  <img style="display: block; margin: 10px;" src="images/CV/Untitled%201.png" width="35%">
+
+<div style="float: right;">
+  <img style="display: block;" src="images/CV/Untitled.png" width="35%">
+  <img style="display: block;" src="images/CV/Untitled%201.png" width="35%"> 
 </div>
 
 
