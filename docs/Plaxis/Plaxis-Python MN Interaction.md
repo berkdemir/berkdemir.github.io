@@ -11,7 +11,7 @@ Recently, I have prepared a Moment-Axial Force Interaction Diagram that fetches 
 
 You can see the video here.
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/SiaGWH5RICI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/SiaGWH5RICI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I will not publish the code since it will require me to check every aspect of the code, do extensive tests and prepare a documentation. Instead, I want to give some insights on the methods that I have used in the code. I had to try and fail too many times and contacted Plaxis support several times. Since this is a gray area still with lot to develop, it is not easy to find discussions on the internet, so even a brain-storming with Plaxis support is really valuable. (Thanks to Stefanos)
 
