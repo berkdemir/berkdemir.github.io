@@ -1,193 +1,85 @@
-// Here you can define custom CSS overriding the theme using SCSS
-// media queries (https://just-the-docs.github.io/just-the-docs/docs/utilities/responsive-modifiers/)
+// Overriding styles for some of our pages
+// This gets compiled into the final CSS
+// The file path comes from what the upstream allows:
+// https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles
+
+.bg-red-000,
+.bg-yellow-200,
+.bg-green-000,
+.bg-grey-lt-100,
+.site-footer {
+    color: #1c1c1c;
+}
+
+a {
+    color: #6c4dec;
+}
+
+.description {
+    >blockquote {
+        margin-left: 60px;
+    }
+
+    >p {
+        &:nth-of-type(1) {
+            clear: both;
+        }
+    }
+
+    // Icons are 50x50, so this adds another 10 pixels
+    min-height: 60px;
+}
+
+.product-logo {
+    float: left;
+    margin-right: .5em;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.txt-linethrough {
+    text-decoration: line-through;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+// Inject site logo before the site title
 .site-title {
-    padding-right: 0;
+    margin-left: 2rem;
 
-    .docs-logo {
-        display: flex;
-        align-items: center;
-
-        img {
-            width: 2rem;
-            height: 2rem;
-            margin-right: 0.5rem;
-        }
-
-        p {
-            font-size: 1.5rem;
-        }
-    }
-}
-
-.main-content h3 {
-    margin-bottom: 0.5em;
-}
-
-.main-content h4 {
-    text-transform: none;
-    font-weight: 600;
-    font-size: 1.0rem !important;
-    letter-spacing: 0;
-}
-
-.main-content p {
-    text-align: justify;
-    //maybe letter spacing here?
-}
-
-.main-content {
-    li {
-        margin: 0.05em auto;
-
-        ol {
-            margin-top: 0;
-        }
-    }
-}
-
-.d-flex {
-    flex-wrap: wrap;
-
-    &.aio-code {
-        justify-content: space-evenly;
-    }
-}
-
-.float-right {
-    float: none !important;
-
-    @include mq(md) {
-        float: right !important;
-        margin-left: 1rem;
-    }
-}
-
-.float-left {
-    float: none !important;
-
-    @include mq(md) {
-        float: left !important;
-        margin-right: 1rem;
-    }
-}
-
-figure {
-
-    img,
-    video {
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-    }
-
-    figcaption {
-        font-size: small;
-        text-align: center;
-        font-style: italic;
-    }
-
-    &.imagebd {
-        img {
-            width: 100%;
-            display: none;
-            border-radius: 5px;
-        }
-    }
-
-    margin: 0.5rem auto;
-
-    &.aio-window {
-        img {
-            box-shadow: 0px 4px 20px -5px rgba(0, 0, 0, 0.5);
-
-        }
-    }
-}
-
-p .aio-btn {
-    padding: 0.5rem 1rem;
-    background-color: $grey-dk-100;
-    color: #fff;
-    font-weight: 600;
-    transition: 0.2s;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
-    text-align: center;
-
-    &:hover {
-        background-color: #fff;
-        color: $grey-dk-100;
-    }
-}
-
-.aio-responsive-embed {
-    iframe {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-    }
-}
-
-.aio-uniform-list {
-    h2 {
-        font-size: 1.1rem !important;
-
-        code {
-            float: right;
-        }
-    }
-
-    p {
-        font-size: 0.9rem !important;
-    }
-}
-
-.aio-page-footer {
-    font-size: small;
-}
-
-
-// FAQ - Accordion
-// ====================================
-.accordion.ui-accordion {
-    margin-top: 1rem;
-    color: $body-text-color;
-    font-family: $body-font-family;
-    font-size: inherit;
-
-    *:focus {
-        outline: 0;
-        border: none;
-        color: $body-text-color;
-    }
-
-    .ui-accordion-header {
-        padding: 0;
-        font-weight: 600;
-        border: none;
-        background: none;
-    }
-
-    .ui-accordion-content {
-        color: $body-text-color;
-        padding: 0 0 0 1rem;
-        border: none;
-
-        p {
-            margin-top: 0.5em;
-
-            a {
-                color: $link-color;
-            }
-        }
-
-        ul,
-        ol {
-            font-size: 0.9em;
-            padding-left: 2rem;
-        }
+    &:before {
+        content: '';
+        background: url('/assets/logo-192x192.png');
+        background-size: cover;
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        margin-left: -2.1rem;
+        margin-bottom: -.3rem;
     }
 }
