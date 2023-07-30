@@ -96,7 +96,9 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 
 **Client:** HOFOR \| **Amount of Hours:** >1300 hrs
 
-![Untitled](images/CV/Untitled%202.png){: width="40%" .float-right .aio-ui .aio-window}
+<figure style="width:40%" class="float-right aio-ui aio-window">
+	<img src="images/CV/Untitled%202.png">
+</figure>
 
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
 
