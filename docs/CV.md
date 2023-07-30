@@ -122,11 +122,11 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 ![Untitled](images/CV/Untitled%202.png#right){: width="50%"}
 
-## 2Kransen Culvert Deep Excavation (2021-2022)
+## 3Kransen Culvert Deep Excavation (2021-2022)
 
 **JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| **Amount of Hours:** 800 hrs
 
-<figure class="float-right w30">
+<figure class="float-right imagebd">
   <img src="images/CV/Untitled%202.png">
   <figcaption>Figure caption looks like this</figcaption>
 </figure>
@@ -134,7 +134,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 Design of excavation for Sandbukta-Moss-Såstad (SMS2A) project, Kransen culvert section using diaphragm walls and prestressed struts in a quick clay slope. 
 
 <figure class="float-left">
-	<img src="images/CV/Untitled%201.png" alt="View NoiseFX"  style="max-height: 32px">
+	<img src="images/CV/Untitled%201.png" alt="View NoiseFX"  style="max-width: 10%">
 </figure>
 
 **Typical Responsibilities:**

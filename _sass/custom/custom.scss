@@ -86,22 +86,7 @@ figure {
         font-style: italic;
     }
 
-    &.w30 {
-        img {
-            width: 30%;
-            display: none;
-            border-radius: 5px;
-        }
-    }
-
-    &.w50 {
-        img {
-            width: 50%;
-            display: none;
-            border-radius: 5px;
-        }
-    }
-    &.w100 {
+    &.imagebd {
         img {
             width: 100%;
             display: none;
