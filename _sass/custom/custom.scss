@@ -37,11 +37,16 @@
 .main-content {
     li {
         margin: 0.05em auto;
+        text-align: justify;
 
         ol {
             margin-top: 0;
         }
     }
+}
+
+.main-content ul {
+    text-align: justify
 }
 
 .d-flex {
