@@ -112,6 +112,12 @@ figure {
 
         }
     }
+
+    &.keepwidth18 {
+        img {
+            width: 18% !important;
+        }
+    }
 }
 
 img {

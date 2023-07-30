@@ -6,7 +6,7 @@ permalink: /CV
 ---
 # CV
 
-![](images/CV/BDEM_LinkedIn.jpg){: width="150" .float-left .aio-ui .aio-window}
+![](images/CV/BDEM_LinkedIn.jpg){: width="18%" .float-left .aio-ui .aio-window .keepwidth18}
 **Berk Demir** 
 
 *Underground engineer specialized in tunnels, structural design and geotechnical engineering.*
