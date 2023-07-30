@@ -120,7 +120,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical design of shafts.
 
-![Untitled](images/CV/Untitled%202.png){height=150}
+![Untitled](images/CV/Untitled%202.png#right){: height="50%"}
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
