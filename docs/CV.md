@@ -122,7 +122,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 ![Untitled](images/CV/Untitled%202.png#right){: width="50%"}
 
-## Kransen Culvert Deep Excavation (2021-2022)
+## 2Kransen Culvert Deep Excavation (2021-2022)
 
 **JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| **Amount of Hours:** 800 hrs
 
