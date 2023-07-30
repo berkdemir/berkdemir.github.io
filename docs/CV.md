@@ -52,9 +52,7 @@ Most of the technical publications, as well as various technical articles and sh
 - P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers), B. Demir, A. S. Peker, S. K. Tomaç,
 4th Bridges and Viaducts Symposium, 2019 [In Turkish]: [Link1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) & [Link2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
 - Comparison of Construction Methods of Jet Grout Columns with Respect to Field and Laboratory Tests, B. Demir,M. S. Nalçakan, 16. National Conference on Soil Mechanics and Geotechnical Engineering, Erzurum, Turkey, 2016. [In Turkish]
-
 ---
-
 # Skills
 
 ## Software
@@ -75,18 +73,16 @@ Most of the technical publications, as well as various technical articles and sh
 | Steel Fibre Crack Width | Volume Loss Fit for Measurements |
 
 **Language Skills:** Turkish: Mother Tongue \| English: Fluent \| Danish: Intermediate, improving.
-
 ---
-
 # Recent Key Projects
 
 ## Nordhavnstunnel (2022 to 2023)
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
 
-![Untitled](images/CV/Untitled.png){: width="40%" .float-right .aio-ui .aio-window}
+![](images/CV/Untitled.png){: width="40%" .float-right .aio-ui .aio-window}
 
-![Untitled](images/CV/Untitled%201.png){: width="40%" .float-right .aio-ui .aio-window figcaption="Deneme"}
+![](images/CV/Untitled%201.png){: width="40%" .float-right .aio-ui .aio-window}
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
@@ -147,9 +143,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 
 - TBM design: EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Moreover, construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered for construction.
 - NATM design: Design of temporary and permanent lining of NATM tunnels were also in scope of the tunnel design of this metro line. Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QAd the structural teams for design deliverables regarding the permanent lining design.
-
 ---
-
 # Other Projects
 
 - **Klimatilpasning af det centrale Lyngby \| 2021-2022 \| Lyngby-Taarbæk Forsyning A/S:** Design of 9 pipe jacking tunnel drives (DN1200) and 12 shafts in central Lyngby for climate adaptation project.
