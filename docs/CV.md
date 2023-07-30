@@ -69,7 +69,7 @@ Most of the technical publications, as well as various technical articles and sh
 **Various Python tools built in Streamlit** for daily design works: 
 
 | Reinforced Concrete Beam Design | Tunnel Analytical Lining Forces |
-| Tunnel Deformation Assessment | | M&N Interaction Curve |
+| Tunnel Deformation Assessment | M&N Interaction Curve |
 | Hoek Brown Analysis | Convergence Confinement Method |
 | Drawdown due to Tunnel | Steel Strut Capacity Check |
 | Tunnel Relaxation Factor | Tunnel Face Stability Calculation |
@@ -79,6 +79,9 @@ Most of the technical publications, as well as various technical articles and sh
 **Language Skills:** Turkish: Mother Tongue \| English: Fluent \| Danish: Intermediate, improving.
 
 ---
+
+| a | b |
+| ![Image 1](images/CV/Untitled.png) | ![Image 2](images/CV/Untitled%201.png) |
 
 # Recent Key Projects
 
@@ -93,20 +96,15 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
+<p align="center">
+  <img src="images/CV/Untitled.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="images/CV/Untitled%201.png" width="45%">
+</p>
 
 ## Valby Cloudburst Tunnel (2021-2023)
-| a | b |
-| ![Image 1](images/CV/Untitled.png) | ![Image 2](images/CV/Untitled%201.png) |
-
 
 **Client:** HOFOR \| **Amount of Hours:** >1300 hrs
-
-<p align="center">
-  <img alt="Light" src="images/CV/Untitled.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="images/CV/Untitled%201.png" width="45%">
-</p>
-asdasd
 
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
 
@@ -116,7 +114,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical design of shafts.
 
-![Untitled](images/CV/Untitled%202.png)
+![Untitled](images/CV/Untitled%202.png){height=150}
 
 ## Kransen Culvert Deep Excavation (2021-2022)
 
