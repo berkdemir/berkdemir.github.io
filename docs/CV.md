@@ -82,7 +82,7 @@ Most of the technical publications, as well as various technical articles and sh
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
 
-![](images/CV/Untitled.png){: .float-right .aio-ui .aio-window}
+![](images/CV/Untitled.png){: width="40%" .float-right .aio-ui .aio-window}
 
 ![](images/CV/Untitled%201.png){: width="40%" .float-right .aio-ui .aio-window}
 
