@@ -77,6 +77,12 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+    img {
+        width: 100%;
+    }
+}
+
 figure {
 
     img {
@@ -127,11 +133,7 @@ img {
     margin: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 767px) {
-    img {
-        width: 100%;
-    }
-}
+
 
 p .aio-btn {
     padding: 0.5rem 1rem;
