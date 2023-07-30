@@ -80,20 +80,19 @@ Most of the technical publications, as well as various technical articles and sh
 
 ---
 
-| a | b |
-| ![Image 1](images/CV/Untitled.png) | ![Image 2](images/CV/Untitled%201.png) |
-
 # Recent Key Projects
 
-## Nordhavnstunnel (2022 to 2023)
+## 2Nordhavnstunnel (2022 to 2023)
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
-
-<div style="float: right;">
-  <img style="display: block;" src="images/CV/Untitled.png" width="35%">
-  <img style="display: block;" src="images/CV/Untitled%201.png" width="35%"> 
-</div>
-
+<figure style="width:30%" class="float-right aio-ui aio-window">
+	<img src="images/CV/Untitled.png">
+	<figcaption>NoiseFX of the watercolor style.</figcaption>
+</figure>
+<figure style="width:30%" class="float-right aio-ui aio-window">
+	<img src="images/CV/Untitled%201.png">
+	<figcaption>NoiseFX of the watercolor style.</figcaption>
+</figure>
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
@@ -126,7 +125,7 @@ Valby Cloudburst Tunnel project is a detailed design project for Hofor (main uti
 
 **JV:** Acciona & Implenia \| **Client:** Bane Nor, Norway \| **Amount of Hours:** 800 hrs
 
-<figure class="float-right aio-ui aio-window">
+<figure style="width:30%" class="float-right aio-ui aio-window">
 	<img src="images/CV/Untitled%201.png" alt="NoiseFX tool window">
 	<figcaption>NoiseFX of the watercolor style.</figcaption>
 </figure>
