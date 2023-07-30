@@ -88,7 +88,7 @@ Most of the technical publications, as well as various technical articles and sh
 ## Nordhavnstunnel (2022 to 2023)
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
-<img style="float: right; margin: 10px" src="images/CV/Untitled.jpg" width="25%">
+<img style="float: right; margin: 10px" src="images/CV/Untitled.png" width="25%">
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
