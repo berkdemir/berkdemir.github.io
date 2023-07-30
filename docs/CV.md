@@ -74,6 +74,7 @@ Most of the technical publications, as well as various technical articles and sh
 | Steel Fibre Crack Width | Volume Loss Fit for Measurements |
 
 **Language Skills:** Turkish: Mother Tongue \| English: Fluent \| Danish: Intermediate, improving.
+
 ---
 # Recent Key Projects
 
