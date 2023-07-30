@@ -4,7 +4,7 @@ title: CV
 nav_order: 01
 permalink: /CV
 ---
-# CV-rev0158
+# CV-rev0203
 
 <img style="float: left; margin: 10px" src="images/CV/BDEM_LinkedIn.jpg" width="150">
 **Berk Demir** 
@@ -93,17 +93,9 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off for tender, uplift anchor calculations for all segments, settlement calculations and discussions regarding the shear key requirement of tunnels.
 - **Design coordination after the tender:** I have acted as design lead for many key decisions regarding the all design issues related to tunnel including structural and fire design of tunnels, relationship to 3rd party, coordination of design works and QA of design reports.
 
-<div style="width: 100%;">
-  <div style="float: left; margin: 10px;">
-    <img style="max-width: 50%" src="images/CV/Untitled.png">
-  </div>
-  <div style="float: left; margin: 10px;">
-    <img style="max-width: 50%" src="images/CV/Untitled%201.png">
-  </div>
-</div>
 
 ## Valby Cloudburst Tunnel (2021-2023)
-![Image 1](images/CV/Untitled.png) ![Image 2](images/CV/Untitled%201.png)
+| ![Image 1](images/CV/Untitled.png) | ![Image 2](images/CV/Untitled%201.png) |
 
 
 **Client:** HOFOR \| **Amount of Hours:** >1300 hrs
@@ -111,6 +103,15 @@ Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhag
 <p align="center">
       <img style="max-width: 50%" src="images/CV/Untitled.png" align="left">
       <img style="max-width: 50%" src="images/CV/Untitled%201.png"align="right">
+</p>
+
+
+asdasd
+
+
+<p float="left">
+  <img src="images/CV/Untitled.png" width="45%" />
+  <img src="images/CV/Untitled%201.png" width="45%" /> 
 </p>
 
 Valby Cloudburst Tunnel project is a detailed design project for Hofor (main utility company of Copenhagen.) In scope of this project, 4 shafts with diameters around 15 m and depths reaching 20 m.
