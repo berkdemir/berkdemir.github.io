@@ -11,7 +11,7 @@ Recently, I have prepared a Moment-Axial Force Interaction Diagram that fetches 
 
 You can see the video here.
 
-[1614513616521.mp4](images/Plaxis/1614513616521.mp4)
+[1614513616521.mp4](.../images/Plaxis/1614513616521.mp4)
 
 I will not publish the code since it will require me to check every aspect of the code, do extensive tests and prepare a documentation. Instead, I want to give some insights on the methods that I have used in the code. I had to try and fail too many times and contacted Plaxis support several times. Since this is a gray area still with lot to develop, it is not easy to find discussions on the internet, so even a brain-storming with Plaxis support is really valuable. (Thanks to Stefanos)
 
