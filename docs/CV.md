@@ -86,13 +86,9 @@ Most of the technical publications, as well as various technical articles and sh
 
 **JV:** MT Højgaard & Besix \| **Client:** Vejdirektoratet, Denmark \| **Amount of Hours:** >800 hrs
 
-<figure style="width:40%" class="float-right aio-ui aio-window">
-	<img src="images/CV/Untitled.png">
-</figure>
 ![Untitled](images/CV/Untitled.png){: width="40%" .float-right .aio-ui .aio-window}
 
 ![Untitled](images/CV/Untitled%201.png){: width="40%" .float-right .aio-ui .aio-window figcaption="Deneme"}
-
 
 Nordhavnstunnel is 1.6 km cut and cover, cast-in-situ tunnel located in Copenhagen, Denmark. 
 
