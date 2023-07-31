@@ -155,6 +155,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 - **Canakkale 1915 Bridge \| 2018-2019 \| General Directorate of Highways, Turkey:** Peer review of Canakkale 1915 Bridge design including anchor block foundations, deep foundations in liquefiable areas and technical specifications.
 - **Bodrum Highway Tunnels \| 2018-2019 \| General Directorate of Highways, Turkey:** Design of 2-lane NATM highway tunnels in Bodrum / Turkey through mountainous areas.
 - **Akyazi-Dokurcun Road \| 2018 \| General Directorate of Highways, Turkey:** Balanced cantilever viaduct foundation and 40 m excavation in weathered rock.
+
 ![Untitled](images/CV/Untitled%208.png){: width="40%" .float-right .aio-ui .aio-window}
 - ***Dar es Salaam - Morogoro Railway \| 2018 \| Tanzania Railways:*** Geotechnical designer of contractor for design and build project of 205 km. Design of track beds, embankments and various foundations for viaducts, bridges and overpasses.
 - **Cargo Building Foundation for Istanbul New Airport \| 2018 \| Turkish Airlines**
@@ -168,6 +169,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, a
 - **Ulus Cultural and Convention Center \| 2016-2017 \| YDA:** Deep excavation up to 22m in changing ground conditions from andesite to very soft clay with high ground water table.
 - **Cukurova Regional Airport \| 2016 \| General Directorate of State Airports:** Ground improvement of various buildings.
 - **Mavisehir Optimum Mall \| 2016 \| Renaissance Construction:** Designing the deep excavation with diaphragm wall and anchor systems and solving the foundation systems with jet grouts in a very soft and deep clay.
+  
 ![Untitled](images/CV/Untitled%209.png){: width="40%" .float-right .aio-ui .aio-window}
 - **Dalaman Airport International Arrivals \| 2016 \| YDA:** Jet grout improvement for very soft clay and liquefiable sands.
 - **Turkmenistan Gas to Gasoline (GTG) \| 2015-2016 \| Renaissance-Kawasaki:** To reduce the settlements to the given limits (5-25mm) due to structural needs, performing Plaxis 2D analyses, determining ground improvement methods to be applied.
