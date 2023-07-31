@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plaxis-Python MN Interaction
+title: Python MN Interaction
 nav_order: 01
 parent: Plaxis
 permalink: /Plaxis/MN
