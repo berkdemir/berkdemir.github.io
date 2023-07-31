@@ -18,6 +18,7 @@ Another couple nights to experiment on the parametric design with FEM-Design and
 <a href="../images/Showcases/RPTIFM-1.png">
     <figure>
         <img src="../images/Showcases/RPTIFM-1.png">
-        <figcaption>You can see that I am not afraid of spaghetti monster.</figcaption>
     </figure>
 </a>
+
+*You can see that I am not afraid of spaghetti monster.*
