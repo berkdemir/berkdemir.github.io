@@ -18,7 +18,7 @@ I have tried my best to explain this in the forum, but it is not an isolated cas
 
 There is a clear explanation for that: Because finite element method does not work that way. As can be seen below or in Appendix of Scientific Manual of Plaxis, the incremental deformations are caused by unbalanced load. If there is no unbalanced load, the deformations will not increase since the equation results in 0.
 
-![1614286024541-1619901469706.png](../images/Plaxis/1614286024541-1619901469706.png)
+[![1614286024541-1619901469706.png](../images/Plaxis/1614286024541-1619901469706.png)](../images/Plaxis/1614286024541-1619901469706.png)
 
 But let's consider a tunnel. As you can see below, the real case is in first row. If we want the ground loads to act on the permanent lining, we can't just change the material properties and hope for the best. We have to **simulate the degradation of the temporary lining.** There are several methods for this such as gray rock or assuming a certain thickness of shotcrete thickness is degraded. However, some project requirements do not allow for the consideration of temporary lining for permanent lining analyses at all. This is the case for subway projects in Turkey.
 
