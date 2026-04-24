@@ -3,298 +3,180 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BDEM — Editorial</title>
+  <title>BDEM</title>
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-body.vf-editorial {
-  background: #FFFFFF;
-  color: #0A0A0A;
-  font-family: 'DM Sans', sans-serif;
+body.vf-apple {
+  background: #f5f5f7;
+  color: #1d1d1f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-.vf-editorial a { color: inherit; text-decoration: none; }
-.vf-editorial img { max-width: 100%; height: auto; display: block; margin: 0; }
-.vf-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; margin: 40px 0; }
-.vf-gallery.cols-4 { grid-template-columns: repeat(4, 1fr); }
-.vf-gallery img { margin: 0; aspect-ratio: 3/4; object-fit: cover; border-radius: 0; }
-.vf-image-single { display: flex; justify-content: center; margin: 40px 0; }
+.vf-apple a { color: inherit; text-decoration: none; }
+.vf-apple img { max-width: 100%; height: auto; display: block; border-radius: 12px; }
 
 /* Navigation */
-.vf-nav-ed {
-  background: #FFFFFF;
-  border-top: 4px solid #0A0A0A;
-  border-bottom: 1px solid #0A0A0A;
-  padding: 16px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.vf-nav-ap {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0 40px; height: 52px;
 }
-.vf-nav-ed-logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #0A0A0A;
-}
-.vf-nav-ed-left, .vf-nav-ed-right {
-  font-size: 14px;
-  font-variant: small-caps;
+.vf-nav-ap-logo {
+  font-weight: 600; font-size: 17px; letter-spacing: -0.01em; color: #1d1d1f;
 }
 
 /* Hero */
-.vf-hero-ed {
-  background: #FFFFFF;
-  padding: 80px 40px 40px;
+.vf-hero-ap {
+  text-align: center; padding: 120px 40px 80px; max-width: 980px; margin: 0 auto;
 }
-.vf-hero-ed-title {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(48px, 10vw, 120px);
-  font-weight: 900;
-  letter-spacing: -3px;
-  line-height: 0.9;
-  color: #0A0A0A;
-  text-align: left;
+.vf-hero-ap-title {
+  font-size: clamp(48px, 8vw, 80px); font-weight: 700; letter-spacing: -0.015em; line-height: 1.05; color: #1d1d1f; margin-bottom: 24px;
 }
-.vf-hero-ed-divider {
-  border-bottom: 3px solid #0A0A0A;
-  margin: 40px 0;
-}
-.vf-hero-ed-cols {
-  display: flex; gap: 40px;
-  justify-content: space-between;
-}
-.vf-hero-ed-bio {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-size: 24px;
-  max-width: 600px;
-}
-.vf-hero-ed-stats {
-  display: flex; gap: 40px;
-}
-.vf-hero-ed-stat {
-  display: flex; flex-direction: column;
-}
-.vf-hero-ed-stat-val {
-  font-family: 'Playfair Display', serif;
-  font-size: 32px; font-weight: 700;
-}
-.vf-hero-ed-stat-lbl {
-  font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em;
+.vf-hero-ap-subtitle {
+  font-size: 24px; font-weight: 400; color: #86868b; line-height: 1.33337; letter-spacing: .009em; max-width: 680px; margin: 0 auto;
 }
 
 /* Projects */
-.vf-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 24px; }
-.vf-filter-btn { background: transparent; border: 1px solid #0A0A0A; padding: 4px 16px; border-radius: 4px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 700; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.2s; }
-.vf-filter-btn:hover { background: rgba(0,0,0,0.05); }
-.vf-filter-btn.active { background: #0A0A0A; color: #FFFFFF; }
+.vf-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 32px; }
+.vf-filter-btn { background: rgba(0,0,0,0.05); color: #1d1d1f; border: none; padding: 8px 16px; border-radius: 100px; font-size: 14px; cursor: pointer; transition: all 0.2s; font-family: inherit; font-weight: 400; }
+.vf-filter-btn:hover { background: rgba(0,0,0,0.1); }
+.vf-filter-btn.active { background: #1d1d1f; color: #fff; font-weight: 500; }
 
-.vf-projects-ed {
-  padding: 80px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
+.vf-projects-ap {
+  padding: 40px; max-width: 1200px; margin: 0 auto;
 }
-.vf-projects-ed-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1px;
-  background: #0A0A0A;
-  border: 1px solid #0A0A0A;
+.vf-projects-ap-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;
 }
-.vf-card-ed {
-  background: #FFFFFF;
-  display: flex; flex-direction: column;
-  position: relative;
-  text-decoration: none;
-  color: #0A0A0A;
+.vf-card-ap {
+  background: #ffffff; border-radius: 18px; padding: 40px; display: flex; flex-direction: column;
+  transition: transform 0.2s cubic-bezier(0,0,0.5,1), box-shadow 0.2s cubic-bezier(0,0,0.5,1);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.04);
 }
-.vf-card-ed.full { grid-column: 1 / -1; }
-.vf-card-ed-header {
-  padding: 40px;
-  min-height: 300px;
-  display: flex; flex-direction: column;
-  border-radius: 0;
+.vf-card-ap:hover {
+  transform: scale(1.02); box-shadow: 0 12px 48px rgba(0,0,0,0.08);
 }
-.vf-card-ed-num {
-  font-size: 14px;
-  margin-bottom: auto;
+.vf-card-ap-title {
+  font-size: 28px; font-weight: 600; letter-spacing: .004em; color: #1d1d1f; margin-bottom: 12px;
 }
-.vf-card-ed-title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 16px;
+.vf-card-ap-desc {
+  font-size: 17px; font-weight: 400; color: #86868b; margin-bottom: 24px; line-height: 1.47;
 }
-.vf-card-ed-desc {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  margin-bottom: 24px;
+.vf-card-ap-tags {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px;
 }
-.vf-card-ed-tags {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 12px;
-  margin-bottom: 24px;
+.vf-tag-ap {
+  background: #f5f5f7; color: #1d1d1f; font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 100px;
 }
-.vf-card-ed-link {
-  font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 14px;
-  padding-bottom: 2px;
-  align-self: flex-start;
+.vf-card-ap-link {
+  margin-top: auto; color: #0066cc; font-size: 17px; font-weight: 400;
 }
+.vf-card-ap-link:hover { text-decoration: underline; }
 
-/* Quote */
-.vf-quote-ed {
-  background: #0A0A0A;
-  padding: 80px 40px;
-  text-align: center;
+/* Quote & Footer */
+.vf-quote-ap {
+  text-align: center; padding: 120px 40px; max-width: 800px; margin: 0 auto;
 }
-.vf-quote-ed-text {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(28px, 4vw, 56px);
-  font-style: italic;
-  color: #FFFFFF;
+.vf-quote-ap p {
+  font-size: 32px; font-weight: 600; color: #1d1d1f; line-height: 1.25; letter-spacing: .004em;
 }
-
-/* Footer */
-.vf-footer-ed {
-  border-top: 4px solid #0A0A0A;
-  background: #FFFFFF;
-  padding: 80px 40px 40px;
-}
-.vf-footer-ed-cols {
-  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px;
-  margin-bottom: 80px;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px; color: #555;
-  max-width: 1200px; margin: 0 auto;
-}
-.vf-footer-ed-bottom {
-  text-align: center; font-size: 11px; color: #999;
-  font-family: 'DM Sans', sans-serif;
+.vf-footer-ap {
+  border-top: 1px solid #d2d2d7; padding: 32px 40px; text-align: center; font-size: 12px; color: #86868b;
+  max-width: 980px; margin: 0 auto;
 }
 
 /* Project Page */
-.vf-page-ed-header {
-  text-align: center;
-  padding: 80px 40px 40px;
-  border-bottom: 1px solid #0A0A0A;
-  max-width: 1200px; margin: 0 auto;
+.vf-page-ap-header {
+  text-align: center; padding: 100px 40px 60px; max-width: 800px; margin: 0 auto;
 }
-.vf-page-ed-issue {
-  font-variant: small-caps; margin-bottom: 24px; color: #555;
+.vf-page-ap-title {
+  font-size: 64px; font-weight: 700; color: #1d1d1f; letter-spacing: -0.015em; line-height: 1.05; margin-bottom: 16px;
 }
-.vf-page-ed-title {
-  font-family: 'Playfair Display', serif; font-size: 72px; font-weight: 900; line-height: 1.1; margin-bottom: 24px;
+.vf-page-ap-meta {
+  font-size: 17px; color: #86868b; font-weight: 400;
 }
-.vf-page-ed-meta { font-size: 18px; font-family: 'DM Sans', sans-serif; }
+.vf-page-ap-content {
+  background: #ffffff; padding: 80px 40px; border-radius: 32px 32px 0 0; box-shadow: 0 -4px 24px rgba(0,0,0,0.04);
+}
+.vf-prose-ap {
+  max-width: 680px; margin: 0 auto;
+}
+.vf-prose-ap p {
+  font-size: 19px; line-height: 1.6; color: #1d1d1f; margin-bottom: 1.5rem; font-weight: 400;
+}
+.vf-prose-ap h2, .vf-prose-ap h3 {
+  font-weight: 600; color: #1d1d1f; letter-spacing: .004em; margin-top: 2.5rem; margin-bottom: 1rem;
+}
+.vf-prose-ap h2 { font-size: 32px; }
+.vf-prose-ap h3 { font-size: 24px; }
+.vf-prose-ap a { color: #0066cc; text-decoration: none; }
+.vf-prose-ap a:hover { text-decoration: underline; }
+.vf-prose-ap pre, .vf-prose-ap code {
+  background: #f5f5f7; color: #1d1d1f; border-radius: 8px; font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+.vf-prose-ap pre { padding: 20px; overflow-x: auto; font-size: 14px; margin: 2rem 0; }
+.vf-prose-ap code { padding: 3px 6px; font-size: 0.9em; }
+.vf-gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin: 60px 0; }
+.vf-gallery.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.vf-gallery img { margin: 0; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); width: 100%; height: 100%; object-fit: cover; }
+.vf-image-single { display: flex; justify-content: center; margin: 60px 0; }
+.vf-prose-ap blockquote {
+  border-left: 4px solid #d2d2d7; padding-left: 1.5rem; color: #86868b; margin: 2rem 0; font-size: 24px; font-style: italic;
+}
+.vf-prose-ap hr { border: none; border-top: 1px solid #d2d2d7; margin: 3rem 0; }
 
-.vf-page-ed-content {
-  max-width: 680px; margin: 0 auto; padding: 80px 40px;
+.vf-back-ap {
+  position: absolute; top: 16px; left: 40px; color: #0066cc; font-size: 14px; font-weight: 400; z-index: 200; display: flex; align-items: center;
 }
-.vf-prose-ed p {
-  font-size: 18px; line-height: 1.9; margin: 1.5rem 0;
-}
-.vf-prose-ed p:first-of-type::first-letter {
-  float: left; font-family: 'Playfair Display', serif; font-size: 72px; line-height: 60px;
-  padding-right: 8px; font-weight: 900;
-}
-.vf-prose-ed a {
-  color: #0A0A0A; text-decoration: underline;
-}
-.vf-prose-ed strong {
-  font-weight: 700;
-}
-.vf-prose-ed pre, .vf-prose-ed code {
-  background: #F5F4EF;
-  color: #0A0A0A;
-  border-radius: 4px;
-}
-.vf-prose-ed pre { padding: 16px; overflow-x: auto; font-size: 14px; }
-.vf-prose-ed code { padding: 2px 4px; }
-
-.vf-page-ed-tags { display: flex; gap: 8px; margin-top: 60px; }
-.vf-page-ed-tag { font-variant: small-caps; border: 1px solid #0A0A0A; padding: 4px 12px; font-size: 12px; }
-
-.vf-page-ed-back {
-  position: absolute; top: 40px; left: 40px; font-size: 14px; color: #555; text-decoration: none;
-}
-.vf-page-ed-back:hover { color: #0A0A0A; }
-
-@media (max-width: 768px) {
-  .vf-hero-ed-cols { flex-direction: column; }
-  .vf-projects-ed-grid { grid-template-columns: 1fr; }
-  .vf-footer-ed-cols { grid-template-columns: 1fr; }
-  .vf-page-ed-title { font-size: 48px; }
-  .vf-nav-ed-left, .vf-nav-ed-right { display: none; }
-}
+.vf-back-ap:hover { text-decoration: underline; }
 </style>
 </head>
-<body class="vf-editorial">
+<body class="vf-apple">
 
-<nav class="vf-nav-ed">
-  <div class="vf-nav-ed-left">April 2026</div>
-  <div class="vf-nav-ed-logo">BDEM</div>
-  <div class="vf-nav-ed-right">Vol. 1</div>
+<nav class="vf-nav-ap">
+  <div class="vf-nav-ap-logo">BDEM</div>
+  <div style="display:flex;gap:24px;align-items:center;">
+    <a href="#work" style="color:#0066cc; font-size:14px; font-weight:400;">Work</a>
+  </div>
 </nav>
 
-<section class="vf-hero-ed">
-  <h1 class="vf-hero-ed-title">BDEM</h1>
-  <div class="vf-hero-ed-divider"></div>
-  <div class="vf-hero-ed-cols">
-    <div class="vf-hero-ed-bio">Welcome to my digital portfolio.</div>
-    <div class="vf-hero-ed-stats">
-      <div class="vf-hero-ed-stat">
-        <span class="vf-hero-ed-stat-val">2</span>
-        <span class="vf-hero-ed-stat-lbl">Projects</span>
-      </div>
-      <div class="vf-hero-ed-stat">
-        <span class="vf-hero-ed-stat-val">10+</span>
-        <span class="vf-hero-ed-stat-lbl">Years</span>
-      </div>
-    </div>
-  </div>
-</section>
+<header class="vf-hero-ap">
+  <h1 class="vf-hero-ap-title">Pro. Beyond.</h1>
+  <p class="vf-hero-ap-subtitle">Welcome to my digital portfolio.</p>
+</header>
 
-<section class="vf-projects-ed">
+<section id="work" class="vf-projects-ap">
   
-  <div class="vf-projects-ed-grid">
+  <div class="vf-projects-ap-grid">
     
-<a href="pages/sss.html" class="vf-card-ed full vf-filter-card" data-tags="">
-  <div class="vf-card-ed-header" style="background: #F5F4EF; color: #0A0A0A;">
-    <div class="vf-card-ed-num">NO. 01</div>
-    <div class="vf-card-ed-title">sss</div>
-    
-    
-    <div class="vf-card-ed-link" style="border-bottom-color: #0A0A0A">Read more &rarr;</div>
-  </div>
-</a>n
-<a href="pages/firstsss-post22.html" class="vf-card-ed vf-filter-card" data-tags="">
-  <div class="vf-card-ed-header" style="background: #E8E4DC; color: #0A0A0A;">
-    <div class="vf-card-ed-num">NO. 02</div>
-    <div class="vf-card-ed-title">Firstsss Post22</div>
-    
-    
-    <div class="vf-card-ed-link" style="border-bottom-color: #0A0A0A">Read more &rarr;</div>
-  </div>
+<a href="pages/sss.html" class="vf-card-ap vf-filter-card" data-tags="">
+  <div class="vf-card-ap-title">sss</div>
+  
+  
+  <div class="vf-card-ap-link">Learn more &gt;</div>
+</a>
+
+<a href="pages/firstsss-post22.html" class="vf-card-ap vf-filter-card" data-tags="">
+  <div class="vf-card-ap-title">Firstsss Post22</div>
+  
+  
+  <div class="vf-card-ap-link">Learn more &gt;</div>
 </a>
   </div>
 </section>
 
-<section class="vf-quote-ed">
-  <p class="vf-quote-ed-text">&quot;The details are not the details. They make the design.&quot;</p>
+<section class="vf-quote-ap">
+  <p>&quot;The details are not the details. They make the design.&quot;</p>
 </section>
 
-<footer class="vf-footer-ed">
-  <div class="vf-footer-ed-cols">
-    <div><strong>About</strong><br>Crafting digital experiences with precision, intention, and a relentless eye for detail.</div>
-    <div><strong>Links</strong><br>Instagram<br>Twitter<br>LinkedIn</div>
-    <div><strong>Contact</strong><br>hello@example.com</div>
-  </div>
-  <div class="vf-footer-ed-bottom">Published with VaultFolio</div>
+<footer class="vf-footer-ap">
+  Copyright &copy; 2026 BDEM. All rights reserved. <br/>
+  Published with VaultFolio.
 </footer>
 
 
