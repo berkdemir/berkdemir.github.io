@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hardening Soil Model in Properties — BDEM</title>
+  <style>*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+a { color: #1a1a1a; text-decoration: none; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Nav */
+.sp-nav {
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+}
+.sp-nav-logo { font-size: 16px; font-weight: 600; }
+
+/* Hero */
+.sp-hero {
+  padding: 60px 40px 48px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.sp-hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 12px; }
+.sp-hero p { font-size: 16px; color: #555; }
+
+/* Projects */
+.sp-section { max-width: 800px; margin: 0 auto; padding: 0 40px 80px; }
+.sp-section-heading {
+  font-size: 12px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.08em; color: #999; margin-bottom: 24px;
+}
+.sp-cards { display: flex; flex-direction: column; gap: 16px; }
+.sp-card {
+  display: block;
+  border: 1px solid #eee;
+  padding: 24px;
+  color: #1a1a1a;
+}
+.sp-card-title { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+.sp-card-desc { font-size: 14px; color: #555; margin-bottom: 12px; }
+.sp-card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.sp-tag {
+  font-size: 12px; color: #777;
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+}
+.sp-empty { font-size: 15px; color: #999; padding: 24px 0; }
+
+/* Footer */
+.sp-footer {
+  border-top: 1px solid #eee;
+  padding: 32px 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
+
+/* Project page */
+.sp-back {
+  display: inline-block;
+  padding: 24px 40px 0;
+  font-size: 14px;
+  color: #555;
+}
+.sp-page-header { max-width: 800px; margin: 0 auto; padding: 32px 40px 24px; }
+.sp-page-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 12px; }
+.sp-page-date { font-size: 13px; color: #999; margin-bottom: 12px; }
+.sp-page-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 0; }
+.sp-page-tag {
+  font-size: 12px; color: #777;
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+}
+.sp-page-content { max-width: 800px; margin: 0 auto; padding: 32px 40px 80px; }
+
+/* Prose */
+.sp-prose h1 { font-size: 26px; font-weight: 700; margin: 2rem 0 0.8rem; }
+.sp-prose h2 { font-size: 22px; font-weight: 700; margin: 2rem 0 0.8rem; }
+.sp-prose h3 { font-size: 18px; font-weight: 600; margin: 1.5rem 0 0.6rem; }
+.sp-prose h4, .sp-prose h5, .sp-prose h6 { font-size: 16px; font-weight: 600; margin: 1.2rem 0 0.5rem; }
+.sp-prose p { font-size: 16px; line-height: 1.8; color: #333; margin: 1rem 0; }
+.sp-prose a { color: #1a1a1a; text-decoration: underline; }
+.sp-prose strong { font-weight: 600; }
+.sp-prose em { font-style: italic; }
+.sp-prose ul { list-style: disc; padding-left: 1.5rem; margin: 0.8rem 0; }
+.sp-prose ol { list-style: decimal; padding-left: 1.5rem; margin: 0.8rem 0; }
+.sp-prose li { font-size: 16px; line-height: 1.8; color: #333; margin: 0.3rem 0; }
+.sp-prose code { background: #f5f5f5; padding: 1px 5px; font-size: 0.875em; font-family: 'SF Mono', Consolas, monospace; }
+.sp-prose pre { background: #f5f5f5; padding: 20px; overflow-x: auto; margin: 1.5rem 0; }
+.sp-prose pre code { background: none; padding: 0; }
+.sp-prose blockquote { border-left: 3px solid #ddd; padding-left: 16px; color: #666; font-style: italic; margin: 1.5rem 0; }
+.sp-prose hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+.sp-prose img { width: 100%; margin: 1.5rem 0; }
+
+@media (max-width: 640px) {
+  .sp-nav { padding: 16px 20px; }
+  .sp-hero { padding: 40px 20px 32px; }
+  .sp-section { padding: 0 20px 60px; }
+  .sp-card { padding: 18px; }
+  .sp-back { padding: 16px 20px 0; }
+  .sp-page-header { padding: 20px 20px 16px; }
+  .sp-page-content { padding: 20px 20px 60px; }
+}
+.callout { border-radius: 6px; padding: 12px 16px; margin: 16px 0; border-left: 4px solid; }
+.callout-title { display: flex; align-items: center; gap: 8px; font-weight: 600; margin-bottom: 8px; font-size: 14px; }
+.callout-icon { font-size: 16px; line-height: 1; }
+.callout-content { font-size: 14px; line-height: 1.6; }
+.callout-note     { background: #f0f4ff; border-color: #3b82f6; color: #1e3a8a; }
+.callout-info     { background: #f0f9ff; border-color: #0ea5e9; color: #0c4a6e; }
+.callout-tip      { background: #f0fdf4; border-color: #22c55e; color: #14532d; }
+.callout-warning  { background: #fffbeb; border-color: #f59e0b; color: #78350f; }
+.callout-danger   { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-question { background: #faf5ff; border-color: #a855f7; color: #4a1d96; }
+.callout-success  { background: #f0fdf4; border-color: #22c55e; color: #14532d; }
+.callout-failure  { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-bug      { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-example  { background: #f8fafc; border-color: #64748b; color: #1e293b; }
+.callout-quote    { background: #f8fafc; border-color: #64748b; color: #1e293b; }
+.callout-abstract { background: #f0f9ff; border-color: #0ea5e9; color: #0c4a6e; }</style>
+</head>
+<body>
+
+<a href="../index.html" class="sp-back">&larr; Back</a>
+
+<div class="sp-page-header">
+  <h1>Hardening Soil Model in Properties</h1>
+  
+  <div class="sp-page-tags"><span class="sp-page-tag">plaxis</span><span class="sp-page-tag">geotechnical</span></div>
+</div>
+
+<div class="sp-page-content">
+  <div class="sp-prose">
+    <p>During 2019 Plaxis User Meeting in İstanbul, I have presented a detailed discussion on Hardening Soil Model. The presentation was really welcomed by the audience and in fact, later on, I have been invited to two other companies for the same presentation. This short post will be a summary of that presentation.</p>
+<p>Hardening Soil model (will be called <strong>HS</strong> from now on) was presented in an excellent conference for 10th year of Plaxis in a paper called <em>The hardening soil model: Formulation and Verification</em> by Schanz, Vermeer and Bonnier. However, HS is tightly bonded to previous studies on the literature such as Lade, Tatsuoka and Ishihara, Cam-Clay model, Kondner and Zelasko, Jardine, Duncan and Chang, Al Tabbaa, Simson et. al.</p>
+<h1>1 What is Hardening?</h1>
+<p>Hardening behaviour of soils is shown on the experiments on Tatsuoka and Ishihara (1978) on sand samples. On each cycle, yield starts on the previous cycle’s maximum stress. We will see that later on on the preconsolidation pressure concept of HS.</p>
+<div class="vf-image-single">
+<img src="../images/TatsuokaIshihara.png" alt="TatsuokaIshihara.png" />
+</div>
+<p>Vermeer (1978) defines a hardening parameter to <strong>expand the yield surface</strong> which is also an integral part of the HS model.</p>
+<p>> The yield surface moves in conjunction with some measure for the plastic strains which is called the hardening parameter.</p><p>He clearly describes the hardening effect on the soils with the following:</p>
+<p>> The concept of a yield locus or yield surface is felt to be the most important concept of plasticity theory. It is a surface in stress space (a curve in the p, q-plane) separating stress states which can be reached elastically (the elastic domain) from those which can only be obtained after plastic deformation or cannot be achieved at all.</p><p><div class="vf-image-single">
+<img src="../images/Vermeer1878.png" alt="Vermeer1878.png" />
+</div>
+</p>
+<p>Hardening means that <strong>yield surface is not fixed</strong> as described in Plaxis Material Manual. There are two types of hardening:</p>
+<p>- Shear Hardening</p>
+<p>- Compression Hardening</p><p>Let’s take a look at these concepts.</p>
+<h2>1.1 Shear Hardening</h2>
+<p>According to Plaxis Material Manual, shear hardening is used to model irreversible strains due to primary deviatoric loading. If we ignore the fancy functions for calculating strain, simply it can be defined as the ratio of failure divided by the <em>E</em>50. So, here comes the difference between each stiffness modulus in HS. <em>E</em>50 if used for shear deformations. (Also, Eu is used in the formulations.)</p>
+<p><em>Primary deviatoric loading</em> is used everywhere in HS literature. However, I went over 875 google results 2 years ago and there are only two definition. One of them is given in first sentence of this chapter and other is <em>“<strong>When subjected to primary deviatoric loading, soil shows a decreasing stiffness</strong>”</em>. This is a concept deriven from Kondner (1963) and Duncan and Chang (1963): Hyperbolic relationship between deviatoric stress and stiffness. <em>Primary</em> simply means virgin loading. Deviatoric loading is same as we know from triaxial test.</p>
+<div class="vf-image-single">
+<img src="../images/DuncanChang.png" alt="DuncanChang.png" />
+</div>
+<u><strong>To simplify;</strong></u>
+<p>- Shear hardening depends on $E_{50}$</p>
+<p>- Plastic strains occur before the yield.</p><p><h2>1.2 Compression Hardening</h2></p>
+<p>Compression hardening is not something unfamiliar to us. It is around here since Terzaghi. Preconsolidation pressure is used in consolidation calculations to seperate the virgin loading and reloading parts.</p>
+<div class="vf-image-single">
+<img src="../images/image-20210511222313397.png" alt="image-20210511222313397.png" />
+</div>
+<p>We should know that: Plastic yielding depends on the position of yield surface. So, if we exceed the yield surface, plasticity comes into action. Puzrin (2012) describes it really well:</p>
+<p>> The plastic yielding always begins when the current pre-consolidation stress (i.e. the largest mean effective stress before the unloading) is exceeded in reloading.</p><p>Contrary to shear hardening, in compression hardening <em>E<strong>o</strong>e</em><em>d</em> is used for strains.</p>
+<h2>1.3 Graphical Representation</h2>
+<p>I have prepared a colorful figure to describe the yield surfaces in HS model. We have different regions:</p>
+<p>- Elastic part is shown in green region. In this region, we have elastic behaviour and material stiffness is derived from Eur.</p>
+<p>- If we move on K0 line, we will reach compression yield surface (cap) and in that zone, $E_{oed}$ is used.</p>
+<p>- If we have shear we can move to shear hardening zone where $E_{50}$ is used for shear strains.</p>
+<p>- Or naturally, we can have combined hardening due to both shear and compression.</p>
+<p>- If we get too far from the K0 line, we can reach to Moh-Coulomb failure line.</p><p><div class="vf-image-single">
+<img src="../images/HS.png" alt="HS.png" />
+</div>
+</p>
+<p>Strain types are shown in the figure below.</p>
+<div class="vf-image-single">
+<img src="../images/HS-Strains.png" alt="HS-Strains.png" />
+</div>
+<h3>1.3.1 Journey of a Particle</h3>
+<p>Let’s see what happens when we load a initially elastic particle as shown below with red star.</p>
+<div class="vf-image-single">
+<img src="../images/HS1.png" alt="HS1.png" />
+</div>
+<p>If we load the particle on K0 loading type, it will move on the K0 line. The initial preconsolidation pressure is now recalculated based on the maximum new stress. Based on the new preconsolidation pressure, yield surface expands. With expanding yield surface, elastic part where we use Eur is expanded too. So, if load is reduced now between blue star and red star, soil move on elastic region.</p>
+<div class="vf-image-single">
+<img src="../images/HS2.png" alt="HS2.png" />
+</div>
+<p>If we load the soil in given direction below, it will cause shear hardening and this time initial shear yield surface will expand.</p>
+<div class="vf-image-single">
+<img src="../images/HS3.png" alt="HS3.png" />
+</div>
+<p>If we load the soil in compression hardening zone with shear loading, it will enter to combined hardening part. In this case, both yield surface will expand.</p>
+<div class="vf-image-single">
+<img src="../images/HS4.png" alt="HS4.png" />
+</div>
+<p>If we expand these surfaces up to Mohr Coulomb failure line and rotate it around the origin, we can have the classical shape we see in literature.</p>
+<div class="vf-image-single">
+<img src="../images/HS5.png" alt="HS5.png" />
+</div>
+<h2>1.4 Other Points Regarding Implementation of HS</h2>
+<p>Some additional random points:</p>
+<p>- Strains affect each other due to nature of equations.</p>
+<p>    - Volumetric strains (compression) affect shear strains.</p>
+<p>    - Shear strains affect volumetric strains.</p>
+<p>    - Therefore, they pull others to themselves, i.e. combined loading.</p>
+<p>- Preconsolidation pressure is not related to vertical loading only as in soil mechanics. Shear loads also affect the preconsolidation pressure.</p><p><strong>Normally Consolidated Soil</strong> is the soil where preconsolidation pressure is equal to soil’s current loading. So, that soil is <strong>located on the yield surface.</strong> As Brinkgreve (2005) says:</p>
+<p>> Starting from a normally consolidated stress state, any stress path involving ‘loading’ leads to plastic straining, but this should not be confused with failure.</p><p><h1>2 Examples</h1></p>
+<p>Let’s see some examples. Using the Plaxis’ option to see plastic points, we can observe these hardening behaviours.</p>
+<div class="vf-image-single">
+<img src="../images/HS6.png" alt="HS6.png" />
+</div>
+<p>Another example is shown below. We can see that due to load beneath the retaining piles and (maybe) due to little overturning, there is combined and compression hardening below the piles.</p>
+<div class="vf-image-single">
+<img src="../images/HS7.png" alt="HS7.png" />
+</div>
+<h1>3 Parameters</h1>
+<h2>3.1 Stiffness Modulus</h2>
+<p>Stiffness modulus of soil in HS depends on:</p>
+<p>- Reference stiffness modulus</p>
+<p>- $\sigma_3$: Lateral pressure on the soil</p>
+<p>- $p_{ref}$: Reference pressure</p>
+<p>- $m$: Power for stress-level dependency of stiffness</p>
+<p>- Strength parameters</p>
+<div class="vf-image-single">
+<img src="../images/HS8.png" alt="HS8.png" />
+</div>
+</p><p>What do we see here? For a reference pressure of 100 kPa (we will talk about later), we see that stiffness modulus is directly proportional to lateral pressure (or pressure on soil, in general). If lateral pressure on soil is <strong>different than</strong> $p_{ref}$, E <strong>will not be equal to</strong> $E^{ref}$.
+<p>Dependency of the E on the Eref, pref and other parameters are visualized in the following open-source Streamlit page. Users can play with the parameters to see the changes in the stiffness with depth.</p>
+<p>https://bdem-hs.streamlit.app/</p>
+<h3>3.1.1 E50</h3>
+<p><strong>Reference modulus</strong> means that stiffness modulus calculated at all-around pressure equal to pref. (Update: I find the need to stress this over and over again. The reference pressure is nothing to do with the effective stresses that soil layer experience. It is about the laboratory tests to determine the Eref. If you don’t have the laboratory tests and derive the E values from the correlations with site investigations and other parameters, it depends on the all around pressures during the tests that author of that correlation used.)</p>
+<p>Plaxis uses 50% secant modulus. So, our procedure will be:</p>
+<p>- Perform triaxial test up to failure load qu at reference pressure (all-around pressure) pref.</p>
+<p>- Find the strain at qu/2 and calculate the $E_{50}^{ref}$.</p><p>$$</p>
+<p>E_{50}^{ref}=\frac{0.5q_u}{\varepsilon_{1,50}}</p>
+<p>$$</p>
+<p>An example calculation is given below. Calculated E50 = 30.8 MPa is valid for pref = 100 kPa. So, when we define the material model in Plaxis, the default pref = 100 kPa value is correct for this case.</p>
+<div class="vf-image-single">
+<img src="../images/HS9.png" alt="HS9.png" />
+</div>
+<p>Let’s see another case. In this case, since y axis is given in a different configuration, some adjustments are needed. We can see from the calculations that E=200 MPa but it is valid for pref = 795 kPa. So, we have to change the reference pressure to 795 kPa before defining the stiffness modulus.</p>
+<div class="vf-image-single">
+<img src="../images/HS10.png" alt="HS10.png" />
+</div>
+<p>Best way to calculate input values for different stiffness and all-around pressure values, if you have the enough number of data, is to plot the data on $E_{50}/p_{ref}$ & $\sigma_3/p_{ref}$. An example calculation is shown below. In this case, if pref = 100 kPa, E is equal to 71 MPa and m = 0.66.</p>
+<div class="vf-image-single">
+<img src="../images/HS11.png" alt="HS11.png" />
+</div>
+<p>We know that <strong>we don’t always have good quality laboratory tests</strong> on hand. So, we usually use correlations with different site investigation methods. It is not very often to see reference pressure for stiffness correlations in literature. In that case, reference pressure of 100 kPa is usually selected since a good percentage of triaxial tests can be assumed to be performed on 100 kPa all-around pressure. However, there is no justification for this assumption.</p>
+<h1>4 Eoed</h1>
+<p>There is also a simple method to calculate Eoed from oedometer tests although some can find this method unreliable. We can use elastic equations or simply $E_{oed}=1/m_v$.</p>
+<p>How do we select the mv value to be used in the equation? In soil mechanics, we select the mv value based on the pressure we expect since mv depends on the pressure level. What about in Plaxis? For example, if we expect 300 kPa embankment load, should we select the mv from 300 kPa range? No! We have to select it based on the pref value we use. If we use pref = 100 kPa, we have to select the mv at 100 kPa range.</p>
+<p>Using the same approach described before, we can calculate the Eoed as below:</p>
+<p>- Take the 1/mv values and pressures from the oedometer tests.</p>
+<p>- Select a pref.</p>
+<p>- Divide Eoed and pressured to pref.</p>
+<p>- Draw the Eoed/pref and pressure/pref on logarithmic axes.</p>
+<p>- Draw a trendline in Excel using power function.</p><p>An example of this procedure is shown below:</p>
+<div class="vf-image-single">
+<img src="../images/HS13.png" alt="HS13.png" />
+</div>
+<h3>4.1.1 Eur</h3>
+<p>Eur is usually correlated to E50. Usual range is 2-6. In my opinion, we can use cr and cc ratio obtained from oedometer test to determine this ratio. Kulhawy & Mayne (1990) correlations on cc and cr shows that cr/cc=5.27. Duncan et. al. (1980) recommends a range between 1.2 and 3.0.</p>
+<h2>4.2 m, Power for Stress Level</h2>
+<p>Power for stress level, m, is recommended by Plaxis as 0.5 for sands and 1.0 for clays. There are also correlations given by Hicher (1996) and Viggiani and Atkinson (1995) quoted in Z-Soil’s Hardening Soil manual.</p>
+<p><strong>Hicher (1996) Correlation:</strong></p>
+<p>$$</p>
+<p>m=1.13-\frac{49}{LL+78}</p>
+<p>$$</p>
+<p><strong>Viggiani and Atkinson (1995) Correlation:</strong></p>
+<p>$$</p>
+<p>m=1-\frac{10.83}{PI+18.7}</p>
+<p>$$</p>
+<div class="vf-image-single">
+<img src="../images/HS12.png" alt="HS12.png" />
+</div>
+<p>Also, Brinkgreve et. al. (2010) recommends following equation for granular soils. (See the original paper for other correlations regarding the HS parameters.)</p>
+<p>$$</p>
+<p>m = 0.7 − RD/320</p>
+<p>$$</p>
+<h2>4.3 Reloading Poisson’s Ratio, v_ur</h2>
+<p>Unloading/reloading poisson’s ratio is denoted as <em>v<strong>u</strong>r</em>. It should be noticed that <em>v<strong>u</strong>r</em> is <strong>not</strong> classical poisson’s ratio! In the absence of laboratory data, it should be left as the default value 0.2.</p>
+<h2>4.4 OCR / POP</h2>
+<p>Overconsolidation Ratio (OCR) and Pre-Overburden Pressure (POP) are used to define the initial state of the material. In case of high OCR values, K can be too high since K depends on OCR. This may cause plastic points in initial stage.</p>
+<h2>4.5 Rf</h2>
+<p>Failure ratio, Rf, is defined by Duncan & Chang (1970) to come up with a value at failure pressure due to asymptotic behaviour. It is recommended to keep the value between 0.75 and 1.00. In the absence of data, default value recommended by Plaxis (0.9) can be used.</p>
+  </div>
+</div>
+
+<footer class="sp-footer">
+  BDEM &mdash; Built with VaultFolio
+</footer>
+
+</body>
+</html>
