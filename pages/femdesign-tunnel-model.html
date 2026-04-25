@@ -134,6 +134,22 @@ body.vf-apple {
   position: absolute; top: 16px; left: 40px; color: #0066cc; font-size: 14px; font-weight: 400; z-index: 200; display: flex; align-items: center;
 }
 .vf-back-ap:hover { text-decoration: underline; }
+.callout { border-radius: 6px; padding: 12px 16px; margin: 16px 0; border-left: 4px solid; }
+.callout-title { display: flex; align-items: center; gap: 8px; font-weight: 600; margin-bottom: 8px; font-size: 14px; }
+.callout-icon { font-size: 16px; line-height: 1; }
+.callout-content { font-size: 14px; line-height: 1.6; }
+.callout-note     { background: #f0f4ff; border-color: #3b82f6; color: #1e3a8a; }
+.callout-info     { background: #f0f9ff; border-color: #0ea5e9; color: #0c4a6e; }
+.callout-tip      { background: #f0fdf4; border-color: #22c55e; color: #14532d; }
+.callout-warning  { background: #fffbeb; border-color: #f59e0b; color: #78350f; }
+.callout-danger   { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-question { background: #faf5ff; border-color: #a855f7; color: #4a1d96; }
+.callout-success  { background: #f0fdf4; border-color: #22c55e; color: #14532d; }
+.callout-failure  { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-bug      { background: #fff1f2; border-color: #ef4444; color: #7f1d1d; }
+.callout-example  { background: #f8fafc; border-color: #64748b; color: #1e293b; }
+.callout-quote    { background: #f8fafc; border-color: #64748b; color: #1e293b; }
+.callout-abstract { background: #f0f9ff; border-color: #0ea5e9; color: #0c4a6e; }
 </style>
 </head>
 <body class="vf-apple">
@@ -177,9 +193,7 @@ body.vf-apple {
 <img src="../images/FemDesign%20Tunnel%20Model-4.png" alt="FemDesign Tunnel Model-4.png" />
 </div>
 <p>Assign the point connection to the connection of the segments.</p>
-<p>> [!question]</p>
-<p>> While defining the point connections, why do we have directions that we click? What should we do here?</p>
-<p>> Also, these lines are act as normal lines, so, when selecting the tunnel, by mistake, user assign springs to these also.</p><p><div class="vf-image-single">
+<p><div class="callout callout-question"><div class="callout-title"><span class="callout-icon">❓</span><span class="callout-title-text">Question</span></div><div class="callout-content">While defining the point connections, why do we have directions that we click? What should we do here?<br>Also, these lines are act as normal lines, so, when selecting the tunnel, by mistake, user assign springs to these also.</div></div></p><p><div class="vf-image-single">
 <img src="../images/FemDesign%20Tunnel%20Model-3.gif" alt="FemDesign Tunnel Model-3.gif" />
 </div>
 </p>
@@ -189,9 +203,7 @@ body.vf-apple {
 <img src="../images/FemDesign%20Tunnel%20Model-5.png" alt="FemDesign Tunnel Model-5.png" />
 </div>
 <p>However, the directions of the springs are important!</p>
-<p>> [!question] Spring Directions</p>
-<p>> The springs should be aligned same way. How?</p>
-<p>> There is ground outside, so it's compression only. We need to also make sure that we have compression only defined correctly.</p><p><div class="vf-image-single">
+<p><div class="callout callout-question"><div class="callout-title"><span class="callout-icon">❓</span><span class="callout-title-text">Spring Directions</span></div><div class="callout-content">The springs should be aligned same way. How?<br>There is ground outside, so it's compression only. We need to also make sure that we have compression only defined correctly.</div></div></p><p><div class="vf-image-single">
 <img src="../images/FemDesign%20Tunnel%20Model-6.png" alt="FemDesign Tunnel Model-6.png" />
 </div>
 </p>
