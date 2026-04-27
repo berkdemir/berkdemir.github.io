@@ -41,11 +41,22 @@ img { max-width: 100%; height: auto; display: block; }
 .sp-card {
   display: block;
   border: 1px solid #eee;
-  padding: 24px;
+  padding: 0;
   color: #1a1a1a;
+  overflow: hidden;
 }
+.sp-card-cover {
+  width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block;
+  border-bottom: 1px solid #eee;
+}
+.sp-card-cover-placeholder {
+  width: 100%; height: 200px;
+  background: linear-gradient(135deg, #EDE9FE, #C4B5FD);
+  border-bottom: 1px solid #eee;
+}
+.sp-card-body { padding: 24px; min-height: 120px; }
 .sp-card-title { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
-.sp-card-desc { font-size: 14px; color: #555; margin-bottom: 12px; }
+.sp-card-desc { font-size: 14px; color: #555; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .sp-card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .sp-tag {
   font-size: 12px; color: #777;
@@ -100,6 +111,30 @@ img { max-width: 100%; height: auto; display: block; }
 .sp-prose hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
 .sp-prose img { width: 100%; margin: 1.5rem 0; }
 
+/* View toggle */
+.sp-section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.sp-section-header .sp-section-heading { margin-bottom: 0; }
+.view-toggle-container { display: flex; gap: 6px; align-items: center; }
+.view-toggle-btn { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 4px; cursor: pointer; background: transparent; border: 1px solid #ddd; transition: all 0.15s ease; }
+.view-toggle-btn svg { fill: #aaa; display: block; }
+.view-toggle-btn.active { background: #1a1a1a; border-color: #1a1a1a; }
+.view-toggle-btn.active svg { fill: #fff; }
+
+/* Grid view */
+#projects-container.view-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+#projects-container.view-grid .sp-card { display: flex; flex-direction: column; }
+#projects-container.view-grid .sp-card-cover { aspect-ratio: 16/9; width: 100%; }
+#projects-container.view-grid .sp-card-cover-placeholder { height: 160px; width: 100%; }
+
+/* List view */
+#projects-container.view-list { display: flex; flex-direction: column; gap: 0; }
+#projects-container.view-list .sp-card { display: flex; flex-direction: row; align-items: stretch; border-bottom: none; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #eee; padding: 0; }
+#projects-container.view-list .sp-card:first-child { border-top: 1px solid #eee; }
+#projects-container.view-list .sp-card-cover { width: 140px; min-width: 140px; height: 100px; aspect-ratio: unset; flex-shrink: 0; border-bottom: none; border-right: 1px solid #eee; }
+#projects-container.view-list .sp-card-cover-placeholder { width: 140px; min-width: 140px; height: 100px; flex-shrink: 0; border-bottom: none; border-right: 1px solid #eee; }
+#projects-container.view-list .sp-card-body { padding: 16px 20px; display: flex; flex-direction: column; justify-content: center; }
+#projects-container.view-list .sp-card-desc { -webkit-line-clamp: 2; }
+
 @media (max-width: 640px) {
   .sp-nav { padding: 16px 20px; }
   .sp-hero { padding: 40px 20px 32px; }
@@ -108,6 +143,11 @@ img { max-width: 100%; height: auto; display: block; }
   .sp-back { padding: 16px 20px 0; }
   .sp-page-header { padding: 20px 20px 16px; }
   .sp-page-content { padding: 20px 20px 60px; }
+  .view-toggle-container { display: none; }
+  #projects-container.view-grid { grid-template-columns: 1fr; }
+  #projects-container.view-list .sp-card { flex-direction: column; }
+  #projects-container.view-list .sp-card-cover,
+  #projects-container.view-list .sp-card-cover-placeholder { width: 100%; min-width: unset; height: 160px; border-right: none; border-bottom: 1px solid #eee; }
 }
 .callout { border-radius: 6px; padding: 12px 16px; margin: 16px 0; border-left: 4px solid; }
 .callout-title { display: flex; align-items: center; gap: 8px; font-weight: 600; margin-bottom: 8px; font-size: 14px; }
@@ -138,26 +178,44 @@ img { max-width: 100%; height: auto; display: block; }
 </section>
 
 <section class="sp-section">
-  <div class="sp-section-heading">Work</div>
-  <div class="sp-cards"><a href="pages/hardening-soil-model-in-properties.html" class="sp-card">
-  <div class="sp-card-title">Hardening Soil Model in Properties</div>
-  
-  <div class="sp-card-tags"><span class="sp-tag">plaxis</span><span class="sp-tag">geotechnical</span></div>
+  <div class="sp-section-header">
+    <div class="sp-section-heading">Work</div>
+    <div class="view-toggle-container">
+  <button id="btn-grid" class="view-toggle-btn active" data-view="grid" title="Grid view" aria-label="Grid view"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="8" height="8" rx="1"/><rect x="10" y="0" width="8" height="8" rx="1"/><rect x="0" y="10" width="8" height="8" rx="1"/><rect x="10" y="10" width="8" height="8" rx="1"/></svg></button>
+  <button id="btn-list" class="view-toggle-btn" data-view="list" title="List view" aria-label="List view"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="18" height="3" rx="1"/><rect x="0" y="7" width="18" height="3" rx="1"/><rect x="0" y="14" width="18" height="3" rx="1"/></svg></button>
+</div>
+  </div>
+  <div id="projects-container" class="sp-cards view-grid"><a href="pages/sss.html" class="sp-card" data-tags="">
+  <div class="sp-card-cover-placeholder"></div>
+  <div class="sp-card-body">
+    <div class="sp-card-title">sss</div>
+    
+    
+  </div>
 </a>
-<a href="pages/sss.html" class="sp-card">
-  <div class="sp-card-title">sss</div>
-  
-  
+<a href="pages/femdesign-tunnel-model.html" class="sp-card" data-tags="">
+  <div class="sp-card-cover-placeholder"></div>
+  <div class="sp-card-body">
+    <div class="sp-card-title">FemDesign Tunnel Model</div>
+    <div class="sp-card-desc">1 Modelling a Tunnel in FemDesign Add a circle: Add a line Rotate the line as you see fit. Select all and split. Alternatively, polar array can be…</div>
+    
+  </div>
 </a>
-<a href="pages/femdesign-tunnel-model.html" class="sp-card">
-  <div class="sp-card-title">FemDesign Tunnel Model</div>
-  
-  
+<a href="pages/firstsss-post22.html" class="sp-card" data-tags="">
+  <div class="sp-card-cover-placeholder"></div>
+  <div class="sp-card-body">
+    <div class="sp-card-title">Firstsss Post22</div>
+    
+    
+  </div>
 </a>
-<a href="pages/firstsss-post22.html" class="sp-card">
-  <div class="sp-card-title">Firstsss Post22</div>
-  
-  
+<a href="pages/hardening-soil-model-in-properties.html" class="sp-card" data-tags="plaxis geotechnical">
+  <div class="sp-card-cover-placeholder"></div>
+  <div class="sp-card-body">
+    <div class="sp-card-title">Hardening Soil Model in Properties</div>
+    <div class="sp-card-desc">During 2019 Plaxis User Meeting in İstanbul, I have presented a detailed discussion on Hardening Soil Model. The presentation was really welcomed b…</div>
+    <div class="sp-card-tags"><span class="sp-tag">plaxis</span><span class="sp-tag">geotechnical</span></div>
+  </div>
 </a></div>
 </section>
 
@@ -165,5 +223,21 @@ img { max-width: 100%; height: auto; display: block; }
   BDEM &mdash; Built with VaultFolio
 </footer>
 
+<script>
+(function(){
+  var KEY='vaultfolio-view-preference';
+  var c=document.getElementById('projects-container');
+  var bg=document.getElementById('btn-grid');
+  var bl=document.getElementById('btn-list');
+  if(!c||!bg||!bl)return;
+  function apply(v){
+    if(v==='list'){c.classList.remove('view-grid');c.classList.add('view-list');bg.classList.remove('active');bl.classList.add('active');}
+    else{c.classList.remove('view-list');c.classList.add('view-grid');bg.classList.add('active');bl.classList.remove('active');}
+  }
+  apply(localStorage.getItem(KEY)==='list'?'list':'grid');
+  bg.addEventListener('click',function(){apply('grid');localStorage.setItem(KEY,'grid');});
+  bl.addEventListener('click',function(){apply('list');localStorage.setItem(KEY,'list');});
+})();
+</script>
 </body>
 </html>
