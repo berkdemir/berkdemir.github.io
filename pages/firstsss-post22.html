@@ -54,8 +54,9 @@ img { max-width: 100%; height: auto; display: block; }
   background: linear-gradient(135deg, #EDE9FE, #C4B5FD);
   border-bottom: 1px solid #eee;
 }
-.sp-card-body { padding: 24px; min-height: 120px; }
-.sp-card-title { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+.sp-card-body { padding: 24px; min-height: 120px; display: flex; flex-direction: column; gap: 8px; }
+.sp-card-title { font-size: 18px; font-weight: 600; }
+.sp-card-link { font-size: 13px; color: #555; margin-top: auto; display: inline-block; }
 .sp-card-desc { font-size: 14px; color: #555; margin-bottom: 12px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .sp-card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .sp-tag {
@@ -85,6 +86,7 @@ img { max-width: 100%; height: auto; display: block; }
 .sp-page-header h1 { font-size: 28px; font-weight: 700; margin-bottom: 12px; }
 .sp-page-date { font-size: 13px; color: #999; margin-bottom: 12px; }
 .sp-page-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 0; }
+.vf-project-description { font-size: 16px; color: #555; line-height: 1.7; margin: 12px 0 20px; }
 .sp-page-tag {
   font-size: 12px; color: #777;
   padding: 2px 8px;
@@ -165,6 +167,45 @@ img { max-width: 100%; height: auto; display: block; }
 .callout-example  { background: #f8fafc; border-color: #64748b; color: #1e293b; }
 .callout-quote    { background: #f8fafc; border-color: #64748b; color: #1e293b; }
 .callout-abstract { background: #f0f9ff; border-color: #0ea5e9; color: #0c4a6e; }
+
+/* ── Public Properties (Simple) ── */
+.vf-properties {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px; padding: 20px 40px;
+  border-top: 1px solid #eee; border-bottom: 1px solid #eee;
+  max-width: 800px; margin: 0 auto 28px;
+}
+.vf-property-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em;
+  color: #999; display: block; margin-bottom: 4px;
+}
+.vf-property-value { font-size: 14px; color: #1a1a1a; }
+.vf-property-link { font-size: 14px; color: #0A0A0A; text-decoration: underline; }
+
+/* Nav links */
+.sp-nav { display: flex; justify-content: space-between; align-items: center; }
+.sp-nav-links { display: flex; gap: 20px; align-items: center; }
+.sp-nav-link { font-size: 14px; color: #555; }
+.sp-nav-link:hover { color: #1a1a1a; }
+
+/* Tag filter */
+.sp-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.sp-filter-btn { font-size: 12px; padding: 4px 12px; border: 1px solid #ddd; background: none; cursor: pointer; color: #555; font-family: inherit; }
+.sp-filter-btn.active { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
+
+/* About */
+.sp-about { max-width: 800px; margin: 0 auto; padding: 60px 40px; border-top: 1px solid #eee; }
+.sp-about-text { font-size: 15px; line-height: 1.8; color: #444; }
+
+/* Quote */
+.sp-quote { max-width: 800px; margin: 0 auto; padding: 48px 40px; border-top: 1px solid #eee; }
+.sp-quote-text { font-size: 18px; font-style: italic; color: #777; line-height: 1.7; }
+
+@media (max-width: 640px) {
+  .sp-nav-links { gap: 12px; }
+  .sp-about { padding: 40px 20px; }
+  .sp-quote { padding: 32px 20px; }
+}
 /* ── Project Gallery ── */
 .vf-gallery-section{margin:2.5rem 0;}
 .vf-gallery-header{display:flex;justify-content:flex-end;align-items:center;margin-bottom:16px;}
@@ -179,10 +220,9 @@ img { max-width: 100%; height: auto; display: block; }
 .vf-gallery-grid .vf-gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.3s ease;}
 .vf-gallery-grid .vf-gallery-item:hover img{transform:scale(1.03);}
 .vf-gallery-grid .vf-img-caption{display:none;}
-.vf-gallery-list{display:flex;flex-direction:column;gap:16px;}
-.vf-gallery-list .vf-gallery-item{display:flex;flex-direction:column;gap:8px;padding-bottom:16px;border-bottom:1px solid #eee;aspect-ratio:unset;border-radius:0;overflow:visible;}
-.vf-gallery-list .vf-gallery-item img{width:100%;max-height:500px;object-fit:contain;border-radius:8px;background:#f9f9f9;}
-.vf-gallery-list .vf-img-caption{font-size:12px;color:#999;text-align:center;font-style:italic;display:block;}
+.vf-gallery-list{display:flex;flex-direction:column;gap:12px;}
+.vf-gallery-list .vf-gallery-item{aspect-ratio:unset;border-radius:0;overflow:visible;}
+.vf-gallery-list .vf-gallery-item img{width:100%;max-height:500px;object-fit:contain;border-radius:8px;background:#f9f9f9;display:block;}
 .vf-lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;z-index:9999;cursor:zoom-out;}
 .vf-lightbox.hidden{display:none;}
 #vf-lb-img{max-width:90vw;max-height:90vh;object-fit:contain;border-radius:4px;cursor:default;}
@@ -209,7 +249,10 @@ img { max-width: 100%; height: auto; display: block; }
   <h1>Firstsss Post22</h1>
   
   
+  
 </div>
+
+
 
 <div class="sp-page-content">
   <div class="sp-prose"><div class="vf-image-single">
