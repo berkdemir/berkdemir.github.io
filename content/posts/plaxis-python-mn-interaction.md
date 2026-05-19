@@ -2,6 +2,7 @@
 title: "Plaxis-Python  MN Interaction"
 date: 2021-05-02T00:00:00+00:00
 draft: false
+tags: ["Finite Element"]
 ---
 
 Recently, I have prepared a Moment-Axial Force Interaction Diagram that fetches the structural forces from Plaxis automatically. Using the amazing Streamlit module, I have created a simple GUI for MN diagram and published its video in Linkedin. The response was amazing and I got a lot of questions regarding the procedure, Python-Plaxis connection and Streamlit.

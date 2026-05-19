@@ -2,6 +2,7 @@
 title: "Hoek Brown Model"
 date: 2022-12-16T00:00:00+00:00
 draft: false
+tags: ["Geotechnics"]
 ---
 
 I have just published a new tool and this post will detail the methods that are being used in this tool. What it does: Performs Hoek-Brown analyses for rock and recommends additional parameters based on the inputs.

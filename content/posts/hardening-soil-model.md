@@ -2,6 +2,7 @@
 title: "Hardening Soil Model"
 date: 2022-12-16T00:00:00+00:00
 draft: false
+tags: ["Geotechnics"]
 ---
 
 During 2019 Plaxis User Meeting in İstanbul, I have presented a detailed discussion on Hardening Soil Model. The presentation was really welcomed by the audience and in fact, later on, I have been invited to two other companies for the same presentation. This short post will be a summary of that presentation.

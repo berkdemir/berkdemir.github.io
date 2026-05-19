@@ -33,10 +33,34 @@ theme = 'paper'
   tag = 'tags'
 
 [[menu.main]]
-  identifier = 'about'
-  name = 'About'
-  url = '/about/'
+  identifier = 'cv'
+  name = 'CV'
+  url = '/cv/'
   weight = 10
+
+[[menu.main]]
+  identifier = 'finite-element'
+  name = 'Finite Element'
+  url = '/tags/finite-element/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'tunnels'
+  name = 'Tunnels & Structures'
+  url = '/tags/tunnels-structures/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'geotechnics'
+  name = 'Geotechnics'
+  url = '/tags/geotechnics/'
+  weight = 40
+
+[[menu.main]]
+  identifier = 'showcases'
+  name = 'Showcases'
+  url = '/tags/showcases/'
+  weight = 50
 
 [module]
   [[module.mounts]]

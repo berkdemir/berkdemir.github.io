@@ -2,6 +2,7 @@
 title: "MR Data from Tatone et. al. (2022)"
 date: 2022-02-04T00:00:00+00:00
 draft: false
+tags: ["Geotechnics"]
 ---
 
 A new paper from Tatone et. al. is published [here](https://link.springer.com/article/10.1007/s00603-021-02759-7).

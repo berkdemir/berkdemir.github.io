@@ -2,6 +2,7 @@
 title: "Hoek Brown Model in Finite Element Analysis"
 date: 2022-10-13T00:00:00+00:00
 draft: false
+tags: ["Finite Element"]
 ---
 
 # Update on the Post (13/10/2022)

@@ -2,6 +2,7 @@
 title: "Plaxis and Steel Fibre Reinforced Concrete"
 date: 2021-07-06T00:00:00+00:00
 draft: false
+tags: ["Showcases"]
 ---
 
 Crack propogation during three point bending beam test using Concrete model in Plaxis. In this case, we have tried to capture the behavior of steel fibre reinforced concrete and results are really promising.

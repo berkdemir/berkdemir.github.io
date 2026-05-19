@@ -2,6 +2,7 @@
 title: "Plaxis Output Program"
 date: 2023-08-06T00:00:00+00:00
 draft: false
+tags: ["Finite Element"]
 ---
 
 The beauty of **Streamlit **with **Plaxis **is the simplicity of the UI and how minimalistic it looks. Also, the 2x2 output figure for a retaining wall is the most compact output you can imagine. Everything you need to show for all these stages is inside one figure. Moreover, this tool can deliver a really detailed excel sheet to share with other designers.

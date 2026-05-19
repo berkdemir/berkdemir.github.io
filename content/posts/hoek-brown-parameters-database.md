@@ -2,6 +2,7 @@
 title: "Hoek-Brown Parameters Database"
 date: 2021-03-12T00:00:00+00:00
 draft: false
+tags: ["Geotechnics"]
 ---
 
 If you will use Hoek-Brown in your Python code, you may want to recommend some constants based on rock type. There is a widely used table in literature by Hoek and others that we use to select Modulus Ratio and material constant (mi) in the absence of high quality laboratory tests.

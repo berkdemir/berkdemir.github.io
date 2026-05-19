@@ -2,6 +2,7 @@
 title: "Rectangular Parametric Tunnel in FEM-Design"
 date: 2023-01-21T00:00:00+00:00
 draft: false
+tags: ["Showcases"]
 ---
 
 Another couple nights to experiment on the parametric design with FEM-Design and Grasshopper. No problem with geometry and load definitions except couple of small bumps. The load combinations require more than couple nights, so I just move to the GUI if I need. 

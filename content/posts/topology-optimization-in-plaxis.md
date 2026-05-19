@@ -2,6 +2,7 @@
 title: "Topology Optimization in Plaxis"
 date: 2021-12-23T00:00:00+00:00
 draft: false
+tags: ["Showcases"]
 ---
 
 Topology optimization is very similar to sculpting. You give a bulk volume to the algorithm and some constraints, it gives you the best shape that it can find.
