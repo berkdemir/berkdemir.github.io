@@ -27,6 +27,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Copy assets to static
+        run: |
+          mkdir -p static/posts/_assets static/cv/_assets
+          cp -r content/posts/_assets/. static/posts/_assets/ 2>/dev/null || true
+          cp -r content/cv/_assets/. static/cv/_assets/ 2>/dev/null || true
+
       - run: hugo --minify
 
       - uses: actions/upload-pages-artifact@v3

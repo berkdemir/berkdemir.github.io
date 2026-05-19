@@ -70,16 +70,3 @@ enableRobotsTXT = true
   url = '/cv/'
   weight = 40
 
-[module]
-  [[module.mounts]]
-    source = "content"
-    target = "content"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
-    source = "content/posts/_assets"
-    target = "static/posts/_assets"
-  [[module.mounts]]
-    source = "content/cv/_assets"
-    target = "static/cv/_assets"
