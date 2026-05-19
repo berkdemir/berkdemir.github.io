@@ -83,4 +83,4 @@ mainSections = ['posts']
   identifier = 'cv'
   name = 'CV'
   url = '/cv/'
-  weight = 70
+  weight = 5
