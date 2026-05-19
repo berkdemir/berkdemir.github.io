@@ -8,7 +8,7 @@ I have just published a new tool and this post will detail the methods that are 
 
 [https://berkdemir-bd-hoek-brown-bd-hoek-brown-vsh6i6.streamlit.app/](https://berkdemir-bd-hoek-brown-bd-hoek-brown-vsh6i6.streamlit.app/)
 
-![](Untitled-1.png)
+![](_assets/Untitled-1.png)
 # Theory
 ## Introduction
 The Hoek-Brown material model is the most widely used rock mechanic model due to its simplicity and ease-of-use in continuum based numerical models such as finite element or finite difference models. Hoek-Brown model is published in Hoek & Brown (1980) and after that, it is constantly updated. Latest update was published in 2019.
@@ -19,19 +19,19 @@ Uniaxial compressive strength is the compressive strength of intact rock. In fie
 ### Geological Strength Index (GSI)
 GSI is a number between 0-100 that defines the weathering or joint degree of a rock mass. This value is usually determined on the field based on the tunnel or slope faces, boreholes or outcrops. It is possible to correlate GSI to RMR (Rock Mass Rating) value using variety of correlations available in the literature. The most commonly used correlation is GSI=RMR-5. However, it should be noted that RMR’ should be recalculated by neglecting the effect of groundwater and tunnel orientation.
 GSI can also be estimated using the graph below. It is usually advised to keep the GSI above 25 for rock mass conditions.
-![](GSI.png)
+![](_assets/GSI.png)
 ### Material Constant for Intact Rock
 Material constant (mi) is a fitting parameter which can be determined using the curve fitting technique on high quality triaxial tests or can be estimated using the ranges given in the table or figure below.
-![](mi.png)
-![](Untitled-2.png)
+![](_assets/mi.png)
+![](_assets/Untitled-2.png)
 ### Disturbance Factor
 Disturbance Factor is used to reflect the disturbance due to blast damage or stress relaxation. It is very unlikely to reach very high disturbance factors or very thick disturbed zones with the current technology. Hoek and Brown (2019) emphases that disturbance factor should not be applied to the whole rock mass. It should only be applied to a limited thickness. Literature shows that the usual thicknesses for disturbed zones are around 0.5-1.0 m. However, it is very usual to apply 3 m disturbed zone in drill and blast tunnelling.
 > A common error is to assume that the disturbance factor D should be applied to the entire rock mass in which the excavation is conducted. This will result in an extremely conservative and inappropriate design.
 
 ### Modulus Ratio (MR)
 Modulus ratio is the ratio of elastic modulus of intact rock to compressive strength of intact rock. In case of absence of any laboratory data, following ranges can be used.
-![](Untitled1.png)
-![Carter and Marinos (2020)](Untitled2.png)
+![](_assets/Untitled1.png)
+![Carter and Marinos (2020)](_assets/Untitled2.png)
 ## General Equations
 General equation for maximum and minimum effective principal stress at failure is calculated using the following equation:
 $$
@@ -80,14 +80,14 @@ E_{rm} = \frac{E_i}{100} \cdot e^{GSI/21.7}
 $$
 ## Equivalent Mohr-Coulomb Parameters
 Equivalent Mohr-Coulomb (MC) parameters can be estimated using the equations below. MC fit for HB parameters is just an approximation for the nonlinear HB curve on the given minor stress. Therefore, the MC parameters should be estimated using the expected pressures. In any case, Hoek and Brown recommends using HB parameters when possible.
-![](Untitled3.png)
+![](_assets/Untitled3.png)
 Maximum lateral pressure, sigma_3 can be estimated using the approximate equations given by Hoek. Note that sigma_cm is rock mass strength and can be calcualated using the equation below:
-![](Untitled4.png)
+![](_assets/Untitled4.png)
 ### Lateral Pressure for Tunnels
-![](Untitled5.png)
+![](_assets/Untitled5.png)
 ### Lateral Pressure for Slopes
 H is the height of the slope.
-![](Untitled6.png)
+![](_assets/Untitled6.png)
 ### General
 For general cases, it is recommended to keep the lateral pressure around 25% of the UCS.
 ## Additional Parameters
@@ -111,14 +111,14 @@ $$
 V_{s} = 0.7858 - 1.2344 \cdot V_{p} + 0.7949 \cdot V_{p}^{2} - 0.1238 \cdot V_{p}^{3} + 0.0064 \cdot V_{p}^{4}Vs=0.7858−1.2344⋅Vp+0.7949⋅Vp2−0.1238⋅Vp3+0.0064⋅Vp4
 $$
 Vs and Vp in this equation is in km/sec.
-![](Untitled7.png)
+![](_assets/Untitled7.png)
 ### Poisson’s Ratio by Brocher 2005
 $$
 v = 0.8835-0.315V_p + 0.0491V_p^2-0.00024V_p^3
 $$
-![](Untitled8.png)
+![](_assets/Untitled8.png)
 ### Shear Wave Velocity by Cha 2006
-![](Untitled9.png)
+![](_assets/Untitled9.png)
 # References
 1. Brown, E. T., & Hoek, E. (1980). Underground excavations in rock. CRC Press.
 2. [Hoek, E., & Brown, E. T. (2019). The Hoek–Brown failure criterion and GSI–2018 edition. Journal of Rock Mechanics and Geotechnical Engineering, 11(3), 445-463.](https://doi.org/10.1016/j.jrmge.2018.08.001)

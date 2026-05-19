@@ -5,4 +5,4 @@ draft: false
 ---
 
 [[Notion/Quick Note/BDEM (1)/Blog Posts/_assets/Demir et. al. 2024 Nordhavnstunnel.pdf]]
-[Demir_et._al._2024_Nordhavnstunnel.pdf](Demir_et._al._2024_Nordhavnstunnel.pdf)
+[Demir_et._al._2024_Nordhavnstunnel.pdf](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)

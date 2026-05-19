@@ -6,7 +6,7 @@ draft: false
 
 Recently, I have prepared a Moment-Axial Force Interaction Diagram that fetches the structural forces from Plaxis automatically. Using the amazing Streamlit module, I have created a simple GUI for MN diagram and published its video in Linkedin. The response was amazing and I got a lot of questions regarding the procedure, Python-Plaxis connection and Streamlit.
 You can see the video here.
-<video controls style="max-width:100%"><source src="1614513616521.mp4" type="video/mp4"></video>
+<video controls style="max-width:100%"><source src="_assets/1614513616521.mp4" type="video/mp4"></video>
 I will not publish the code since it will require me to check every aspect of the code, do extensive tests and prepare a documentation. Instead, I want to give some insights on the methods that I have used in the code. I had to try and fail too many times and contacted Plaxis support several times. Since this is a gray area still with lot to develop, it is not easy to find discussions on the internet, so even a brain-storming with Plaxis support is really valuable. (Thanks to Stefanos)
 So, to create a record of these functions, I will share small gists (a little code snippets sharing tool by Github.)
 # How to Get the Loads From Plaxis?
