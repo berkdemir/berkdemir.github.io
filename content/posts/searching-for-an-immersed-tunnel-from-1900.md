@@ -1,8 +1,8 @@
----
+﻿---
 title: "Searching for an Immersed Tunnel from 1900"
 date: 2023-09-07T00:00:00+00:00
 draft: false
-tags: ["Tunnels & Structures"]
+tags: ["Tunnels and Structures"]
 ---
 
 It started with ITA (International Tunnelling Association) WG 11’s catalogue of immersed tunnels. The third one (and also the fourth) in the list is from Copenhagen. 

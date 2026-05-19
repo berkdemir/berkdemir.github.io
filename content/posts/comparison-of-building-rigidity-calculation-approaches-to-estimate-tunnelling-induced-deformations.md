@@ -1,8 +1,8 @@
----
+﻿---
 title: "Comparison of Building Rigidity Calculation Approaches to Estimate Tunnelling-induced Deformations"
 date: 2020-05-24T00:00:00+00:00
 draft: false
-tags: ["Tunnels & Structures"]
+tags: ["Tunnels and Structures"]
 ---
 
 Estimating damage level on the existing buildings due to tunnelling is a tricky business which depend on many factors and cannot be over-simplified. But one of the simplifications that has been used commonly is *equivalent beam method.*

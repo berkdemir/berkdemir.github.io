@@ -14,6 +14,7 @@ enableRobotsTXT = true
 
   defaultTheme = 'light'
   disableThemeToggle = true
+  mainSections = ['posts']
 
   ShowReadingTime = true
   ShowShareButtons = false
@@ -57,7 +58,7 @@ enableRobotsTXT = true
 [[menu.main]]
   identifier = 'tunnels'
   name = 'Tunnels & Structures'
-  url = '/tags/tunnels-structures/'
+  url = '/tags/tunnels-and-structures/'
   weight = 20
 
 [[menu.main]]
