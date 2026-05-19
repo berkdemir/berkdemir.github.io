@@ -12,6 +12,9 @@ enableRobotsTXT = true
   description = 'Notes on tunnels, code, and life in Copenhagen.'
   author = 'Berk Demir'
 
+  defaultTheme = 'light'
+  disableThemeToggle = true
+
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -46,26 +49,43 @@ enableRobotsTXT = true
   category = 'categories'
 
 [[menu.main]]
+  identifier = 'finite-element'
+  name = 'Finite Element'
+  url = '/tags/finite-element/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tunnels'
+  name = 'Tunnels & Structures'
+  url = '/tags/tunnels-structures/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'geotechnics'
+  name = 'Geotechnics'
+  url = '/tags/geotechnics/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'showcases'
+  name = 'Showcases'
+  url = '/tags/showcases/'
+  weight = 40
+
+[[menu.main]]
   identifier = 'search'
   name = 'Search'
   url = '/search/'
-  weight = 10
+  weight = 50
 
 [[menu.main]]
   identifier = 'archive'
   name = 'Archive'
   url = '/archives/'
-  weight = 20
-
-[[menu.main]]
-  identifier = 'tags'
-  name = 'Tags'
-  url = '/tags/'
-  weight = 30
+  weight = 60
 
 [[menu.main]]
   identifier = 'cv'
   name = 'CV'
   url = '/cv/'
-  weight = 40
-
+  weight = 70
