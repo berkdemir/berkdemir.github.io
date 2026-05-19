@@ -23,6 +23,7 @@ body {
     background: #ffffff;
 }
 
+
 /* Sticky TOC sidebar */
 body:has(.toc-sidebar) .main {
     max-width: calc(var(--main-width) + 260px + var(--gap) * 2);

@@ -45,7 +45,7 @@ Flac does not give any information, but as far as I understand from the manuals,
 A big congrats to Rocscience.
 They define two methods in their manual:
 **First one** is applying the safety factor to shear strength. In that case, it recalculates the tensile strength. *"The factored maximum tensile strength, equation 6.9, is calculated based on the new factored generalized Hoek Brown parameters."*
-**Second one** is Benz. et. al. (2008) approach that Plaxis also uses. But it seems that Rocscience noticed the problem and warned the users. *"The factored maximum tensile strength in this approach, is the ****same as in the original material****. The intersection of yield criterion with minor principal axis and first invariant of stress tensor will remain the same."*
+**Second one** is Benz. et. al. (2008) approach that Plaxis also uses. But it seems that Rocscience noticed the problem and warned the users. *"The factored maximum tensile strength in this approach, is the **same as in the original material**. The intersection of yield criterion with minor principal axis and first invariant of stress tensor will remain the same."*
 I don't know if you can choose between these two approaches or how you choose. But, I would assume that there is a toggle for selection of factoring approach just as Flac has.
 ### Zsoil
 Another congrats to Zsoil. They specifically showed the tensile strength reduction in the manual.
