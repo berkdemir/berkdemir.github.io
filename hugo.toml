@@ -1,66 +1,74 @@
 baseURL = 'https://berkdemir.github.io/'
 title = 'Berk Demir'
-theme = 'paper'
+theme = 'PaperMod'
+paginate = 10
+enableRobotsTXT = true
 
-[languages.en]
-  languageCode = 'en-us'
-  weight = 1
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
-  mainSections = ['posts']
-  color = 'light'        # linen, wheat, gray, light — 'light' is the cleanest white
-  rss = true
-  disableHLJS = false
-  disablePostNavigation = false
-  monoDarkIcon = true
+  env = 'production'
+  description = 'Notes on tunnels, code, and life in Copenhagen.'
+  author = 'Berk Demir'
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
   math = true
 
-  # Profile shown on the homepage
-  name = 'Berk Demir'
-  bio = 'Notes on tunnels, code, and life in Copenhagen.'
-  # avatar = 'your-gravatar-email@example.com'  # optional
+  [params.profileMode]
+    enabled = true
+    title = 'Berk Demir'
+    subtitle = 'Underground engineer. Notes on tunnels, code, and life in Copenhagen.'
+    imageUrl = '/profile.jpg'
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = 'Berk Demir'
 
-  # Social icons in the header — uncomment what you want
-  # github = 'berkdemir'
-  # linkedin = 'berk-demir'
-  # mastodon = 'https://mastodon.social/@you'
+  [params.socialIcons]
+    [[params.socialIcons]]
+      name = 'linkedin'
+      url = 'https://www.linkedin.com/in/bdberkdemir/'
 
 [markup.goldmark.renderer]
-  unsafe = true           # lets you use raw HTML in markdown (e.g. <sub>, <sup>)
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4
 
 [taxonomies]
-  category = 'categories'
   tag = 'tags'
+  category = 'categories'
+
+[[menu.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'archive'
+  name = 'Archive'
+  url = '/archives/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 30
 
 [[menu.main]]
   identifier = 'cv'
   name = 'CV'
   url = '/cv/'
-  weight = 10
-
-[[menu.main]]
-  identifier = 'finite-element'
-  name = 'Finite Element'
-  url = '/tags/finite-element/'
-  weight = 20
-
-[[menu.main]]
-  identifier = 'tunnels'
-  name = 'Tunnels & Structures'
-  url = '/tags/tunnels-structures/'
-  weight = 30
-
-[[menu.main]]
-  identifier = 'geotechnics'
-  name = 'Geotechnics'
-  url = '/tags/geotechnics/'
   weight = 40
-
-[[menu.main]]
-  identifier = 'showcases'
-  name = 'Showcases'
-  url = '/tags/showcases/'
-  weight = 50
 
 [module]
   [[module.mounts]]
