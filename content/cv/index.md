@@ -63,18 +63,7 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ### Software
 
-| Software | Level |
-|---|---|
-| Plaxis 2D & 3D | High |
-| Python | High |
-| Lusas | High |
-| Strusoft FemDesign | High |
-| Rocscience (Settle, Slide, RS2) | High |
-| Ensoft (LPile, Group, Shaft) | High |
-| Geologismiki | High |
-| Optum G2 | High |
-| Autodesk Robot | Intermediate |
-| Grasshopper | Intermediate |
+**High:** Plaxis 2D & 3D | Python | Lusas | Strusoft FemDesign | Rocscience (Settle, Slide, RS2) | Ensoft (LPile, Group, Shaft) | Geologismiki | Optum G2
 
 **Python tools built in Streamlit** for daily design work: RC Beam Design · Tunnel Analytical Lining Forces · Tunnel Deformation Assessment · M-N Interaction Curve · Hoek Brown Analysis · Convergence Confinement Method · Drawdown due to Tunnel · Steel Strut Capacity · Tunnel Relaxation Factor · Tunnel Face Stability · 3D Settlement Analysis · Longitudinal Pipe Capacity · Steel Fibre Crack Width · Volume Loss Fit for Measurements
 
@@ -134,10 +123,11 @@ Nordhavnstunnel is a 1.6 km cut-and-cover, cast-in-situ tunnel in Copenhagen, De
 ---
 
 ### Valby Cloudburst Tunnel (2021–2023)
-**Client:** HOFOR &nbsp;|&nbsp; **Amount of Hours:** >1300 hrs
 
 <div style="display:flex; gap:1.5rem; align-items:flex-start; margin:1rem 0;">
 <div style="flex:1;">
+
+**Client:** HOFOR &nbsp;|&nbsp; **Amount of Hours:** >1300 hrs
 
 Detailed design of 4 shafts (~15 m diameter, ~20 m depth) and DN3400/OD4000 pipe jacking.
 
