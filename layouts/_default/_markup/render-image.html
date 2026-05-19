@@ -1,0 +1,7 @@
+{{- $dest := .Destination -}}
+{{- if and (not (hasPrefix $dest "http")) (not (hasPrefix $dest "/")) -}}
+  {{- if hasPrefix $dest "_assets/" -}}
+    {{- $dest = printf "/posts/%s" $dest -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $dest | safeURL }}" alt="{{ .Text | safeHTML }}"{{ with .Title }} title="{{ . | safeHTML }}"{{ end }}>
