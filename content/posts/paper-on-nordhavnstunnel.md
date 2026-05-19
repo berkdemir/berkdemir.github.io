@@ -5,5 +5,4 @@ draft: false
 tags: ["Geotechnics"]
 ---
 
-[[Notion/Quick Note/BDEM (1)/Blog Posts/_assets/Demir et. al. 2024 Nordhavnstunnel.pdf]]
-[Demir_et._al._2024_Nordhavnstunnel.pdf](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
+[Demir et. al. 2024 — Nordhavnstunnel.pdf](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)

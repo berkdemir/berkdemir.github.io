@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Comparison of Building Rigidity Calculation Approaches to Estimate Tunnelling-induced Deformations"
 date: 2020-05-24T00:00:00+00:00
 draft: false

@@ -3,6 +3,7 @@ title = 'Berk Demir'
 theme = 'PaperMod'
 paginate = 10
 enableRobotsTXT = true
+mainSections = ['posts']
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -14,7 +15,6 @@ enableRobotsTXT = true
 
   defaultTheme = 'light'
   disableThemeToggle = true
-  mainSections = ['posts']
 
   ShowReadingTime = true
   ShowShareButtons = false
@@ -26,13 +26,7 @@ enableRobotsTXT = true
   math = true
 
   [params.profileMode]
-    enabled = true
-    title = 'Berk Demir'
-    subtitle = 'Underground engineer. Notes on tunnels, code, and life in Copenhagen.'
-    imageUrl = '/profile.jpg'
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = 'Berk Demir'
+    enabled = false
 
 [[params.socialIcons]]
   name = 'linkedin'
@@ -42,7 +36,7 @@ enableRobotsTXT = true
   unsafe = true
 
 [markup.tableOfContents]
-  startLevel = 2
+  startLevel = 1
   endLevel = 4
 
 [taxonomies]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels"
 date: 2022-09-09T00:00:00+00:00
 draft: false
