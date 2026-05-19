@@ -1,0 +1,39 @@
+baseURL = 'https://berkdemir.github.io/'
+title = 'Berk Demir'
+theme = 'paper'
+
+[languages.en]
+  languageCode = 'en-us'
+  weight = 1
+
+[params]
+  mainSections = ['posts']
+  color = 'light'        # linen, wheat, gray, light — 'light' is the cleanest white
+  rss = true
+  disableHLJS = false
+  disablePostNavigation = false
+  monoDarkIcon = true
+  math = false           # set true if you want KaTeX
+
+  # Profile shown on the homepage
+  name = 'Berk Demir'
+  bio = 'Notes on tunnels, code, and life in Copenhagen.'
+  # avatar = 'your-gravatar-email@example.com'  # optional
+
+  # Social icons in the header — uncomment what you want
+  # github = 'berkdemir'
+  # linkedin = 'berk-demir'
+  # mastodon = 'https://mastodon.social/@you'
+
+[markup.goldmark.renderer]
+  unsafe = true           # lets you use raw HTML in markdown (e.g. <sub>, <sup>)
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 10

@@ -1,0 +1,4 @@
+public/
+.hugo_build.lock
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
