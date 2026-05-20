@@ -113,3 +113,14 @@ body:has(.toc-sidebar) .main {
     margin-top: 3px;
     line-height: 1.4;
 }
+
+/* CV mobile: stack flex sections vertically */
+@media (max-width: 768px) {
+    .cv-page div[style*="display:flex"] {
+        flex-direction: column !important;
+    }
+    .cv-page img[style*="width:240px"] {
+        width: 100% !important;
+        max-width: 340px;
+    }
+}
