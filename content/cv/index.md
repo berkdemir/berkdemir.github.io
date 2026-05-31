@@ -6,7 +6,7 @@ class: cv-page
 ---
 
 <div style="display:flex; gap:2rem; align-items:flex-start; margin-bottom:1.5rem;">
-<img src="_assets/profile.jpg" alt="Berk Demir" style="width:130px; border-radius:8px; flex-shrink:0;">
+<img src="profile.jpg" alt="Berk Demir" style="width:130px; border-radius:8px; flex-shrink:0;">
 <div style="line-height:1.6;">
 <p style="margin:0; font-weight:700; font-size:1.05em;">Berk Demir</p>
 <p style="margin:0 0 0.6rem 0; font-style:italic; color:var(--secondary); font-size:0.95em;">Underground engineer specialized in tunnels, structural design and geotechnical engineering.</p>
