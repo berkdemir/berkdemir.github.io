@@ -61,11 +61,7 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ## Skills
 
-### Software
-
-**High:** Plaxis 2D & 3D | Python | Lusas | Strusoft FemDesign | Rocscience (Settle, Slide, RS2) | Ensoft (LPile, Group, Shaft) | Geologismiki | Optum G2
-
-**Intermediate:** Autodesk Robot | Grasshopper
+Plaxis 2D & 3D | Python | Lusas | Strusoft FemDesign | Rocscience (Settle, Slide, RS2) | Ensoft (LPile, Group, Shaft) | Geologismiki | Optum | Autodesk Robot | Grasshopper
 
 **Python tools built in Streamlit** for daily design work: RC Beam Design · Tunnel Analytical Lining Forces · Tunnel Deformation Assessment · M-N Interaction Curve · Hoek Brown Analysis · Convergence Confinement Method · Drawdown due to Tunnel · Steel Strut Capacity · Tunnel Relaxation Factor · Tunnel Face Stability · 3D Settlement Analysis · Longitudinal Pipe Capacity · Steel Fibre Crack Width · Volume Loss Fit for Measurements
 
