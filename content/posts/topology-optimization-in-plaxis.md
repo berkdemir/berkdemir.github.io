@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Topology Optimization in Plaxis"
 date: 2021-12-23T00:00:00+00:00
 draft: false

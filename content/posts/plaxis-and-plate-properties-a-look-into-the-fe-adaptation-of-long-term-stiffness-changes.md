@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Plaxis and Plate Properties - A Look into the FE Adaptation of Long Term Stiffness Changes"
 date: 2021-02-25T00:00:00+00:00
 draft: false

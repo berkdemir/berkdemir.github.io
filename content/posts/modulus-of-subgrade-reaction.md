@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Modulus of Subgrade Reaction"
 date: 2022-12-16T00:00:00+00:00
 draft: false

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Inconsistency Between Eurocodes for Fire Analyses"
 date: 2023-03-28T00:00:00+00:00
 draft: false
@@ -32,10 +32,10 @@ EN 1991-1-2 does not have any recommendation for stiffness and we know that we c
 ## Stiffness using EN-1992-1-2 Approach
 All comparisons throught the article will be performed for C40/50 concrete with siliceous aggregates. 
 **The main problem**
-> [!note] ðŸ“Œ
+> [!note] 📌
 > Stiffness at room temperature calculated by EN 1992-1-2 stress-strain diagram is **not equal** to EN-1992-1-1 recommendation. 
 
-Letâ€™s do this for C40 concrete. As per definition in Eurocode, the stiffness is secant stiffness measured from approximately 40% of the fck. Of course we do not expect to reach the exact E-modulus in Eurocode, but difference is significant. 
+Let’s do this for C40 concrete. As per definition in Eurocode, the stiffness is secant stiffness measured from approximately 40% of the fck. Of course we do not expect to reach the exact E-modulus in Eurocode, but difference is significant. 
 Compared to **35 GPa at EN-1992-1-1 for C40 concrete**, the calculation using EN-1992-1-2 results in **23.7 GPa**.
 ![](_assets/Untitled-5.png)
 ## fck vs. fcm?
@@ -54,7 +54,7 @@ If we calculate the modulus of elasticity for each temperature level, we get the
 Note that the difference between Ecm calcualted by EN-1992-1-1 and EN-1992-1-2 at room temperature is more pronounced at lower strengths. A comparison with the methods are shown below for both EN-1992-1-2 methodology, fck and fcm.
 ![](_assets/Untitled-9.png)
 # Implications
-> [!note] ðŸ“Œ
+> [!note] 📌
 > The stiffness of the structural elements are much lower during fire analysis. The structural forces calculated by the software will be significantly lower than actual.
 
 EN 1992-1-1 stress-strain curve does result in a modulus close to the recommended modulus of the same standard as shown below. The methodology is also described clearly in FIB Bulletin 42. So, the problem is only with the stress-strain curves recommended by the EN 1992-1-2.

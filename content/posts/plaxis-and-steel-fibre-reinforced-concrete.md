@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Plaxis and Steel Fibre Reinforced Concrete"
 date: 2021-07-06T00:00:00+00:00
 draft: false

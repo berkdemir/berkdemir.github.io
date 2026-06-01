@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Hoek Brown Model"
 date: 2022-12-16T00:00:00+00:00
 draft: false
@@ -18,7 +18,7 @@ There are 4 main input parameters for Hoek-Brown material model. Additional inpu
 ### Uniaxial Compressive Strength:
 Uniaxial compressive strength is the compressive strength of intact rock. In field, the intact samples are selected to be tested in UCS test. If required samples are not found, point load tests can also be performed and the results of these tests can be converted to UCS using various correlations.
 ### Geological Strength Index (GSI)
-GSI is a number between 0-100 that defines the weathering or joint degree of a rock mass. This value is usually determined on the field based on the tunnel or slope faces, boreholes or outcrops. It is possible to correlate GSI to RMR (Rock Mass Rating) value using variety of correlations available in the literature. The most commonly used correlation is GSI=RMR-5. However, it should be noted that RMRâ€™ should be recalculated by neglecting the effect of groundwater and tunnel orientation.
+GSI is a number between 0-100 that defines the weathering or joint degree of a rock mass. This value is usually determined on the field based on the tunnel or slope faces, boreholes or outcrops. It is possible to correlate GSI to RMR (Rock Mass Rating) value using variety of correlations available in the literature. The most commonly used correlation is GSI=RMR-5. However, it should be noted that RMR’ should be recalculated by neglecting the effect of groundwater and tunnel orientation.
 GSI can also be estimated using the graph below. It is usually advised to keep the GSI above 25 for rock mass conditions.
 ![](_assets/GSI.png)
 ### Material Constant for Intact Rock
@@ -50,7 +50,7 @@ $$
 $$
 Uniaxial compressive strength of rock mass is calculated using the general equation by setting lateral pressure equal to zero.
 $$
-Ïƒ_câ€„=â€„Ïƒ_{ci}â€…â‹…â€…s_a
+σ_c = σ_{ci} ⋅ s_a
 $$
 Tensile strength of rock mass is:
 $$
@@ -94,26 +94,26 @@ For general cases, it is recommended to keep the lateral pressure around 25% of 
 ## Additional Parameters
 Additional parameters are not part of the usual Hoek-Brown calculations. These parameters are listed as a supplementary aid to design.
 ### **Shear Wave Velocity Calculation by Brocher 2005**
-To calculate the shear wave velocity in rockÂ *Q*Â (Barton) -Â *Vp*Â anÂ *Vs*Â relationship will be utilized. To calculate theÂ *Q*Â value, FHWA-NHI-10-034 recommends following equation:
+To calculate the shear wave velocity in rock *Q* (Barton) - *Vp* an *Vs* relationship will be utilized. To calculate the *Q* value, FHWA-NHI-10-034 recommends following equation:
 $$
 Q = 10^{\frac{RMR - 50}{15}}
 $$
-RMR will be calculated assumingÂ GSI = RMR - 5.
-Barton (2002), described the relationship betweenÂ *Q*Â andÂ *Vp*Â (km/sec) as:
+RMR will be calculated assuming GSI = RMR - 5.
+Barton (2002), described the relationship between *Q* and *Vp* (km/sec) as:
 $$
 V_{p} = 3.5 + \log Q_{c}Vp=3.5+logQc
 $$
-TheÂ Qc in this equation is theÂ *Q*Â normalized with uniaxial compressive strength which can be calculated as
+The Qc in this equation is the *Q* normalized with uniaxial compressive strength which can be calculated as
 $$
 Q_{c} = Q \cdot \left( \frac{\text{UCS}}{100} \right)
 $$
-withÂ *UCS*Â inÂ *MPa*. Lastly, the relationship betweenÂ *Vp*Â andÂ *Vs*Â is adapted from a USGS research project, Brocher (2005):
+with *UCS* in *MPa*. Lastly, the relationship between *Vp* and *Vs* is adapted from a USGS research project, Brocher (2005):
 $$
-V_{s} = 0.7858 - 1.2344 \cdot V_{p} + 0.7949 \cdot V_{p}^{2} - 0.1238 \cdot V_{p}^{3} + 0.0064 \cdot V_{p}^{4}Vs=0.7858âˆ’1.2344â‹…Vp+0.7949â‹…Vp2âˆ’0.1238â‹…Vp3+0.0064â‹…Vp4
+V_{s} = 0.7858 - 1.2344 \cdot V_{p} + 0.7949 \cdot V_{p}^{2} - 0.1238 \cdot V_{p}^{3} + 0.0064 \cdot V_{p}^{4}Vs=0.7858−1.2344⋅Vp+0.7949⋅Vp2−0.1238⋅Vp3+0.0064⋅Vp4
 $$
 Vs and Vp in this equation is in km/sec.
 ![](_assets/Untitled7.png)
-### Poissonâ€™s Ratio by Brocher 2005
+### Poisson’s Ratio by Brocher 2005
 $$
 v = 0.8835-0.315V_p + 0.0491V_p^2-0.00024V_p^3
 $$
@@ -122,12 +122,12 @@ $$
 ![](_assets/Untitled9.png)
 # References
 1. Brown, E. T., & Hoek, E. (1980). Underground excavations in rock. CRC Press.
-2. [Hoek, E., & Brown, E. T. (2019). The Hoekâ€“Brown failure criterion and GSIâ€“2018 edition. Journal of Rock Mechanics and Geotechnical Engineering, 11(3), 445-463.](https://doi.org/10.1016/j.jrmge.2018.08.001)
+2. [Hoek, E., & Brown, E. T. (2019). The Hoek–Brown failure criterion and GSI–2018 edition. Journal of Rock Mechanics and Geotechnical Engineering, 11(3), 445-463.](https://doi.org/10.1016/j.jrmge.2018.08.001)
 3. Carter, T. G., & Marinos, V. (2020). Putting geological focus back into rock engineering design. Rock Mechanics and Rock Engineering, 53(10), 4487-4508.
 4. Hoek, E., & Diederichs, M. S. (2006). Empirical estimation of rock mass modulus. International journal of rock mechanics and mining sciences, 43(2), 203-215.
-5. Zhang, L. (2017). Evaluation of rock mass deformability using empirical methodsâ€“A review. Underground Space, 2(1), 1-15.
+5. Zhang, L. (2017). Evaluation of rock mass deformability using empirical methods–A review. Underground Space, 2(1), 1-15.
 6. Hoek, E., & Diederichs, M. S. (2006). Empirical estimation of rock mass modulus. International journal of rock mechanics and mining sciences, 43(2), 203-215.
 7. Hoek, E., Carranza-Torres, C., & Corkum, B. (2002). Hoek-Brown failure criterion-2002 edition. Proceedings of NARMS-Tac, 1, 267-273.
-8. Yang, K. (2006). â€œAnalysis of laterally loaded drilled shafts in rock.â€ PhD Thesis, Univ. of Akron, Akron, OH
-9. Brocher, T. M. (2005). Empirical relations between elastic wavespeeds and density in the Earthâ€™s crust. Bulletin of the seismological Society of America, 95(6), 2081-2092.
+8. Yang, K. (2006). “Analysis of laterally loaded drilled shafts in rock.” PhD Thesis, Univ. of Akron, Akron, OH
+9. Brocher, T. M. (2005). Empirical relations between elastic wavespeeds and density in the Earth’s crust. Bulletin of the seismological Society of America, 95(6), 2081-2092.
 10. Cha, Y. H., Kang, J. S., & Jo, C. H. (2006). Application of linear-array microtremor surveys for rock mass classification in urban tunnel design. Exploration Geophysics, 37(1), 108-113.
