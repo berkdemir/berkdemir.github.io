@@ -9,4 +9,3 @@ Another couple nights to experiment on the parametric design with FEM-Design and
 
 ![](_assets/Untitled-27.png)
 ![](_assets/Screenshot-20230121-1447.mp4)
-I

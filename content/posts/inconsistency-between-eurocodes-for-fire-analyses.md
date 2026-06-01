@@ -7,8 +7,6 @@ tags: ["Tunnels and Structures"]
 
 # Introduction
 
-<u>**Table of Content**</u>
-
 Last month, we had an interesting and long discussion over the email with the creator of PCTempflow, a widely used software for fire analysis, and others like PCSheetPileWall and Framework: [Gerrit Wolsink](https://gerritwolsink.nl/). 
 Over the course of the many emails, we have agreed that there is something wrong (or incompatible) in the Eurocodes.
 This brief article is our joint effort on clarifying our views on this problem. If you have any input, please feel free to reach out.

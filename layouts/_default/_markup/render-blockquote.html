@@ -1,0 +1,30 @@
+{{- if eq .Type "alert" -}}
+  {{- $type := lower .AlertType -}}
+  {{- $icons := dict
+    "note" "📝"
+    "tip" "💡"
+    "hint" "💡"
+    "info" "ℹ️"
+    "important" "❗"
+    "warning" "⚠️"
+    "caution" "⚠️"
+    "danger" "🛑"
+    "error" "🛑"
+    "success" "✅"
+    "check" "✅"
+    "question" "❓"
+    "example" "📋"
+    "quote" "💬"
+  -}}
+  {{- $icon := index $icons $type | default "📌" -}}
+  <blockquote class="callout callout-{{ $type }}">
+    <p class="callout-title"><span class="callout-icon">{{ $icon }}</span> {{ with .AlertTitle }}{{ . }}{{ else }}{{ $type | title }}{{ end }}</p>
+    <div class="callout-content">
+      {{ .Text }}
+    </div>
+  </blockquote>
+{{- else -}}
+  <blockquote{{ with .Attributes.class }} class="{{ . }}"{{ end }}>
+    {{ .Text }}
+  </blockquote>
+{{- end -}}

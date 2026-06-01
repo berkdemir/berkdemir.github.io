@@ -9,3 +9,33 @@
         ]
     });"></script>
 {{- end }}
+
+<style>
+/* Figure captions */
+figure { margin: 1.5rem 0; text-align: center; }
+figure img { max-width: 100%; height: auto; }
+figcaption { font-size: 0.85em; color: var(--secondary, #666); margin-top: 0.45rem; font-style: italic; line-height: 1.4; }
+
+/* Callouts (Obsidian / GitHub alert blockquotes) */
+.callout {
+  border-left: 4px solid var(--callout-color, #448aff);
+  background: var(--callout-bg, rgba(68,138,255,0.10));
+  border-radius: 6px;
+  padding: 0.7rem 1rem;
+  margin: 1.2rem 0;
+}
+.callout-title { font-weight: 700; margin: 0 0 0.35rem 0; color: var(--callout-color, #448aff); }
+.callout-icon { margin-right: 0.35rem; }
+.callout-content > :first-child { margin-top: 0; }
+.callout-content > :last-child { margin-bottom: 0; }
+.callout-note { --callout-color:#448aff; --callout-bg:rgba(68,138,255,0.10); }
+.callout-tip, .callout-hint { --callout-color:#00a98f; --callout-bg:rgba(0,191,165,0.10); }
+.callout-info { --callout-color:#00a3bf; --callout-bg:rgba(0,184,212,0.10); }
+.callout-important { --callout-color:#7c4dff; --callout-bg:rgba(124,77,255,0.10); }
+.callout-warning, .callout-caution { --callout-color:#e08600; --callout-bg:rgba(255,145,0,0.10); }
+.callout-danger, .callout-error { --callout-color:#e53935; --callout-bg:rgba(255,82,82,0.10); }
+.callout-success, .callout-check { --callout-color:#00a843; --callout-bg:rgba(0,200,83,0.10); }
+.callout-question { --callout-color:#d29200; --callout-bg:rgba(255,193,7,0.12); }
+.callout-example { --callout-color:#8e24aa; --callout-bg:rgba(142,36,170,0.10); }
+.callout-quote { --callout-color:#607d8b; --callout-bg:rgba(96,125,139,0.10); }
+</style>

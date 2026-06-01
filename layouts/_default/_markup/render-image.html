@@ -8,6 +8,8 @@
 {{- $ext := lower (strings.TrimPrefix "." (path.Ext .Destination)) -}}
 {{- if in $videoExts $ext -}}
 <video controls style="max-width:100%"><source src="{{ $dest | safeURL }}" type="video/{{ $ext }}"></video>
+{{- else if .Text -}}
+<figure><img src="{{ $dest | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}><figcaption>{{ .Text }}</figcaption></figure>
 {{- else -}}
-<img src="{{ $dest | safeURL }}" alt="{{ .Text | safeHTML }}"{{ with .Title }} title="{{ . | safeHTML }}"{{ end }}>
+<img src="{{ $dest | safeURL }}" alt=""{{ with .Title }} title="{{ . }}"{{ end }}>
 {{- end -}}
