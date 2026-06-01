@@ -5,4 +5,4 @@ draft: false
 tags: ["Geotechnics"]
 ---
 
-[Demir et. al. 2024 â€” Nordhavnstunnel.pdf](/_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
+[Demir et. al. 2024 â€” Nordhavnstunnel.pdf](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)

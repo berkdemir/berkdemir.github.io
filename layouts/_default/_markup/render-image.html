@@ -1,7 +1,9 @@
-{{- $dest := .Destination -}}
-{{- if and (not (hasPrefix $dest "http")) (not (hasPrefix $dest "/")) -}}
-  {{- if hasPrefix $dest "_assets/" -}}
-    {{- $dest = printf "/posts/%s" $dest -}}
-  {{- end -}}
+{{- $videoExts := slice "mp4" "webm" "ogg" "mov" "avi" -}}
+{{- $ext := lower (path.Ext .Destination | strings.TrimPrefix ".") -}}
+{{- if in $videoExts $ext -}}
+<video controls style="max-width:100%">
+  <source src="{{ .Destination }}" type="video/{{ $ext }}">
+</video>
+{{- else -}}
+<img src="{{ .Destination }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
 {{- end -}}
-<img src="{{ $dest | safeURL }}" alt="{{ .Text | safeHTML }}"{{ with .Title }} title="{{ . | safeHTML }}"{{ end }}>
