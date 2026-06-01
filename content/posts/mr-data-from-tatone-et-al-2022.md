@@ -1,4 +1,4 @@
----
+﻿---
 title: "MR Data from Tatone et. al. (2022)"
 date: 2022-02-04T00:00:00+00:00
 draft: false
@@ -8,7 +8,7 @@ tags: ["Geotechnics"]
 A new paper from Tatone et. al. is published [here](https://link.springer.com/article/10.1007/s00603-021-02759-7).
 Using the data of the authors, following violin graph is drawn to estimate **Modulus Ratio (MR = E / UCS)** of the different rocks.
 Update: [Aly Abdelaziz](https://github.com/alicarlos) has proposed an update on the code and graph. Thanks to him, it looks better now.
-![](_assets/MRTatoneetal2022.png)
+![](/_assets/MRTatoneetal2022.png)
 Code and data are in the [Github Gist](https://gist.github.com/berkdemir/2799253491835776555e36c3a5b09ddd).
 ```python
 # Data from Tatone, B. S., Abdelaziz, A., & Grasselli, G. (2022). Novel Mechanical Classification Method of Rock Based on the Uniaxial Compressive Strength and Brazilian Disc Strength. Rock Mechanics and Rock Engineering, 1-5.
