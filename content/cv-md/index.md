@@ -73,7 +73,7 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ### Copenhagen M5 Metro (2023–2025)
 
-**JV:** COWI & Arup · **Client:** Metroselskabet A/S, Denmark · **Hours:** >2500
+**JV:** COWI & Arup&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Metroselskabet A/S, Denmark&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >2500
 
 Design of the M5 Metro reference design for the tender for Metroselskabet. M5 Metro is the next metro line in Copenhagen, Denmark.
 
@@ -94,7 +94,7 @@ Design of the M5 Metro reference design for the tender for Metroselskabet. M5 Me
 
 ### Nordhavnstunnel (2022–2023)
 
-**JV:** MT Højgaard & Besix · **Client:** Vejdirektoratet, Denmark · **Hours:** >800
+**JV:** MT Højgaard & Besix&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Vejdirektoratet, Denmark&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >800
 
 Nordhavnstunnel is a 1.6 km cut-and-cover, cast-in-situ tunnel in Copenhagen, Denmark.
 
@@ -107,7 +107,7 @@ Nordhavnstunnel is a 1.6 km cut-and-cover, cast-in-situ tunnel in Copenhagen, De
 
 ### Valby Cloudburst Tunnel (2021–2023)
 
-**Client:** HOFOR · **Hours:** >1300
+**Client:** HOFOR&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >1300
 
 Detailed design of 4 shafts (~15 m diameter, ~20 m depth) and DN3400/OD4000 pipe jacking.
 
@@ -121,7 +121,7 @@ Detailed design of 4 shafts (~15 m diameter, ~20 m depth) and DN3400/OD4000 pipe
 
 ### Kransen Culvert Deep Excavation (2021–2022)
 
-**JV:** Acciona & Implenia · **Client:** Bane Nor, Norway · **Hours:** 800
+**JV:** Acciona & Implenia&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Bane Nor, Norway&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** 800
 
 Design of excavation for the Sandbukta–Moss–Såstad (SMS2A) project, Kransen culvert section, using diaphragm walls and prestressed struts in a quick clay slope.
 
@@ -136,7 +136,7 @@ Design of excavation for the Sandbukta–Moss–Såstad (SMS2A) project, Kransen
 
 ### GFRP Reinforcement in TBM Tunnel Segments (2023)
 
-**Client:** Metroselskabet, Copenhagen · **Hours:** 200
+**Client:** Metroselskabet, Copenhagen&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** 200
 
 As part of Metroselskabet's innovation study initiative, the feasibility of GFRP reinforcement for TBM tunnel segments was investigated — including detailed CO₂ comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths, and load scenarios using Lusas.
 
@@ -146,7 +146,7 @@ As part of Metroselskabet's innovation study initiative, the feasibility of GFRP
 
 ### Istanbul Metro / Çekmeköy–Sultanbeyli Line (2019–2021)
 
-**JV:** Doğuş & Yapı Merkezi & Özaltın · **Client:** Istanbul Municipality · **Hours:** >2500
+**JV:** Doğuş & Yapı Merkezi & Özaltın&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Istanbul Municipality&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >2500
 
 Detailed design of TBM and NATM tunnels issued to 3rd party and client review, including construction details, 2D and 3D NATM/TBM models and seismic assessments.
 

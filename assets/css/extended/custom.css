@@ -114,6 +114,18 @@ body:has(.toc-sidebar) .main {
     line-height: 1.4;
 }
 
+/* Figure captions — override PaperMod's bold/dark default (md-content.css)
+   Same selector + loaded later in the `extended` bundle, so this wins. */
+.post-content figure > figcaption {
+    color: var(--secondary);
+    font-size: 0.85em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0.4rem 0 1rem;
+    line-height: 1.4;
+}
+figure img { max-width: 100%; height: auto; }
+
 /* CV mobile: stack flex sections vertically */
 @media (max-width: 768px) {
     .cv-page div[style*="display:flex"] {
@@ -194,10 +206,12 @@ body:has(.toc-sidebar) .main {
 .cv-md-page .post-content ul { margin: 0.4rem 0 0.8rem; }
 .cv-md-page .post-content li { margin-bottom: 0.25rem; }
 
-/* Project images — base look (single-image projects stay this size) */
+/* Project images — capped height, never wider than the content column */
 .cv-md-page .post-content p img {
-    height: 180px;
+    max-height: 200px;
+    max-width: 100%;
     width: auto;
+    height: auto;
     border-radius: 8px;
     margin: 0.5rem 0.5rem 0.5rem 0;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
@@ -206,22 +220,6 @@ body:has(.toc-sidebar) .main {
 }
 .cv-md-page .post-content p img:hover {
     transform: scale(1.02);
-}
-
-/* Two-images-on-one-line: stretch them into a full-width side-by-side row
-   (pure CSS — :has(img + img) matches only paragraphs with 2+ images) */
-.cv-md-page .post-content p:has(img + img) {
-    display: flex;
-    gap: 0.6rem;
-    align-items: stretch;
-    margin: 0.6rem 0;
-}
-.cv-md-page .post-content p:has(img + img) img {
-    flex: 1 1 0;
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-    margin: 0;
 }
 
 /* Horizontal rules — lighter than default */
@@ -239,13 +237,6 @@ body:has(.toc-sidebar) .main {
         text-align: left;
     }
     .cv-md-page .post-content p img {
-        height: 140px;
-    }
-    .cv-md-page .post-content p:has(img + img) {
-        flex-direction: column;
-    }
-    .cv-md-page .post-content p:has(img + img) img {
-        width: 100%;
-        height: 200px;
+        max-height: 160px;
     }
 }
