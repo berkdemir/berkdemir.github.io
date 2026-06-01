@@ -194,9 +194,9 @@ body:has(.toc-sidebar) .main {
 .cv-md-page .post-content ul { margin: 0.4rem 0 0.8rem; }
 .cv-md-page .post-content li { margin-bottom: 0.25rem; }
 
-/* Project images: uniform-height gallery row, side by side */
+/* Project images — base look (single-image projects stay this size) */
 .cv-md-page .post-content p img {
-    height: 155px;
+    height: 180px;
     width: auto;
     border-radius: 8px;
     margin: 0.5rem 0.5rem 0.5rem 0;
@@ -208,6 +208,22 @@ body:has(.toc-sidebar) .main {
     transform: scale(1.02);
 }
 
+/* Two-images-on-one-line: stretch them into a full-width side-by-side row
+   (pure CSS — :has(img + img) matches only paragraphs with 2+ images) */
+.cv-md-page .post-content p:has(img + img) {
+    display: flex;
+    gap: 0.6rem;
+    align-items: stretch;
+    margin: 0.6rem 0;
+}
+.cv-md-page .post-content p:has(img + img) img {
+    flex: 1 1 0;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    margin: 0;
+}
+
 /* Horizontal rules — lighter than default */
 .cv-md-page .post-content hr {
     border: 0;
@@ -215,7 +231,7 @@ body:has(.toc-sidebar) .main {
     margin: 1.4rem 0;
 }
 
-/* Mobile: smaller gallery, stacked header */
+/* Mobile: stacked header, full-width stacked images */
 @media (max-width: 768px) {
     .cv-md-page .cv-header {
         flex-direction: column;
@@ -223,6 +239,13 @@ body:has(.toc-sidebar) .main {
         text-align: left;
     }
     .cv-md-page .post-content p img {
-        height: 120px;
+        height: 140px;
+    }
+    .cv-md-page .post-content p:has(img + img) {
+        flex-direction: column;
+    }
+    .cv-md-page .post-content p:has(img + img) img {
+        width: 100%;
+        height: 200px;
     }
 }
