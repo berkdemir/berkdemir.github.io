@@ -31,7 +31,7 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 | Period         | Role                                    | Company             | Location                 |
 | -------------- | --------------------------------------- | ------------------- | ------------------------ |
-| 2023 – Present | Senior Tunnel Engineer                  | COWI                | Copenhagen, Denmark      |
+| 2023&nbsp;–&nbsp;Present | Senior Tunnel Engineer                  | COWI                | Copenhagen, Denmark      |
 | 2021 – 2023    | Senior Tunnel Engineer                  | Niras A/S           | Copenhagen, Denmark      |
 | 2018 – 2021    | Senior Geotechnical and Tunnel Engineer | Tekfen Engineering  | Istanbul, Turkey         |
 | 2017 – 2018    | Geotechnical Design Engineer            | Destech Consultancy | Izmir, Turkey & Tanzania |
@@ -191,7 +191,6 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, i
 </div>
 <div style="display:flex; flex-direction:column; gap:0.5rem;">
 <img src="_assets/istanbul-1.png" alt="Istanbul Metro" style="width:240px;">
-<img src="_assets/istanbul-2.png" alt="Istanbul Metro" style="width:240px;">
 <img src="_assets/istanbul-3.png" alt="Istanbul Metro" style="width:240px;">
 </div>
 </div>
