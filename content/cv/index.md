@@ -51,8 +51,8 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ## Technical Publications
 
-- Demir, B., Bauduin, C., Palaiologou, M., Christensen, J. D., Yding, S., & Tomac, S. K. (2024). *Site tests on retaining systems and uplift anchors of Nordhavnstunnel in Denmark*. In Geotechnical Engineering Challenges to Meet Current and Emerging Needs of Society (pp. 2235-2240). CRC Press. [PDF](90%20Void/berkdemir.github.io/content/posts/_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
-- Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022. [Post](recommendations-for-pseudo-static-deformation-for-seismic-analyses-of-tunnels.md)
+- Demir, B., Bauduin, C., Palaiologou, M., Christensen, J. D., Yding, S., & Tomac, S. K. (2024). *Site tests on retaining systems and uplift anchors of Nordhavnstunnel in Denmark*. In Geotechnical Engineering Challenges to Meet Current and Emerging Needs of Society (pp. 2235-2240). CRC Press. [PDF](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
+- Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022. [Post](../posts/recommendations-for-pseudo-static-deformation-for-seismic-analyses-of-tunnels.md)
 - **Master Thesis:** [Performance of Short Anchors Inside the Failure Wedge (2019)](_assets/BerkDemirMSThesis.pdf)
 - Comparison of Simplified Piled Raft Calculation Methods with Plaxis 3D and Details of Hardening Soil Model (2019) — [ResearchGate](https://www.researchgate.net/publication/332188093_Basitlestirilmis_Kazikli_Temel_Hesaplama_Yontemlerinin_Plaxis_3D_ile_Karsilastirilmasi_Hardening_Soil_Modelinin_Detaylarinin_Incelenmesi)
 - P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers), B. Demir, A. S. Peker, S. K. Tomaç, 4th Bridges and Viaducts Symposium, 2019 — [Part 1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) / [Part 2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
