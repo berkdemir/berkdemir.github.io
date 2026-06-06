@@ -25,6 +25,9 @@ mainSections = ['posts']
   TocOpen = false
   math = true
 
+  # SEO
+  canonicalURL = "https://berkdemir.github.io"
+
   [params.profileMode]
     enabled = false
 
