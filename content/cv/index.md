@@ -4,7 +4,6 @@ date: 2026-05-19T00:00:00+00:00
 draft: false
 class: cv-md-page
 ---
-""
 <div class="cv-header">
 <img src="_assets/profile.jpg" alt="Berk Demir">
 <div class="cv-header-text">
