@@ -4,7 +4,7 @@ date: 2026-05-19T00:00:00+00:00
 draft: false
 class: cv-md-page
 ---
-
+""
 <div class="cv-header">
 <img src="profile.jpg" alt="Berk Demir">
 <div class="cv-header-text">
@@ -51,8 +51,9 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ## Technical Publications
 
-- Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022
-- **Master Thesis:** Performance of Short Anchors Inside the Failure Wedge (2019)
+- Demir, B., Bauduin, C., Palaiologou, M., Christensen, J. D., Yding, S., & Tomac, S. K. (2024). *Site tests on retaining systems and uplift anchors of Nordhavnstunnel in Denmark*. In Geotechnical Engineering Challenges to Meet Current and Emerging Needs of Society (pp. 2235-2240). CRC Press. [PDF](90%20Void/berkdemir.github.io/content/posts/_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
+- Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022. [Post](recommendations-for-pseudo-static-deformation-for-seismic-analyses-of-tunnels.md)
+- **Master Thesis:** [Performance of Short Anchors Inside the Failure Wedge (2019)](_assets/BerkDemirMSThesis.pdf)
 - Comparison of Simplified Piled Raft Calculation Methods with Plaxis 3D and Details of Hardening Soil Model (2019) — [ResearchGate](https://www.researchgate.net/publication/332188093_Basitlestirilmis_Kazikli_Temel_Hesaplama_Yontemlerinin_Plaxis_3D_ile_Karsilastirilmasi_Hardening_Soil_Modelinin_Detaylarinin_Incelenmesi)
 - P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers), B. Demir, A. S. Peker, S. K. Tomaç, 4th Bridges and Viaducts Symposium, 2019 — [Part 1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) / [Part 2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
 - Comparison of Construction Methods of Jet Grout Columns, B. Demir, M. S. Nalçakan, 16th National Conference on Soil Mechanics and Geotechnical Engineering, Erzurum, Turkey, 2016
@@ -88,7 +89,7 @@ Design of the M5 Metro reference design for the tender for Metroselskabet. M5 Me
 
 [metrolinjem5.kk.dk](https://metrolinjem5.kk.dk/)
 
-![](img/m5-1-md.png) ![](img/m5-2-md.png)
+![](_assets/m5-1-md.png) ![](_assets/m5-2-md.png)
 
 ---
 
@@ -101,7 +102,7 @@ Nordhavnstunnel is a 1.6 km cut-and-cover, cast-in-situ tunnel in Copenhagen, De
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off, uplift anchor calculations for all segments, settlement calculations and shear key discussions
 - **Design coordination after the tender:** design lead for structural and fire design, relationship to 3rd party, coordination of design works and QA of design reports
 
-![](img/nordhavn-1-md.png) ![](img/nordhavn-2-md.png)
+![](_assets/nordhavn-1-md.png) ![](_assets/nordhavn-2-md.png)
 
 ---
 
@@ -115,7 +116,7 @@ Detailed design of 4 shafts (~15 m diameter, ~20 m depth) and DN3400/OD4000 pipe
 - Settlement analyses due to tunnelling and excavations
 - Technical coordination of structural and geotechnical shaft design
 
-![](img/valby-md.png)
+![](_assets/valby-md.png)
 
 ---
 
@@ -130,7 +131,7 @@ Design of excavation for the Sandbukta–Moss–Såstad (SMS2A) project, Kransen
 
 *Design activities have been paused due to risks in the area.*
 
-![](img/kransen-md.png)
+![](_assets/kransen-md.png)
 
 ---
 
@@ -140,7 +141,7 @@ Design of excavation for the Sandbukta–Moss–Såstad (SMS2A) project, Kransen
 
 As part of Metroselskabet's innovation study initiative, the feasibility of GFRP reinforcement for TBM tunnel segments was investigated — including detailed CO₂ comparisons, fire behaviour discussions, durability studies for possible TBM tunnel depths, and load scenarios using Lusas.
 
-![](img/gfrp-md.png)
+![](_assets/gfrp-md.png)
 
 ---
 
@@ -153,7 +154,7 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, i
 - **TBM design:** EPB TBM with 6.57 m diameter. Design packages include segment design and EPB pressure estimates for alignment. Construction details such as thrust frame, thrust ring inside NATM and launching/receiving schemes were successfully delivered.
 - **NATM design:** Temporary support design of all NATM tunnels (including very soft soil conditions) was delivered. Coordinated, supported and QA'd the structural teams for the permanent lining design.
 
-![](img/istanbul-1-md.png) ![](img/istanbul-3-md.png)
+![](_assets/istanbul-1-md.png) ![](_assets/istanbul-3-md.png)
 
 ---
 
