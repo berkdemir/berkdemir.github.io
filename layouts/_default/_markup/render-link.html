@@ -1,5 +1,6 @@
 {{- $dest := .Destination -}}
 {{- if hasPrefix $dest "_assets/" -}}
-  {{- $dest = printf "/posts/%s" $dest -}}
+  {{- $base := index (split (trim .Page.RelPermalink "/") "/") 0 -}}
+  {{- $dest = printf "/%s/%s" $base $dest -}}
 {{- end -}}
 <a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

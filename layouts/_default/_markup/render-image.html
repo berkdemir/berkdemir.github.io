@@ -1,7 +1,8 @@
 {{- $dest := .Destination -}}
 {{- if and (not (hasPrefix $dest "http")) (not (hasPrefix $dest "/")) -}}
   {{- if hasPrefix $dest "_assets/" -}}
-    {{- $dest = printf "/posts/%s" $dest -}}
+    {{- $base := index (split (trim .Page.RelPermalink "/") "/") 0 -}}
+    {{- $dest = printf "/%s/%s" $base $dest -}}
   {{- end -}}
 {{- end -}}
 {{- $videoExts := slice "mp4" "webm" "ogg" "mov" "avi" -}}

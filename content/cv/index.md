@@ -6,7 +6,7 @@ class: cv-md-page
 ---
 ""
 <div class="cv-header">
-<img src="profile.jpg" alt="Berk Demir">
+<img src="_assets/profile.jpg" alt="Berk Demir">
 <div class="cv-header-text">
 <p class="cv-name">Berk Demir</p>
 <p class="cv-role">Underground engineer specialized in tunnels, structural design and geotechnical engineering.</p>
