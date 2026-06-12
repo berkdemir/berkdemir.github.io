@@ -1,0 +1,91 @@
+baseURL = 'https://berkdemir.github.io/'
+title = 'Berk Demir'
+theme = 'PaperMod'
+paginate = 10
+enableRobotsTXT = true
+mainSections = ['posts']
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = 'production'
+  description = 'Notes on tunnels, code, and life in Copenhagen.'
+  author = 'Berk Demir'
+
+  defaultTheme = 'light'
+  disableThemeToggle = true
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  math = true
+
+  # SEO
+  author = "Berk Demir"
+  images = []
+  canonicalURL = "https://berkdemir.github.io"
+
+  [params.profileMode]
+    enabled = false
+
+[[params.socialIcons]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/bdberkdemir/'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 4
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[[menu.main]]
+  identifier = 'finite-element'
+  name = 'Finite Element'
+  url = '/tags/finite-element/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tunnels'
+  name = 'Tunnels & Structures'
+  url = '/tags/tunnels-and-structures/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'geotechnics'
+  name = 'Geotechnics'
+  url = '/tags/geotechnics/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'showcases'
+  name = 'Showcases'
+  url = '/tags/showcases/'
+  weight = 40
+
+[[menu.main]]
+  identifier = 'search'
+  name = 'Search'
+  url = '/search/'
+  weight = 50
+
+[[menu.main]]
+  identifier = 'archive'
+  name = 'Archive'
+  url = '/archives/'
+  weight = 60
+
+[[menu.main]]
+  identifier = 'cv'
+  name = 'CV'
+  url = '/cv/'
+  weight = 5
