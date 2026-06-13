@@ -19,7 +19,7 @@ Using these inputs, SOFiSTiK can produce continuous As maps, required reinforcem
 >The crack width design is done for the most outer layers, but the inner layers participate on the
 reinforcement ratio and the effective height 
 
-It uses an averaging method to achieve a single layer reinforcement system. I tried to explain this in the sketch below. Basically, the area, depth and diameter of inner layers are scaled down in the ratio of the steel stress at that level. This helps the tool to reduce the multi-layer system to a single layer problem.
+It uses an averaging method to achieve a single layer reinforcement system. I tried to explain this in the sketch below. Basically, the area, depth and diameter of inner layers are scaled down in the ratio of the steel stress at that level to the steel stress at the outermost layer. This helps the tool to reduce the multi-layer system to a single layer problem.
 ![](_assets/automatic-reinforcement-17.png)
 
 ## We have a problem: Crack width depends on the diameter
@@ -44,19 +44,17 @@ In this [page](https://help.scia.net/24.0/en/concrete/concrete_settings_and_anne
 
 And [here](https://www.scia.net/en/scia-engineer/fact-sheets/new-features-version/new-features-scia-engineer-211#:~:text=Design%20of%20multi%2Dlayer%20reinforcement%20on%201D%20members), at least for 1D members, we can see the multi-layer design announcement.
 # Required reinforcement for ULS is simpler
-Please be aware - we are discussing the required reinforcement calculation for SLS, not ULS. The ULS side of the discussion is simple, and the reason is fundamental: ULS capacity is governed by the steel *force*, As·fyd — an area times a fixed design stress. The bar diameter enters only through a tiny lever-arm correction (d = h − c − φ/2), so the required area inverts cleanly in one step. Crack width, by contrast, depends on the diameter explicitly through srmax, so "required area" is undefined until a diameter is chosen. For example, RFEM6, FEM-Design and LUSAS can provide the required reinforcement for ULS.
+Please be aware - we are discussing the required reinforcement calculation for SLS, not ULS. The ULS side of the discussion is simple, and the reason is fundamental: ULS capacity is governed by the steel *force*, an area times a fixed design stress. The bar diameter enters only through a tiny lever-arm correction (d = h − c − φ/2), so the required area inverts cleanly in one step. Crack width, by contrast, depends on the diameter explicitly through srmax, so "required area" is undefined until a diameter is chosen. To name a few, RFEM6, FEM-Design and LUSAS can provide the required reinforcement for ULS easily.
 For example, LUSAS says:
 >The RC Slab design facility enables calculation of required steel reinforcement areas for ULS loadcases and calculation of crack widths for SLS loadcases.
 
 RFEM6 RF-Concrete Surfaces Manual says:
 >In the serviceability limit state, no required reinforcement is determined; instead, the provided
 reinforcement is used to determine the actually provided strain ratio.
-
 # How to solve the problem?
-Coming back to our initial problem: We want to have a tool to design multi-layer reinforcement for SLS cases. A simple request, if you ask me.
-I am sure this post will be outdated before long - if I am not already missing methods to overcome this problem already. It might have already been solved in other FE tools that I don't have access to right now.
-For my own sake, I am experimenting with a tool. For many years, I have had my own reinforcement calculation code in Python (which you can see in the comparison above) which is basically a Python version of the reinforcement design spreadsheet I've been using over the years. Using that as a basis, I created a FE shell reinforcement tool. No workaround or simplification.
-
+Coming back to our initial problem: We want to have a tool to design **multi-layer reinforcement for SLS cases**. A simple request, if you ask me.
+I am sure this post will be outdated before long - if I am not already missing methods to overcome this problem. It might have already been solved in other FE tools that I don't have access to right now.
+But to solve the issue at the hand, I have worked on a automatic reinforcement designer tool for couple of nights. For many years, I have had my own reinforcement calculation code in Python (you can see in the comparison above) which is basically a Python version of the reinforcement design spreadsheet I've been using over the years. Using that as a basis, I created a FE shell reinforcement tool. No workaround or simplification.
 ## How does it work?
 We provide the list of reinforcement diameters and spacings that we want to use in our design. Based on these diameters and spacings, the code prepares reinforcement couples to try at each node.
 ![](_assets/automatic-reinforcement-19.png)
@@ -84,4 +82,4 @@ Wood-Armer based methods cannot check this. A simple example you can try is a sq
 Replicating Baumann's resulting-direction crack check outside a proper FE package is quite hard, and I can't devote the time to it. So for biaxial bending where the crack direction matters, I rely on the developers of these excellent FE packages to update the tools in near future.
 # Conclusion
 As I said: this post can be outdated at any moment. These tools are developed at a very fast pace, and there are many I haven't tried (or maybe even heard of). So, if you reach out with information about other software, I will be glad to edit the post to add it.
-Otherwise, this is what we need, and I am sure we will get there soon.
+Otherwise, this is what we need, and I am sure we will get there soon. So, until then, take this as an open letter to the tired developers of these amazing packages.
