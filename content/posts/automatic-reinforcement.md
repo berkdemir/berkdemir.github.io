@@ -2,8 +2,7 @@
 title: Automatic Reinforcement Design using STR FE Packages
 date: 2026-06-13
 draft: false
-tags:
-  - Tunnels & Structures
+tags: ["Tunnels and Structures"]
 ---
 # Problem Statement
 I have been trying out different structural FE software to evaluate their automatic reinforcement design functions. For an underground structure, multi-layer reinforcement design in SLS is a must. Surprisingly, most of the STR FE tools cannot handle multi-layer reinforcement very well. Typical problems are:
