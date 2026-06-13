@@ -20,7 +20,10 @@ Typical workflow for SOFiSTiK:
 *$$s_{r,max} = k_3 c + k_1 k_2 k_4 \frac{\phi}{\rho_{p,eff}}$$
 * Solve for As since the rest (crack width limit, steel stress etc.) are known.
 
-Using this process, SOFiSTiK can produce continuous As maps, required reinforcement area, for SLS. That's great!
+Using this process, SOFiSTiK can produce continuous As maps, required reinforcement area, for SLS. That's great! But how does it achieve this really?
+It also uses a averaging method to achieve a single layer reinforcement system. I tried to explain this in the sketch below. Basically, the area, depth and diameter of inner layers are scaled down in the ratio of the steel stress at that level. This helps the tool to reduce the multi-layer system to a single layer problem.
+![](_assets/automatic-reinforcement-14.png)
+![](_assets/automatic-reinforcement-13.png)
 
 ## But is this the most suitable way?
 Why do we need continuous maps always? Why can't we have discrete maps? Is the actual reinforcement layout continuous? Of course not.
