@@ -76,10 +76,13 @@ Of course, if the user chooses a single reinforcement diameter and varying bar s
 
 ![](_assets/automatic-reinforcement-23.png)
 ## Why I wouldn't use my tool
+### Wood-Armer vs. Baumann
 Because, I use Wood-Armer method - which takes into account the torsion moments. This is working very well for cases when we have uni-axial bending (i.e. Mx is dominant, My is low), however, when we have bi-axial bending (Mx ≈ My > 0), the principal stress direction (i.e. cracking direction) is not aligned with the reinforcement direction. That means our reinforcement is not working as good as it could. 
 Wood-Armer based methods cannot check this. A simple example you can try is a square plate that is fully fixed on all edges with distributed load on top. This slab has a Mx=My>0 and Mxy=0 at the middle. That means, Wood–Armer just hands back Mx and My unchanged, it adds nothing for the diagonal crack. However, if you try Baumann method (which is implemented in most Germany-based packages such as RFEM6 or SOFiSTiK), it will tell you that the principal direction of the cracking is 45 degree to the X and Y. That's why it will need more reinforcement than what you calculate by hand or spreadsheet - and in this case, the tool I presented above.
 ![](_assets/automatic-reinforcement-24.png)
 Replicating Baumann's resulting-direction crack check outside a proper FE package is quite hard, and I can't devote the time to it. So for biaxial bending where the crack direction matters, I rely on the developers of these excellent FE packages to update the tools in near future.
+### Calculation Cost
+I am quite certain this is the most computationally expensive way to make SLS multi-layer reinforcement calculation. And there are many ways to improve this scheme. However, calculation time is not the only concern we have. We should be able to derive automatically generated reinforcement maps that can be verified by our spreadsheets. Our old spreadsheets should not be "better" than our state-of-the-art FE packages.
 # Conclusion
 As I said: this post can be outdated at any moment. These tools are developed at a very fast pace, and there are many I haven't tried (or maybe even heard of). So, if you reach out with information about other software, I will be glad to edit the post to add it.
 Otherwise, this is what we need, and I am sure we will get there soon. So, until then, take this as an open letter to the tired developers of these amazing packages.
