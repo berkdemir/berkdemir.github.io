@@ -29,7 +29,7 @@ That's OK - but then, we should write it in bold:
 > [!warning] Required reinforcement area map
 > **You can use this colourful map only for the chosen reinforcement diameter!**
 
-You cannot just take a map that's been prepared for Ø25 diameter and design a K32/150 reinforcement. It doesn't work that way. As you can see in the comparison below, keeping the area essentially the same (K25/91.5 = K32/150 = 53.6 cm²/m) but changing the diameter from Ø25 to Ø32 raises the crack width from 0.256 mm to 0.292 mm — i.e. the utilisation against the 0.30 mm limit rises from about 85% to 97%.
+You cannot just take a map that's been prepared for Ø25 diameter and design a K32/150 reinforcement. It doesn't work that way. As you can see in the comparison below, keeping the area essentially the same (K25/91.5 = K32/150 = 53.6 cm²/m) but changing the diameter from Ø25 to Ø32 raises the crack width from 0.256 mm to 0.292 mm, i.e. the utilisation against the 0.30 mm limit rises from about 85% to 97%.
 
 ![](_assets/automatic-reinforcement-18.png)
 
@@ -54,7 +54,7 @@ reinforcement is used to determine the actually provided strain ratio.
 # How to solve the problem?
 Coming back to our initial problem: We want to have a tool to design **multi-layer reinforcement for SLS cases**. A simple request, if you ask me.
 I am sure this post will be outdated before long - if I am not already missing methods to overcome this problem. It might have already been solved in other FE tools that I don't have access to right now.
-But to solve the issue at the hand, I have worked on a automatic reinforcement designer tool for couple of nights. For many years, I have had my own reinforcement calculation code in Python (you can see in the comparison above) which is basically a Python version of the reinforcement design spreadsheet I've been using over the years. Using that as a basis, I created a FE shell reinforcement tool. No workaround or simplification.
+But to solve the issue at the hand, I have worked on a automatic reinforcement designer tool for a couple of nights. For many years, I have had my own reinforcement calculation code in Python (you can see in the comparison above) which is basically a Python version of the reinforcement design spreadsheet I've been using over the years. Using that as a basis, I created a FE shell reinforcement tool. No workaround or simplification.
 ## How does it work?
 We provide the list of reinforcement diameters and spacings that we want to use in our design. Based on these diameters and spacings, the code prepares reinforcement couples to try at each node.
 ![](_assets/automatic-reinforcement-19.png)
@@ -77,12 +77,12 @@ Of course, if the user chooses a single reinforcement diameter and varying bar s
 ![](_assets/automatic-reinforcement-23.png)
 ## Why I wouldn't use my tool
 ### Wood-Armer vs. Baumann
-Because, I use Wood-Armer method - which takes into account the torsion moments. This is working very well for cases when we have uni-axial bending (i.e. Mx is dominant, My is low), however, when we have bi-axial bending (Mx ≈ My > 0), the principal stress direction (i.e. cracking direction) is not aligned with the reinforcement direction. That means our reinforcement is not working as good as it could. 
+Because, I use Wood-Armer method - which takes into account the torsion moments. This is working very well for cases when we have uni-axial bending (i.e. Mx is dominant, My is low), however, when we have bi-axial bending (Mx ≈ My > 0), the principal stress direction (i.e. cracking direction) is not aligned with the reinforcement direction. That means our reinforcement is not working as well as it could.
 Wood-Armer based methods cannot check this. A simple example you can try is a square plate that is fully fixed on all edges with distributed load on top. This slab has a Mx=My>0 and Mxy=0 at the middle. That means, Wood–Armer just hands back Mx and My unchanged, it adds nothing for the diagonal crack. However, if you try Baumann method (which is implemented in most Germany-based packages such as RFEM6 or SOFiSTiK), it will tell you that the principal direction of the cracking is 45 degree to the X and Y. That's why it will need more reinforcement than what you calculate by hand or spreadsheet - and in this case, the tool I presented above.
 ![](_assets/automatic-reinforcement-24.png)
-Replicating Baumann's resulting-direction crack check outside a proper FE package is quite hard, and I can't devote the time to it. So for biaxial bending where the crack direction matters, I rely on the developers of these excellent FE packages to update the tools in near future.
+Replicating Baumann's resulting-direction crack check outside a proper FE package is quite hard, and I can't devote the time to it. So for biaxial bending where the crack direction matters, I rely on the developers of these excellent FE packages to update the tools in the near future.
 ### Calculation Cost
-I am quite certain this is the most computationally expensive way to make SLS multi-layer reinforcement calculation. And there are many ways to improve this scheme. However, calculation time is not the only concern we have. We should be able to derive automatically generated reinforcement maps that can be verified by our spreadsheets. Our old spreadsheets should not be "better" than our state-of-the-art FE packages.
+I am quite certain this is the most computationally expensive way to do the SLS multi-layer reinforcement calculation. And there are many ways to improve this scheme. However, calculation time is not the only concern we have. We should be able to derive automatically generated reinforcement maps that can be verified by our spreadsheets. Our old spreadsheets should not be "better" than our state-of-the-art FE packages.
 # Conclusion
 As I said: this post can be outdated at any moment. These tools are developed at a very fast pace, and there are many I haven't tried (or maybe even heard of). So, if you reach out with information about other software, I will be glad to edit the post to add it.
 Otherwise, this is what we need, and I am sure we will get there soon. So, until then, take this as an open letter to the tired developers of these amazing packages.
