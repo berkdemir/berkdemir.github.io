@@ -72,6 +72,12 @@ mainSections = ['posts']
   weight = 40
 
 [[menu.main]]
+  identifier = 'tools'
+  name = 'Tools'
+  url = '/tools/'
+  weight = 45
+
+[[menu.main]]
   identifier = 'search'
   name = 'Search'
   url = '/search/'
