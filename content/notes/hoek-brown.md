@@ -6,16 +6,15 @@ draft: false
 
 <style>
 .tool-frame-wrap {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 160px);
-  min-height: 600px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: calc(100vh - 120px);
+  min-height: 700px;
 }
 .tool-frame-wrap iframe {
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 8px;
 }
 </style>
 
