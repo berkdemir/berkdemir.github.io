@@ -1,6 +1,7 @@
 baseURL = 'https://berkdemir.github.io/'
 title = 'Berk Demir'
 theme = 'PaperMod'
+googleAnalytics = 'G-83ZFJ7ZVDV'
 paginate = 10
 enableRobotsTXT = true
 mainSections = ['posts']
