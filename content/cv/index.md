@@ -71,7 +71,7 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 ## Recent Key Projects
 
-### Copenhagen M5 Metro (2023–2025)
+### Copenhagen M5 Metro (2023–2026)
 
 **JV:** COWI & Arup&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Metroselskabet A/S, Denmark&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >2500
 
@@ -96,7 +96,7 @@ Design of the M5 Metro reference design for the tender for Metroselskabet. M5 Me
 
 **JV:** MT Højgaard & Besix&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Vejdirektoratet, Denmark&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >800
 
-Nordhavnstunnel is a 1.6 km cut-and-cover, cast-in-situ tunnel in Copenhagen, Denmark.
+Nordhavnstunnel is a 1.4 km cut-and-cover, cast-in-situ tunnel in Copenhagen, Denmark.
 
 - **All design works during the tender:** Lusas models of representative sections, reinforcement calculations and quantity take-off, uplift anchor calculations for all segments, settlement calculations and shear key discussions
 - **Design coordination after the tender:** design lead for structural and fire design, relationship to 3rd party, coordination of design works and QA of design reports
