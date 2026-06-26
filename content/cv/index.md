@@ -47,18 +47,17 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 | BSc | Middle East Technical University, Turkey | Civil Engineering | 2009–2014 |
 
 ---
-
 ## Technical Publications
 
-- Demir, B., Bauduin, C., Palaiologou, M., Christensen, J. D., Yding, S., & Tomac, S. K. (2024). *Site tests on retaining systems and uplift anchors of Nordhavnstunnel in Denmark*. In Geotechnical Engineering Challenges to Meet Current and Emerging Needs of Society (pp. 2235-2240). CRC Press. [PDF](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
-- Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels, Berk Demir & Pinar Akdogan Demir, 2022. [Post](../posts/recommendations-for-pseudo-static-deformation-for-seismic-analyses-of-tunnels)
+- Marinucci, F., Camarena, B. B., Dimmock, S., Bienko, K., Vousvoukis, I., **Demir, B.**, Finazzi, S., Culbreth, I., & Urban, P. (2026). From Grasshopper to finite element analysis: A parametric workflow for metro station design. In _Connecting Communities Through Underground Infrastructure_. CRC Press. [PDF](_assets/Marinucci_et_al_2026.pdf)
+- **Demir, B.**, Bauduin, C., Palaiologou, M., Christensen, J. D., Yding, S., & Tomac, S. K. (2024). *Site tests on retaining systems and uplift anchors of Nordhavnstunnel in Denmark*. In Geotechnical Engineering Challenges to Meet Current and Emerging Needs of Society (pp. 2235-2240). CRC Press. [PDF](_assets/Demir_et._al._2024_Nordhavnstunnel.pdf)
+- **Demir, B.** & Akdogan-Demir, P (2022) Recommendations for Pseudo-Static Deformation for Seismic Analyses of Tunnels. [PDF](_assets/Demir_2022.pdf) & [Post](../posts/recommendations-for-pseudo-static-deformation-for-seismic-analyses-of-tunnels)
 - **Master Thesis:** [Performance of Short Anchors Inside the Failure Wedge (2019)](_assets/BerkDemirMSThesis.pdf)
-- Comparison of Simplified Piled Raft Calculation Methods with Plaxis 3D and Details of Hardening Soil Model (2019) — [ResearchGate](https://www.researchgate.net/publication/332188093_Basitlestirilmis_Kazikli_Temel_Hesaplama_Yontemlerinin_Plaxis_3D_ile_Karsilastirilmasi_Hardening_Soil_Modelinin_Detaylarinin_Incelenmesi)
-- P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers), B. Demir, A. S. Peker, S. K. Tomaç, 4th Bridges and Viaducts Symposium, 2019 — [Part 1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) / [Part 2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
-- Comparison of Construction Methods of Jet Grout Columns, B. Demir, M. S. Nalçakan, 16th National Conference on Soil Mechanics and Geotechnical Engineering, Erzurum, Turkey, 2016
+- **Demir, B.** (2019) Comparison of Simplified Piled Raft Calculation Methods with Plaxis 3D and Details of Hardening Soil Model [ResearchGate](https://www.researchgate.net/publication/332188093_Basitlestirilmis_Kazikli_Temel_Hesaplama_Yontemlerinin_Plaxis_3D_ile_Karsilastirilmasi_Hardening_Soil_Modelinin_Detaylarinin_Incelenmesi)
+- **Demir, B.**, Peker, A.S., & Tomaç, S.K. (2019) P-Y Curves and Turkish Building Earthquake Code Requirements (2 papers) [Part 1](https://www.researchgate.net/publication/337941366_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Degerlendirilmesi_Bolum_1) / [Part 2](https://www.researchgate.net/publication/337941206_P-Y_Egrileri_Ve_TBDY_2018_Gereklilikleri_P-Y_Egrilerinin_Olusturulmasi_Bolum_2)
+- **Demir, B.** & Nalçakan, M.S. (2016) Comparison of Construction Methods of Jet Grout Columns, B. Demir, M. S. Nalçakan, 16th National Conference on Soil Mechanics and Geotechnical Engineering, Erzurum, Turkey.
 
 ---
-
 ## Skills
 
 **Software:** Plaxis 2D & 3D · Python · Lusas · Strusoft FemDesign · Rocscience (Settle, Slide, RS2) · Ensoft (LPile, Group, Shaft) · Geologismiki · Optum · Autodesk Robot · Grasshopper
@@ -68,7 +67,6 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 **Languages:** Turkish (native) · English (fluent) · Danish (intermediate)
 
 ---
-
 ## Recent Key Projects
 
 ### Copenhagen M5 Metro (2023–2026)
@@ -91,7 +89,6 @@ Design of the M5 Metro reference design for the tender for Metroselskabet. M5 Me
 ![](_assets/m5-1-md.png) ![](_assets/m5-2-md.png)
 
 ---
-
 ### Nordhavnstunnel (2022–2023)
 
 **JV:** MT Højgaard & Besix&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Vejdirektoratet, Denmark&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >800
@@ -104,7 +101,6 @@ Nordhavnstunnel is a 1.4 km cut-and-cover, cast-in-situ tunnel in Copenhagen, De
 ![](_assets/nordhavn-1-md.png) ![](_assets/nordhavn-2-md.png)
 
 ---
-
 ### Valby Cloudburst Tunnel (2021–2023)
 
 **Client:** HOFOR&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >1300
@@ -118,7 +114,6 @@ Detailed design of 4 shafts (~15 m diameter, ~20 m depth) and DN3400/OD4000 pipe
 ![](_assets/valby-md.png)
 
 ---
-
 ### Kransen Culvert Deep Excavation (2021–2022)
 
 **JV:** Acciona & Implenia&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Bane Nor, Norway&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** 800
@@ -133,7 +128,6 @@ Design of excavation for the Sandbukta–Moss–Såstad (SMS2A) project, Kransen
 ![](_assets/kransen-md.png)
 
 ---
-
 ### GFRP Reinforcement in TBM Tunnel Segments (2023)
 
 **Client:** Metroselskabet, Copenhagen&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** 200
@@ -143,7 +137,6 @@ As part of Metroselskabet's innovation study initiative, the feasibility of GFRP
 ![](_assets/gfrp-md.png)
 
 ---
-
 ### Istanbul Metro / Çekmeköy–Sultanbeyli Line (2019–2021)
 
 **JV:** Doğuş & Yapı Merkezi & Özaltın&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Client:** Istanbul Municipality&nbsp;&nbsp;&nbsp;**|**&nbsp;&nbsp;&nbsp;**Hours:** >2500
@@ -156,7 +149,6 @@ Detailed design of TBM and NATM tunnels issued to 3rd party and client review, i
 ![](_assets/istanbul-1-md.png) ![](_assets/istanbul-3-md.png)
 
 ---
-
 ## Other Projects
 
 - **Klimatilpasning af det centrale Lyngby** (2021–2022) — 9 pipe jacking drives (DN1200) and 12 shafts in Lyngby
