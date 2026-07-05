@@ -2,12 +2,11 @@
 title: "Hoek Brown Model"
 date: 2022-12-16T00:00:00+00:00
 draft: false
+math: true
 tags: ["Geotechnics"]
 ---
 
-I have just published a new tool and this post will detail the methods that are being used in this tool. What it does: Performs Hoek-Brown analyses for rock and recommends additional parameters based on the inputs.
-
-[https://berkdemir-bd-hoek-brown-bd-hoek-brown-vsh6i6.streamlit.app/](https://berkdemir-bd-hoek-brown-bd-hoek-brown-vsh6i6.streamlit.app/)
+This post details the methods used in the [Hoek-Brown tool](/tools/hoek-brown/). It performs Hoek-Brown analyses for rock and recommends additional parameters based on the inputs.
 
 ![](_assets/Untitled-1.png)
 # Theory
@@ -101,7 +100,7 @@ $$
 RMR will be calculated assuming GSI = RMR - 5.
 Barton (2002), described the relationship between *Q* and *Vp* (km/sec) as:
 $$
-V_{p} = 3.5 + \log Q_{c}Vp=3.5+logQc
+V_{p} = 3.5 + \log Q_{c}
 $$
 The Qc in this equation is the *Q* normalized with uniaxial compressive strength which can be calculated as
 $$
@@ -109,7 +108,7 @@ Q_{c} = Q \cdot \left( \frac{\text{UCS}}{100} \right)
 $$
 with *UCS* in *MPa*. Lastly, the relationship between *Vp* and *Vs* is adapted from a USGS research project, Brocher (2005):
 $$
-V_{s} = 0.7858 - 1.2344 \cdot V_{p} + 0.7949 \cdot V_{p}^{2} - 0.1238 \cdot V_{p}^{3} + 0.0064 \cdot V_{p}^{4}Vs=0.7858−1.2344⋅Vp+0.7949⋅Vp2−0.1238⋅Vp3+0.0064⋅Vp4
+V_{s} = 0.7858 - 1.2344 \cdot V_{p} + 0.7949 \cdot V_{p}^{2} - 0.1238 \cdot V_{p}^{3} + 0.0064 \cdot V_{p}^{4}
 $$
 Vs and Vp in this equation is in km/sec.
 ![](_assets/Untitled7.png)

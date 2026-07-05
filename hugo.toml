@@ -40,6 +40,12 @@ mainSections = ['posts']
   unsafe = true
   hardWraps = true
 
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['\[', '\]'], ['$$', '$$']]
+    inline = [['\(', '\)']]
+
 [markup.tableOfContents]
   startLevel = 1
   endLevel = 4
