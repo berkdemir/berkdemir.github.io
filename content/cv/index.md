@@ -30,7 +30,8 @@ I started my career as a **geotechnical engineer** and worked on many aspects of
 
 | Period | Role | Company | Location |
 |---|---|---|---|
-| 2023 – Present | Senior Tunnel Engineer | COWI | Copenhagen, Denmark |
+| 2026 – Present | Head of Department for Tunnels and Underground Structures | Niras A/S | Copenhagen, Denmark |
+| 2023 – 2026 | Senior Tunnel Engineer | COWI | Copenhagen, Denmark |
 | 2021 – 2023 | Senior Tunnel Engineer | Niras A/S | Copenhagen, Denmark |
 | 2018 – 2021 | Senior Geotechnical and Tunnel Engineer | Tekfen Engineering | Istanbul, Turkey |
 | 2017 – 2018 | Geotechnical Design Engineer | Destech Consultancy | Izmir, Turkey & Tanzania |
